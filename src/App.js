@@ -3,6 +3,7 @@ import Board from './components/Board';
 import SearchBox from './components/SearchBox';
 import {createContext, useState} from 'react';
 import { boardDefault } from './Entry';
+import Picks from './Picks.json';
 
 export const AppContext = createContext();
 
@@ -14,7 +15,7 @@ function App() {
         <h1>BENGLE</h1>
       </nav>
       <AppContext.Provider value = {{board, setBoard}}>
-        <SearchBox />
+        <SearchBox placeholder={"Enter player name..."} data={Picks}/>
         <Board />
       </AppContext.Provider>
     </div>
