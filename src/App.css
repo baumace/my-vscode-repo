@@ -14,8 +14,8 @@ nav {
 
 .board {
   width: 450px;
-  height: 550px;
-  border: 1px orangered;
+  height: 100%;
+  border: 2px solid orangered;
   display: flex;
   flex-direction: column;
 }
@@ -30,11 +30,17 @@ nav {
 .cell {
   flex: 33%;
   height: 100%;
-  border: 1px orangered;
+  border: 1px solid orangered;
   margin: 5px;
   display: grid;
   place-items: center;
   font-size: 30px;
   font-weight: bolder;
   color: black;
+}
+
+.searchbox {
+  height: 35px;
+  width: 90px;
+  border: 1px solid orangered;
 }
