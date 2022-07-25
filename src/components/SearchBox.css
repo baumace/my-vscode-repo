@@ -1,3 +1,8 @@
+.searchBox {
+    position: absolute;
+    top: 17%;
+}
+
 .searchInput {
     margin-top: 15px;
     display: flex;
@@ -5,14 +10,13 @@
 
 .searchBox input {
     background-color: white;
-    border: 1px solid orangered;
-    border-radius: 2px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border: 1px solid #fb4f14;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Verdana;
     font-size: 18px;
-    padding: 15px;
+    padding: 10px;
     height: 30px;
-    width: 300px;
+    width: 250px;
 }
 
 input:focus {
@@ -20,11 +24,11 @@ input:focus {
 }
 
 .searchResult {
-    margin-top: 5px;
-    width: 300px;
+    width: 270px;
     height: 200px;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #fb4f14;
+    border-top: none;
     overflow: hidden;
     overflow-y: hidden;
 }
@@ -33,12 +37,11 @@ input:focus {
     width: 100%;
     height: 50px;
     display: flex;
-    align-items: center;
     color: black;
 }
 
 .searchResult div:hover {
-    background-color: lightgray;
+    background-color: #fcd299;
 }
 
 .dataItem p {
