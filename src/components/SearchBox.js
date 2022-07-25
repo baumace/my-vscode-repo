@@ -1,7 +1,10 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import "./SearchBox.css";
+import {AppContext} from '../App';
 
 function SearchBox ({placeholder, data}) {
+    var keyCount = 0;
+    const {board, setBoard} = useContext(AppContext);
     const [filteredData, setFilteredData] = useState([]);
     const handleFilter = (event) => {
         const inputWord = event.target.value;
@@ -15,6 +18,16 @@ function SearchBox ({placeholder, data}) {
             setFilteredData(newFilter);
         }
     }
+    const selectItem = (value) => {
+        const newBoard = [...board];
+        newBoard[2][0] = value.player;
+        newBoard[2][1] = value.college;
+        newBoard[2][2] = value.year;
+        newBoard[2][3] = value.position;
+        newBoard[2][4] = value.round;
+        newBoard[2][5] = value.pick;
+        setBoard(newBoard);
+    }
     return (
         <div className = "searchBox">
             <div className = "searchInput">
@@ -23,7 +36,7 @@ function SearchBox ({placeholder, data}) {
             { filteredData.length != 0 && (
                 <div className = "searchResult">
                     {filteredData.map((value, key) => {
-                        return <div className = "dataItem"><p> {value.player} </p></div>
+                        return <div className = "dataItem" onClick={() => selectItem(value)} key = {keyCount++}><p> {value.player} </p></div>
                     })}
                 </div>
             )}

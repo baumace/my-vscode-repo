@@ -38,6 +38,7 @@ input:focus {
     height: 50px;
     display: flex;
     color: black;
+    cursor: pointer;
 }
 
 .searchResult div:hover {
