@@ -9,18 +9,21 @@ export const AppContext = createContext();
 
 function App() {
   const [board, setBoard] = useState(boardDefault);
+  const [currAttempt, setCurrAttempt] = useState({attempt: 1});
+  const correctPlayer = {"player":"Joe Burrow", "college":"LSU", "year":2020, "position":"QB", "round":1, "pick":1};
+
   return (
     <div className="App">
       <header>
         <h1>BENGLE</h1>
         <h2>Bengals Draft Day Selections</h2>
       </header>
-      <AppContext.Provider value = {{board, setBoard}}>
+      <AppContext.Provider value = {{board, setBoard, currAttempt, setCurrAttempt, correctPlayer}}>
         <div className = "game">
           <Board />
         </div>
         <div className = "game">
-          <SearchBox placeholder={"Enter player name..."} data={Picks}/>
+          <SearchBox placeholder={"Enter a player name..."} data={Picks}/>
         </div>
       </AppContext.Provider>
       <footer>

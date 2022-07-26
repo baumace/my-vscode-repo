@@ -50,6 +50,12 @@ h2 {
 #big {
   width: 30%;
 }
+
+#bigc {
+  width: 30%;
+  background-color: lightgreen;
+}
+
 #bigh {
   margin: 6px;
   height: 45%;
@@ -63,6 +69,16 @@ h2 {
 
 #small {
   width: 10%;
+}
+
+#smallc {
+  width: 10%;
+  background-color: lightgreen;
+}
+
+#smalla {
+  width: 10%;
+  background-color: yellow;
 }
 
 #smallh {
