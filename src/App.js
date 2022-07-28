@@ -1,16 +1,16 @@
 import './App.css';
 import Board from './components/Board';
 import SearchBox from './components/SearchBox';
-import {createContext, useState} from 'react';
+import {createContext, useEffect, useState} from 'react';
 import { boardDefault } from './Entry';
 import Picks from './Picks.json';
-
 export const AppContext = createContext();
+
+const correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
 
 function App() {
   const [board, setBoard] = useState(boardDefault);
   const [currAttempt, setCurrAttempt] = useState({attempt: 1});
-  const correctPlayer = {"player":"Joe Burrow", "college":"LSU", "year":2020, "position":"QB", "round":1, "pick":1};
 
   return (
     <div className="App">
