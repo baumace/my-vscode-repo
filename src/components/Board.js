@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { boardDefault } from '../Entry';
+import { AppContext } from "../App";
 import Cell from "./Cell";
 
 function Board () {

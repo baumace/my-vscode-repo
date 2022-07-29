@@ -6,7 +6,8 @@ import { boardDefault } from './Entry';
 import Picks from './Picks.json';
 export const AppContext = createContext();
 
-const correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
+// const correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
+const correctPlayer = {"player": "Joe Burrow", "college": "LSU", "year": 2020, "round": 1, "pick": 1};
 
 function App() {
   const [board, setBoard] = useState(boardDefault);
@@ -23,7 +24,7 @@ function App() {
           <Board />
         </div>
         <div className = "game">
-          <SearchBox placeholder={"Enter a player name..."} data={Picks}/>
+          <SearchBox placeholder={"Selection " + currAttempt.attempt + " of 7"} data={Picks}/>
         </div>
       </AppContext.Provider>
       <footer>
