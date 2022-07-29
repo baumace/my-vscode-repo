@@ -1,51 +1,50 @@
 .searchBox {
-    position: absolute;
-    top: 17%;
+  position: absolute;
+  top: 17%;
 }
 
 .searchInput {
-    margin-top: 15px;
-    display: flex;
+  margin-top: 15px;
+  display: flex;
 }
 
 .searchBox input {
-    background-color: white;
-    border: 1px solid black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: Verdana;
-    font-size: 18px;
-    color: #fb4f14;
-    padding: 10px;
-    height: 30px;
-    width: 250px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: Verdana;
+  font-size: 18px;
+  color: #fb4f14;
+  padding: 10px;
+  height: 30px;
+  width: 250px;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 .searchResult {
-    width: 270px;
-    height: 200px;
-    background-color: white;
-    border: 1px solid black;
-    border-top: none;
-    overflow: hidden;
-    overflow-y: hidden;
+  width: 270px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  border-top: none;
+  overflow: hidden;
 }
-  
+
 .searchResult .dataItem {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    color: #fb4f14;
-    cursor: pointer;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  color: #fb4f14;
+  cursor: pointer;
 }
 
 .searchResult div:hover {
-    background-color: #fcd299;
+  background-color: #fcd299;
 }
 
 .dataItem p {
-    margin-left: 10px;
+  margin-left: 10px;
 }
