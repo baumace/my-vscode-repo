@@ -13,8 +13,8 @@ const correctPlayer = {
   college: "LSU",
   position: "QB",
   year: 2020,
-  round: 1,
-  pick: 1,
+  round: 2,
+  pick: 26,
 };
 
 function App() {
@@ -64,14 +64,16 @@ function App() {
           selectItem,
         }}
       >
+        <div className="game">{gameOver.gameOver ? <Board /> : <Board />}</div>
         <div className="game">
-          {gameOver.gameOver ? <GameOver /> : <Board />}
-        </div>
-        <div className="game">
-          <SearchBox
-            placeholder={"Selection " + currAttempt.attempt + " of 7"}
-            data={Picks}
-          />
+          {gameOver.gameOver ? (
+            <SearchBox placeholder={"Out of Selections"} data={Picks} />
+          ) : (
+            <SearchBox
+              placeholder={"Selection " + currAttempt.attempt + " of 7"}
+              data={Picks}
+            />
+          )}
         </div>
       </AppContext.Provider>
       <footer>

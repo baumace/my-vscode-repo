@@ -10,11 +10,12 @@
 
 .searchBox input {
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: Verdana;
   font-size: 18px;
   color: #fb4f14;
+  font-weight: bold;
   padding: 10px;
   height: 30px;
   width: 250px;
@@ -28,7 +29,7 @@ input:focus {
   width: 270px;
   height: 200px;
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   border-top: none;
   overflow: hidden;
 }

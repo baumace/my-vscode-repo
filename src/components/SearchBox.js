@@ -7,6 +7,7 @@ function SearchBox({ placeholder, data }) {
   const { selectItem } = useContext(AppContext);
   const [filteredData, setFilteredData] = useState([]);
 
+  // Search bar selection
   const handleKeyboard = useCallback((event) => {
     if (event.key === "Enter") {
       filteredData.slice(0, 1).map((value, key) => {
@@ -15,6 +16,7 @@ function SearchBox({ placeholder, data }) {
     }
   });
 
+  // Search bar selection
   useEffect(() => {
     document.addEventListener("keydown", handleKeyboard);
 
@@ -23,6 +25,7 @@ function SearchBox({ placeholder, data }) {
     };
   }, [handleKeyboard]);
 
+  // Data filter for autocompletion
   const handleFilter = (event) => {
     const inputWord = event.target.value;
     const newFilter = data.filter((value) => {
@@ -45,7 +48,7 @@ function SearchBox({ placeholder, data }) {
       </div>
       {filteredData.length != 0 && (
         <div className="searchResult">
-          {filteredData.map((value, key) => {
+          {filteredData.map((value) => {
             return (
               <div
                 className="dataItem"
