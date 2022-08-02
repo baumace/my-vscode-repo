@@ -12,12 +12,14 @@ function SearchBox({ placeholder, data }) {
   const handleKeyboard = useCallback((event) => {
     if (event.key === "Enter") {
       selectItem(filteredData[dataItemIndex.index]);
-    } else if (event.key == "ArrowDown" && dataItemIndex.index < 4) {
+    } else if (event.key == "ArrowDown" && dataItemIndex.index < 3) {
       // Arrrow key up has been pressed
       setDataItemIndex({ ...dataItemIndex, index: dataItemIndex.index + 1 });
+      console.log(dataItemIndex.index);
     } else if (event.key == "ArrowUp" && dataItemIndex.index > 0) {
       // Arrow key down has been pressed
       setDataItemIndex({ ...dataItemIndex, index: dataItemIndex.index - 1 });
+      console.log(dataItemIndex.index);
     }
   });
 
@@ -65,7 +67,11 @@ function SearchBox({ placeholder, data }) {
                 className="dataItem"
                 onClick={() => selectItem(value)}
                 key={keyCount++}
-                id={dataItemIndex.index == keyCount ? "itemSelected" : ""}
+                id={
+                  dataItemIndex.index == keyCount
+                    ? "itemSelected"
+                    : "itemNotSelected"
+                }
               >
                 <p> {value.player} </p>
               </div>
