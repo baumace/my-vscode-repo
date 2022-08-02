@@ -9,13 +9,13 @@ function Cell({ infoIdentifier, attemptVal }) {
   const cellInfo = board[attemptVal][infoIdentifier];
 
   // Variables to store cellInfo descriptions
-  let cellID = "";
-  let isCorrect = false;
-  let isAlmost = false;
-  let tooHigh = false;
-  let tooLow = false;
-  let isBig = false;
-  let isHeader = false;
+  let cellID = "",
+    isCorrect = false,
+    isAlmost = false,
+    tooHigh = false,
+    tooLow = false,
+    isBig = false,
+    isHeader = false;
 
   // Is the cell a big cell (containing name or college)
   isBig = infoIdentifier == 0 || infoIdentifier == 1;

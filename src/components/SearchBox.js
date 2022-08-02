@@ -4,18 +4,24 @@ import { AppContext } from "../App";
 
 function SearchBox({ placeholder, data }) {
   var keyCount = 0;
-  const { selectItem } = useContext(AppContext);
+  const { selectItem, gameOver } = useContext(AppContext);
   const [filteredData, setFilteredData] = useState([]);
+  const [dataItemIndex, setDataItemIndex] = useState({ index: 0 });
 
   // Search bar selection
   const handleKeyboard = useCallback((event) => {
     if (event.key === "Enter") {
-      filteredData.slice(0, 1).map((value, key) => {
-        selectItem(value);
-      });
+      selectItem(filteredData[dataItemIndex.index]);
+    } else if (event.key == "ArrowDown" && dataItemIndex.index < 4) {
+      // Arrrow key up has been pressed
+      setDataItemIndex({ ...dataItemIndex, index: dataItemIndex.index + 1 });
+    } else if (event.key == "ArrowUp" && dataItemIndex.index > 0) {
+      // Arrow key down has been pressed
+      setDataItemIndex({ ...dataItemIndex, index: dataItemIndex.index - 1 });
     }
   });
 
+  /*
   // Search bar selection
   useEffect(() => {
     document.addEventListener("keydown", handleKeyboard);
@@ -23,7 +29,7 @@ function SearchBox({ placeholder, data }) {
     return () => {
       document.removeEventListener("keydown", handleKeyboard);
     };
-  }, [handleKeyboard]);
+  }, [handleKeyboard]);*/
 
   // Data filter for autocompletion
   const handleFilter = (event) => {
@@ -44,16 +50,22 @@ function SearchBox({ placeholder, data }) {
   return (
     <div className="searchBox">
       <div className="searchInput" onKeyDown={handleKeyboard}>
-        <input type="text" placeholder={placeholder} onChange={handleFilter} />
+        <input
+          type="text"
+          placeholder={placeholder}
+          onChange={handleFilter}
+          disabled={gameOver.gameOver}
+        />
       </div>
       {filteredData.length != 0 && (
-        <div className="searchResult">
-          {filteredData.map((value) => {
+        <div className="searchResult" id={filteredData.length}>
+          {filteredData.slice(0, 4).map((value) => {
             return (
               <div
                 className="dataItem"
                 onClick={() => selectItem(value)}
                 key={keyCount++}
+                id={dataItemIndex.index == keyCount ? "itemSelected" : ""}
               >
                 <p> {value.player} </p>
               </div>
