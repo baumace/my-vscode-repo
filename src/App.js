@@ -64,10 +64,12 @@ function App() {
           selectItem,
         }}
       >
-        <div className="game">{gameOver.gameOver ? <Board /> : <Board />}</div>
+        <div className="game">
+          <Board />
+        </div>
         <div className="game">
           {gameOver.gameOver ? (
-            <SearchBox placeholder={"Out of Selections"} data={Picks} />
+            <GameOver />
           ) : (
             <SearchBox
               placeholder={"Selection " + currAttempt.attempt + " of 7"}
