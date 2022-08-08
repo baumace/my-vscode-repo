@@ -50,14 +50,8 @@ h2 {
   display: inline;
 }
 
-#text {
-  position: relative;
-  top: 0%;
-}
-
-#icon {
-  position: relative;
-  bottom: 0%;
+#empty {
+  border: none;
 }
 
 #big {

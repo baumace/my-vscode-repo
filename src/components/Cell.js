@@ -5,7 +5,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 function Cell({ infoIdentifier, attemptVal }) {
   // Imported variables
-  const { board, correctPlayer } = useContext(AppContext);
+  const { board, correctPlayer, currAttempt } = useContext(AppContext);
   const cellInfo = board[attemptVal][infoIdentifier];
 
   // Variables to store cellInfo descriptions
@@ -23,8 +23,11 @@ function Cell({ infoIdentifier, attemptVal }) {
   // Is the row the header row?
   isHeader = attemptVal == 0;
 
-  // If row is not a header, check the cell's info
-  if (!isHeader) {
+  // Is the cell empty?
+  let isEmpty = attemptVal >= currAttempt.attempt;
+
+  // If row is not a header nor empty, check the cell's info
+  if (!isHeader && !isEmpty) {
     // Check the info depending on what is expected to be in the cell
     switch (infoIdentifier) {
       // Player Name
@@ -44,8 +47,8 @@ function Cell({ infoIdentifier, attemptVal }) {
         // Is the user guessed draft year correct?
         isCorrect = correctPlayer.year == cellInfo;
 
-        // Is the cell empty and was the guess incorrect?
-        if (cellInfo != 0 && !isCorrect) {
+        // Was the guess incorrect?
+        if (!isCorrect) {
           // What is the difference between the correct year and the user guessed year
           const diff = correctPlayer.year - cellInfo;
 
@@ -100,8 +103,8 @@ function Cell({ infoIdentifier, attemptVal }) {
         // Is the guessed round correct?
         isCorrect = correctPlayer.round == cellInfo;
 
-        // Is the cell empty and was the guess correct?
-        if (cellInfo != 0 && !isCorrect) {
+        // Was the guess correct?
+        if (!isCorrect) {
           // What is the difference between the correct round and the user guessed round?
           const diff = correctPlayer.round - cellInfo;
 
@@ -119,7 +122,7 @@ function Cell({ infoIdentifier, attemptVal }) {
       case 5:
         // Is the user guessed pick correct?
         isCorrect = correctPlayer.pick == cellInfo;
-        if (cellInfo != 0 && !isCorrect) {
+        if (!isCorrect) {
           // What is the difference between the correct pick and the user guessed pick?
           const diff = correctPlayer.pick - cellInfo;
 
@@ -136,27 +139,31 @@ function Cell({ infoIdentifier, attemptVal }) {
   }
 
   // Change the cellID depending on cellInfo descriptions
-  // Is the cell big?
-  if (isBig) {
-    cellID = "big";
+  // Is the cell empty?
+  if (isEmpty) {
+    cellID = "empty";
   } else {
-    cellID = "small";
-  }
+    // Is the cell big?
+    if (isBig) {
+      cellID = "big";
+    } else {
+      cellID = "small";
+    }
 
-  // Is the cell a header?
-  if (isHeader) {
-    cellID += "h";
-  } else {
-    // No so the cell contains info
-    // Is the user guess correct?
-    if (isCorrect) {
-      cellID += "c";
-    } // Is the user guess almost correct?
-    else if (isAlmost) {
-      cellID += "a";
+    // Is the cell a header?
+    if (isHeader) {
+      cellID += "h";
+    } else {
+      // No so the cell contains info
+      // Is the user guess correct?
+      if (isCorrect) {
+        cellID += "c";
+      } // Is the user guess almost correct?
+      else if (isAlmost) {
+        cellID += "a";
+      }
     }
   }
-
   /*
    * Inside of the return statement, the conditional
    * determines if an arrow is also placed inside of

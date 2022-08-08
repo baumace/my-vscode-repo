@@ -13,8 +13,8 @@ const correctPlayer = {
   college: "LSU",
   position: "QB",
   year: 2020,
-  round: 2,
-  pick: 26,
+  round: 1,
+  pick: 1,
 };
 
 function App() {
