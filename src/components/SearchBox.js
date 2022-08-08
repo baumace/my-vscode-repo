@@ -2,7 +2,7 @@ import React, { useCallback, useContext, useEffect, useState } from "react";
 import "./SearchBox.css";
 import { AppContext } from "../App";
 
-let rawUserInput = "";
+let inputUserText = "";
 
 function SearchBox({ placeholder, data }) {
   let keyCount = 0;
@@ -14,8 +14,22 @@ function SearchBox({ placeholder, data }) {
   const clearSearchResults = () => {
     // Reset the filtered data in the search results
     setFilteredData(filteredData.slice(0, 0));
-
     return;
+  };
+
+  // Handle the selection of a data entry
+  const handleSelection = (value) => {
+    // Select the passed value
+    selectItem(value);
+
+    // Clear the search results list
+    clearSearchResults();
+
+    // Clear the search bar input text
+    setSearch("");
+
+    // Reset the data item index to -1
+    setDataItemIndex({ ...dataItemIndex, index: -1 });
   };
 
   // Search bar selection
@@ -25,21 +39,20 @@ function SearchBox({ placeholder, data }) {
       // Was a key of interest pressed by the user?
       if (event.key === "Enter") {
         // The enter key was pressed
+        // Stores the entry from the search results
+        let dataEntry;
+
         // Is the data item index -1 (the input text index)?
         if (dataItemIndex.index == -1) {
-          // Select the top element in the search results
-          selectItem(filteredData[0]);
+          // Select the first element in the search results
+          dataEntry = filteredData[0];
         } else {
           // Select the element at the data item index
-          selectItem(filteredData[dataItemIndex.index]);
+          dataEntry = filteredData[dataItemIndex.index];
         }
 
-        // Reset search bar data
-        // Reset search text
-        setSearch("");
-        // Reset dataItemIndex
-        setDataItemIndex({ ...dataItemIndex, index: -1 });
-        clearSearchResults();
+        // Handle the selection of the data point
+        handleSelection(dataEntry);
       } else if (event.key == "ArrowDown" || event.key == "ArrowUp") {
         // One of the arrow keys of interest was pressed
         // Prevent the key from moving the input text cursor
@@ -55,7 +68,7 @@ function SearchBox({ placeholder, data }) {
           // Is the index at the starting position?
           if (currDataIndex == -1) {
             // Store the current input text
-            rawUserInput = search;
+            inputUserText = search;
           }
 
           // Increment the index for the data item
@@ -80,7 +93,7 @@ function SearchBox({ placeholder, data }) {
           } else {
             // The data item will return to the input box, so reset the input text
             // to the most recent text put in the input text
-            setSearch(rawUserInput);
+            setSearch(inputUserText);
           }
         }
       }
@@ -109,9 +122,12 @@ function SearchBox({ placeholder, data }) {
       return value.player.toLowerCase().includes(inputWord.toLowerCase());
     });
 
+    // Is the input word blank?
     if (inputWord == "") {
+      // Set filtered data to empty
       setFilteredData([]);
     } else {
+      // Set filtered data to contain the filtered players
       setFilteredData(newFilter);
     }
 
@@ -135,7 +151,7 @@ function SearchBox({ placeholder, data }) {
             return (
               <div
                 className="dataItem"
-                onClick={() => selectItem(value)}
+                onClick={() => handleSelection(value)}
                 key={keyCount++}
                 id={
                   dataItemIndex.index == keyCount
