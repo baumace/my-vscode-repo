@@ -1,8 +1,9 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { AppContext } from "../App";
 
 function GameOver() {
   const { gameOver, currAttempt, correctPlayer } = useContext(AppContext);
+  const [buttonClicked, setButtonClicked] = useState({ clicked: false });
 
   const winScreen = () => {
     return (
@@ -26,8 +27,19 @@ function GameOver() {
   };
 
   return (
-    <div className="gameOver">
-      {gameOver.guessedPlayer ? winScreen() : loseScreen()}
+    <div
+      className="gameOver"
+      id={gameOver.gameOver && !buttonClicked.clicked ? "show" : "hide"}
+    >
+      <button
+        className="exitButton"
+        onClick={() => setButtonClicked({ clicked: true })}
+      >
+        X
+      </button>
+      <div className="gameOverText">
+        {gameOver.guessedPlayer ? winScreen() : loseScreen()}
+      </div>
     </div>
   );
 }

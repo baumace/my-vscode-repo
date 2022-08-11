@@ -66,16 +66,16 @@ function App() {
       >
         <div className="game">
           <Board />
-        </div>
-        <div className="game">
           {gameOver.gameOver ? (
-            <GameOver />
+            <SearchBox placeholder={"Game Over"} data={Picks} disabled={true} />
           ) : (
             <SearchBox
               placeholder={"Selection " + currAttempt.attempt + " of 7"}
               data={Picks}
+              disabled={false}
             />
           )}
+          <GameOver />
         </div>
       </AppContext.Provider>
       <footer>

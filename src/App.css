@@ -101,6 +101,36 @@ h2 {
   bottom: -35%;
 }
 
+#show {
+  visibility: visible;
+  position: absolute;
+  height: 200px;
+  width: 600px;
+  top: 30%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#hide {
+  visibility: hidden;
+}
+
+.gameOverText {
+  position: relative;
+  top: 15%;
+  font-size: 18px;
+}
+
+.exitButton {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: #ff6262;
+  border: 1px solid black;
+  right: 1%;
+  top: 2%;
+}
+
 footer {
   background-color: #fb4f14;
   width: 100%;
