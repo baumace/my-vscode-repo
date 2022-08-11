@@ -21,7 +21,6 @@ function GameOver() {
     return (
       <div>
         <p>Draft bust! You were not able to select the correct player.</p>
-        <p>The correct player is {correctPlayer.player}</p>
       </div>
     );
   };
@@ -31,6 +30,7 @@ function GameOver() {
       className="gameOver"
       id={gameOver.gameOver && !buttonClicked.clicked ? "show" : "hide"}
     >
+      <div className="gameOverBG" />
       <button
         className="exitButton"
         onClick={() => setButtonClicked({ clicked: true })}
@@ -39,6 +39,14 @@ function GameOver() {
       </button>
       <div className="gameOverText">
         {gameOver.guessedPlayer ? winScreen() : loseScreen()}
+        <p>
+          The correct player is {correctPlayer.player}, {correctPlayer.position}{" "}
+          from {correctPlayer.college}.
+        </p>
+        <p>
+          Selected with the #{correctPlayer.pick} overall pick in round{" "}
+          {correctPlayer.round} of the {correctPlayer.year} NFL Draft
+        </p>
       </div>
     </div>
   );

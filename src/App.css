@@ -101,14 +101,17 @@ h2 {
   bottom: -35%;
 }
 
-#show {
-  visibility: visible;
+.gameOver {
   position: absolute;
-  height: 200px;
-  width: 600px;
-  top: 30%;
+  height: 300px;
+  width: 700px;
+  top: 28%;
   background-color: white;
   border: 1px solid black;
+}
+
+#show {
+  visibility: visible;
 }
 
 #hide {
@@ -117,7 +120,7 @@ h2 {
 
 .gameOverText {
   position: relative;
-  top: 15%;
+  top: 20%;
   font-size: 18px;
 }
 
@@ -125,10 +128,16 @@ h2 {
   position: absolute;
   height: 30px;
   width: 30px;
-  background-color: #ff6262;
-  border: 1px solid black;
-  right: 1%;
-  top: 2%;
+  background-color: white;
+  color: red;
+  font-weight: bolder;
+  border: 1px solid red;
+  right: 3%;
+  top: 6%;
+}
+
+.exitButton:hover {
+  background-color: #ffc4c4;
 }
 
 footer {
