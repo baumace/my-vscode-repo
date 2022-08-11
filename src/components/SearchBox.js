@@ -4,7 +4,7 @@ import { AppContext } from "../App";
 
 let inputUserText = "";
 
-function SearchBox({ placeholder, data }) {
+function SearchBox({ placeholder, data, disabled }) {
   let keyCount = 0;
   const { selectItem } = useContext(AppContext);
   const [filteredData, setFilteredData] = useState([]);
@@ -143,6 +143,7 @@ function SearchBox({ placeholder, data }) {
           value={search}
           placeholder={placeholder}
           onChange={handleFilter}
+          disabled={disabled}
         />
       </div>
       {filteredData.length != 0 && (
