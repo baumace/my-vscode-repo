@@ -5,9 +5,11 @@ import GameOver from "./components/GameOver";
 import { createContext, useEffect, useState } from "react";
 import { boardDefault } from "./Entry";
 import Picks from "./Picks.json";
+import SettingsIcon from "@mui/icons-material/Settings";
+import HelpIcon from "@mui/icons-material/Help";
 export const AppContext = createContext();
 
-// const correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
+//const correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
 const correctPlayer = {
   player: "Joe Burrow",
   college: "LSU",
@@ -17,6 +19,8 @@ const correctPlayer = {
   pick: 1,
 };
 
+console.log(correctPlayer);
+
 function App() {
   const [board, setBoard] = useState(boardDefault);
   const [currAttempt, setCurrAttempt] = useState({ attempt: 1 });
@@ -24,6 +28,7 @@ function App() {
     gameOver: false,
     guessedPlayer: false,
   });
+  const [popupActive, setPopupActive] = useState({ active: false });
 
   const selectItem = (value) => {
     const player = value.player;
@@ -43,17 +48,15 @@ function App() {
 
     if (player === correctPlayer.player) {
       setGameOver({ gameOver: true, guessedPlayer: true });
+      setPopupActive({ active: true });
     } else if (attemptNum == 7) {
       setGameOver({ gameOver: true, guessedPlayer: false });
+      setPopupActive({ active: true });
     }
   };
 
   return (
     <div className="App">
-      <header>
-        <h1>BENGLE</h1>
-        <h2>Bengals Draft Day Selections</h2>
-      </header>
       <AppContext.Provider
         value={{
           board,
@@ -62,8 +65,30 @@ function App() {
           correctPlayer,
           gameOver,
           selectItem,
+          popupActive,
+          setPopupActive,
         }}
       >
+        <header>
+          <h1>BENGLE</h1>
+          <h2>Bengals Draft Day Selections</h2>
+          <button className="headerButton" id="help">
+            <HelpIcon className="headerButtonIcon" />
+          </button>
+          <button className="headerButton" id="settings">
+            <SettingsIcon className="headerButtonIcon" />
+          </button>
+        </header>
+        <footer>
+          <p>
+            <a href="https://www.pro-football-reference.com/teams/cin/draft.htm">
+              Pro Football Reference
+            </a>
+          </p>
+          <p>
+            <a href="https://poeltl.dunk.town/">Poeltl</a>
+          </p>
+        </footer>
         <div className="game">
           <Board />
           {gameOver.gameOver ? (
@@ -75,19 +100,13 @@ function App() {
               disabled={false}
             />
           )}
+          <div
+            className="popupWall"
+            id={popupActive.active ? "show" : "hide"}
+          />
           <GameOver />
         </div>
       </AppContext.Provider>
-      <footer>
-        <p>
-          <a href="https://www.pro-football-reference.com/teams/cin/draft.htm">
-            Pro Football Reference
-          </a>
-        </p>
-        <p>
-          <a href="https://poeltl.dunk.town/">Poeltl</a>
-        </p>
-      </footer>
     </div>
   );
 }

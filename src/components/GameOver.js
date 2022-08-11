@@ -2,8 +2,10 @@ import React, { useContext, useState } from "react";
 import { AppContext } from "../App";
 
 function GameOver() {
-  const { gameOver, currAttempt, correctPlayer } = useContext(AppContext);
+  const { gameOver, currAttempt, correctPlayer, popupActive, setPopupActive } =
+    useContext(AppContext);
   const [buttonClicked, setButtonClicked] = useState({ clicked: false });
+  let popupVisible = gameOver.gameOver && !buttonClicked.clicked;
 
   const winScreen = () => {
     return (
@@ -25,15 +27,19 @@ function GameOver() {
     );
   };
 
+  const handleButtonClick = () => {
+    setButtonClicked({ clicked: true });
+    setPopupActive({ active: false });
+  };
+
   return (
-    <div
-      className="gameOver"
-      id={gameOver.gameOver && !buttonClicked.clicked ? "show" : "hide"}
-    >
+    <div className="gameOver" id={popupVisible ? "show" : "hide"}>
       <div className="gameOverBG" />
       <button
         className="exitButton"
-        onClick={() => setButtonClicked({ clicked: true })}
+        onClick={() => {
+          handleButtonClick();
+        }}
       >
         X
       </button>
