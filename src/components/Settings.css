@@ -1,0 +1,14 @@
+.settings {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 28%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.settingsText {
+  position: relative;
+  top: 20%;
+  font-size: 18px;
+}

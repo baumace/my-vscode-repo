@@ -70,69 +70,12 @@ h2 {
   flex-direction: row;
 }
 
-.cell {
-  margin: 5px;
-  display: grid;
-  place-items: center;
-  font-size: 18px;
-  color: black;
-  border: 1px solid black;
-  position: relative;
+#show {
+  visibility: visible;
 }
 
-.cell .textInfo {
-  display: inline;
-}
-
-#empty {
-  border: none;
-}
-
-#big {
-  width: 30%;
-}
-
-#bigc {
-  width: 30%;
-  background-color: lightgreen;
-}
-
-#bigh {
-  margin: 6px;
-  height: 45%;
-  width: 30%;
-  font-size: 14px;
-  font-weight: bolder;
-  color: #fb4f14;
-  border: none;
-  border-bottom: 1px solid black;
-  bottom: -35%;
-}
-
-#small {
-  width: 10%;
-}
-
-#smallc {
-  width: 10%;
-  background-color: lightgreen;
-}
-
-#smalla {
-  width: 10%;
-  background-color: yellow;
-}
-
-#smallh {
-  margin: 6px;
-  height: 45%;
-  width: 10%;
-  font-size: 14px;
-  font-weight: bolder;
-  border: none;
-  color: #fb4f14;
-  border-bottom: 1px solid black;
-  bottom: -35%;
+#hide {
+  visibility: hidden;
 }
 
 .popupWall {
@@ -153,15 +96,22 @@ h2 {
   border: 1px solid black;
 }
 
-#show {
-  visibility: visible;
-}
-
-#hide {
-  visibility: hidden;
-}
-
 .gameOverText {
+  position: relative;
+  top: 20%;
+  font-size: 18px;
+}
+
+.help {
+  position: absolute;
+  height: 500px;
+  width: 300px;
+  top: 28%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.helpText {
   position: relative;
   top: 20%;
   font-size: 18px;

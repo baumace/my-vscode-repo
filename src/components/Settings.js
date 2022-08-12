@@ -1,11 +1,13 @@
 import React, { useContext, useState } from "react";
 import { AppContext } from "../App";
+import Picks from "../Picks.json";
+import "./Settings.css";
 
 function Settings() {
-  const { popupActive, setPopupActive } = useContext(AppContext);
+  const { popupActive, setPopupActive, selectPlayer } = useContext(AppContext);
 
   return (
-    <div className="gameOver" id={popupActive.settings ? "show" : "hide"}>
+    <div className="settings" id={popupActive.settings ? "show" : "hide"}>
       <button
         className="exitButton"
         onClick={() => {
@@ -14,7 +16,14 @@ function Settings() {
       >
         X
       </button>
-      <div className="helpText"></div>
+      <button
+        onClick={() => {
+          selectPlayer(Picks);
+        }}
+      >
+        New Player
+      </button>
+      <div className="settingsText"></div>
     </div>
   );
 }

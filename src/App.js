@@ -11,8 +11,8 @@ import SettingsIcon from "@mui/icons-material/Settings";
 import HelpIcon from "@mui/icons-material/Help";
 export const AppContext = createContext();
 
-//const correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
-const correctPlayer = {
+//let correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
+let correctPlayer = {
   player: "Joe Burrow",
   college: "LSU",
   position: "QB",
@@ -20,8 +20,6 @@ const correctPlayer = {
   round: 1,
   pick: 1,
 };
-
-console.log(correctPlayer);
 
 function App() {
   const [board, setBoard] = useState(boardDefault);
@@ -61,6 +59,11 @@ function App() {
     }
   };
 
+  const selectPlayer = (dataArray) => {
+    correctPlayer = dataArray[Math.floor(Math.random() * Picks.length)];
+    console.log(correctPlayer);
+  };
+
   return (
     <div className="App">
       <AppContext.Provider
@@ -71,6 +74,7 @@ function App() {
           correctPlayer,
           gameOver,
           selectItem,
+          selectPlayer,
           popupActive,
           setPopupActive,
         }}
