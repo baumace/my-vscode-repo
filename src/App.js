@@ -2,6 +2,8 @@ import "./App.css";
 import Board from "./components/Board";
 import SearchBox from "./components/SearchBox";
 import GameOver from "./components/GameOver";
+import Help from "./components/Help";
+import Settings from "./components/Settings";
 import { createContext, useEffect, useState } from "react";
 import { boardDefault } from "./Entry";
 import Picks from "./Picks.json";
@@ -28,7 +30,11 @@ function App() {
     gameOver: false,
     guessedPlayer: false,
   });
-  const [popupActive, setPopupActive] = useState({ active: false });
+  const [popupActive, setPopupActive] = useState({
+    gameOver: false,
+    help: false,
+    settings: false,
+  });
 
   const selectItem = (value) => {
     const player = value.player;
@@ -48,10 +54,10 @@ function App() {
 
     if (player === correctPlayer.player) {
       setGameOver({ gameOver: true, guessedPlayer: true });
-      setPopupActive({ active: true });
+      setPopupActive({ gameOver: true });
     } else if (attemptNum == 7) {
       setGameOver({ gameOver: true, guessedPlayer: false });
-      setPopupActive({ active: true });
+      setPopupActive({ gameOver: true });
     }
   };
 
@@ -72,10 +78,18 @@ function App() {
         <header>
           <h1>BENGLE</h1>
           <h2>Bengals Draft Day Selections</h2>
-          <button className="headerButton" id="help">
+          <button
+            className="headerButton"
+            id="help"
+            onClick={() => setPopupActive({ help: true })}
+          >
             <HelpIcon className="headerButtonIcon" />
           </button>
-          <button className="headerButton" id="settings">
+          <button
+            className="headerButton"
+            id="settings"
+            onClick={() => setPopupActive({ settings: true })}
+          >
             <SettingsIcon className="headerButtonIcon" />
           </button>
         </header>
@@ -102,9 +116,15 @@ function App() {
           )}
           <div
             className="popupWall"
-            id={popupActive.active ? "show" : "hide"}
+            id={
+              popupActive.gameOver || popupActive.help || popupActive.settings
+                ? "show"
+                : "hide"
+            }
           />
           <GameOver />
+          <Help />
+          <Settings />
         </div>
       </AppContext.Provider>
     </div>

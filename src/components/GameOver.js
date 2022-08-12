@@ -4,8 +4,6 @@ import { AppContext } from "../App";
 function GameOver() {
   const { gameOver, currAttempt, correctPlayer, popupActive, setPopupActive } =
     useContext(AppContext);
-  const [buttonClicked, setButtonClicked] = useState({ clicked: false });
-  let popupVisible = gameOver.gameOver && !buttonClicked.clicked;
 
   const winScreen = () => {
     return (
@@ -27,18 +25,12 @@ function GameOver() {
     );
   };
 
-  const handleButtonClick = () => {
-    setButtonClicked({ clicked: true });
-    setPopupActive({ active: false });
-  };
-
   return (
-    <div className="gameOver" id={popupVisible ? "show" : "hide"}>
-      <div className="gameOverBG" />
+    <div className="gameOver" id={popupActive.gameOver ? "show" : "hide"}>
       <button
         className="exitButton"
         onClick={() => {
-          handleButtonClick();
+          setPopupActive({ gameOver: false });
         }}
       >
         X
