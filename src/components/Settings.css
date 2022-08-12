@@ -1,14 +1,56 @@
 .settings {
   position: absolute;
   height: 300px;
-  width: 300px;
+  width: 700px;
   top: 28%;
-  background-color: white;
-  border: 1px solid black;
+  background-color: #fffaf0;
+  border: 2px solid black;
 }
 
-.settingsText {
-  position: relative;
-  top: 20%;
-  font-size: 18px;
+.eraDropdown {
+  position: absolute;
+  left: 3%;
+  height: 250px;
+  width: 225px;
+  text-align: left;
+  cursor: pointer;
+  color: #fb4f14;
+}
+
+.eraDropdownButton {
+  height: 14%;
+  width: 100%;
+  border: none;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.eraDropdownButton p {
+  margin: 0px;
+  margin-left: 10px;
+  padding-top: 3%;
+}
+
+.eraDropdownContent {
+  height: 86%;
+  width: 100%;
+  border: 2px solid black;
+  border-top: none;
+  background-color: white;
+}
+
+.eraDropdownItem {
+  height: 16.67%;
+  width: 100%;
+  font-size: 14px;
+}
+
+.eraDropdownItem p {
+  margin: 0px;
+  margin-left: 10px;
+  padding-top: 4%;
+}
+
+.eraDropdownItem:hover {
+  background-color: #fcd299;
 }
