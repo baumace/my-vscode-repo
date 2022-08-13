@@ -74,7 +74,7 @@ function Cell({ infoIdentifier, attemptVal }) {
           const offense = ["QB", "RB", "T", "G", "C", "TE", "WR", "FB"];
 
           // Holds possible defensive positions
-          const defense = ["DT", "DE", "LB", "CB", "S"];
+          const defense = ["DT", "DE", "LB", "CB", "SAF"];
 
           // Holds possible special teams positions
           const special = ["K", "P", "LS"];
