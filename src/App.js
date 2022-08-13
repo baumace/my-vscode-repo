@@ -91,6 +91,7 @@ function App() {
           selectPlayer,
           popupActive,
           setPopupActive,
+          resetBoard,
         }}
       >
         <header>

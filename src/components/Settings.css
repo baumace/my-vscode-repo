@@ -10,13 +10,45 @@
 .newPlayerButton {
   position: absolute;
   height: 35px;
-  width: 100px;
+  width: 123px;
+  top: 2.5%;
   left: 3%;
   border: 2px solid black;
+  text-align: left;
+  background-color: white;
+  color: #fb4f14;
 }
 
 .newPlayerButton:hover {
-  background-color: #fb4f14;
+  background-color: #fcd299;
+}
+
+.newPlayerButton p {
+  margin: 0px;
+  margin-left: 10px;
+  padding-top: 5%;
+}
+
+.resetBoardButton {
+  position: absolute;
+  height: 35px;
+  width: 135px;
+  top: 2.5%;
+  left: 42%;
+  border: 2px solid black;
+  text-align: left;
+  background-color: white;
+  color: #fb4f14;
+}
+
+.resetBoardButton:hover {
+  background-color: #fcd299;
+}
+
+.resetBoardButton p {
+  margin: 0px;
+  margin-left: 10px;
+  padding-top: 5%;
 }
 
 .eraDropdown {

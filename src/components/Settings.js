@@ -4,7 +4,8 @@ import Picks from "../Picks.json";
 import "./Settings.css";
 
 function Settings() {
-  const { popupActive, setPopupActive, selectPlayer } = useContext(AppContext);
+  const { popupActive, setPopupActive, selectPlayer, resetBoard } =
+    useContext(AppContext);
   const [dropdownActive, setDropdownActive] = useState({ active: false });
   const [selectedEra, setSelectedEra] = useState({ era: 0 });
   const eraYears = [
@@ -140,7 +141,16 @@ function Settings() {
           handleNewPlayerClick();
         }}
       >
-        New Player
+        <p>NEW PLAYER</p>
+      </div>
+      <div
+        className="resetBoardButton"
+        onClick={() => {
+          resetBoard();
+          handleExitClick();
+        }}
+      >
+        <p>RESET BOARD</p>
       </div>
       <div className="eraDropdown">
         <div
