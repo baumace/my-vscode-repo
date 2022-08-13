@@ -70,6 +70,7 @@ function App() {
     }
     setCurrAttempt({ attempt: 1 });
     setBoard(newBoard);
+    setGameOver({ gameOver: false, guessedPlayer: false });
   };
 
   const selectPlayer = (dataArray) => {

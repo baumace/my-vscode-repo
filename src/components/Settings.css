@@ -70,6 +70,10 @@
   background-color: white;
 }
 
+.eraDropdownButton:hover {
+  background-color: #fcd299;
+}
+
 .eraDropdownButton p {
   margin: 0px;
   margin-left: 10px;
