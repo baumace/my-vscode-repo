@@ -92,6 +92,8 @@ h2 {
   height: 300px;
   width: 700px;
   top: 28%;
+  background-color: #fffaf0;
+  border: 2px solid black;
 }
 
 .gameOverText {

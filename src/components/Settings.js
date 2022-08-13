@@ -16,8 +16,6 @@ function Settings() {
     "1968-1979",
   ];
 
-  console.log(selectedEra.era);
-
   const handleExitClick = () => {
     setDropdownActive({ active: false });
     setPopupActive({ settings: false });
@@ -31,24 +29,93 @@ function Settings() {
     }
   };
 
+  const handleNewPlayerClick = () => {
+    // Store the selected era
+    const era = selectedEra.era;
+
+    // Is the era set to include all picks?
+    if (era == 0) {
+      // Select a player
+      selectPlayer(Picks);
+    } else {
+      // Filter the data based on the input
+      const newFilter = Picks.filter((value) => {
+        // Store the draft year
+        const year = value.year;
+
+        // Check the draft year depending on the current era
+        switch (era) {
+          // Era is 1968-1979
+          case 5:
+            // Check if draft year is within timeframe
+            if (year <= 1979) {
+              return value;
+            }
+            break;
+          // Era is 1980-1989
+          case 4:
+            // Check if draft year is within timeframe
+            if (year >= 1980 && year <= 1989) {
+              return value;
+            }
+            break;
+          // Era is 1990-1999
+          case 3:
+            // Check if draft year is within timeframe
+            if (year >= 1990 && year <= 1999) {
+              return value;
+            }
+            break;
+          // Era is 2000-2009
+          case 2:
+            // Check if draft year is within timeframe
+            if (year >= 2000 && year <= 2009) {
+              return value;
+            }
+            break;
+          // Era is 2010-Pres.
+          case 1:
+            // Check if draft year is within timeframe
+            if (year >= 2010) {
+              return value;
+            }
+            break;
+        }
+      });
+
+      console.log(newFilter);
+
+      // Select the player based on the new filter
+      selectPlayer(newFilter);
+    }
+  };
+
   const handleDropdownItemClick = (id) => {
+    // Is the id equal to the already selected era?
     if (id != selectedEra.era) {
+      // Change selected era depending on id
       switch (id) {
+        // Change to all eras
         case 0:
           setSelectedEra({ era: 0 });
           break;
+        // Change to 2010-Pres.
         case 1:
           setSelectedEra({ era: 1 });
           break;
+        // Change to 2000-2009
         case 2:
           setSelectedEra({ era: 2 });
           break;
+        // Change to 1990-1999
         case 3:
           setSelectedEra({ era: 3 });
           break;
+        // Change to 1980-1989
         case 4:
           setSelectedEra({ era: 4 });
           break;
+        // Change to 1968-1979
         case 5:
           setSelectedEra({ era: 5 });
           break;
@@ -67,8 +134,9 @@ function Settings() {
         X
       </button>
       <button
+        className="newPlayerButton"
         onClick={() => {
-          selectPlayer(Picks);
+          handleNewPlayerClick();
         }}
       >
         New Player

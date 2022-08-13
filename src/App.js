@@ -60,7 +60,7 @@ function App() {
   };
 
   const selectPlayer = (dataArray) => {
-    correctPlayer = dataArray[Math.floor(Math.random() * Picks.length)];
+    correctPlayer = dataArray[Math.floor(Math.random() * dataArray.length)];
     console.log(correctPlayer);
   };
 
