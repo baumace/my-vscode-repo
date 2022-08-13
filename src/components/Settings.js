@@ -83,11 +83,12 @@ function Settings() {
         }
       });
 
-      console.log(newFilter);
-
       // Select the player based on the new filter
       selectPlayer(newFilter);
     }
+
+    // Quit from the settings menu
+    handleExitClick();
   };
 
   const handleDropdownItemClick = (id) => {
@@ -133,14 +134,14 @@ function Settings() {
       >
         X
       </button>
-      <button
+      <div
         className="newPlayerButton"
         onClick={() => {
           handleNewPlayerClick();
         }}
       >
         New Player
-      </button>
+      </div>
       <div className="eraDropdown">
         <div
           className="eraDropdownButton"

@@ -21,6 +21,8 @@ let correctPlayer = {
   pick: 1,
 };
 
+console.log(correctPlayer);
+
 function App() {
   const [board, setBoard] = useState(boardDefault);
   const [currAttempt, setCurrAttempt] = useState({ attempt: 1 });
@@ -59,8 +61,20 @@ function App() {
     }
   };
 
+  const resetBoard = () => {
+    const newBoard = [...board];
+    for (let i = 1; i < currAttempt.attempt; i++) {
+      for (let j = 0; j < 6; j++) {
+        newBoard[i][j] = "";
+      }
+    }
+    setCurrAttempt({ attempt: 1 });
+    setBoard(newBoard);
+  };
+
   const selectPlayer = (dataArray) => {
     correctPlayer = dataArray[Math.floor(Math.random() * dataArray.length)];
+    resetBoard();
     console.log(correctPlayer);
   };
 

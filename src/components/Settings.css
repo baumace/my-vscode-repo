@@ -1,14 +1,27 @@
 .settings {
   position: absolute;
-  height: 300px;
-  width: 700px;
+  height: 400px;
+  width: 350px;
   top: 28%;
   background-color: #fffaf0;
   border: 2px solid black;
 }
 
+.newPlayerButton {
+  position: absolute;
+  height: 35px;
+  width: 100px;
+  left: 3%;
+  border: 2px solid black;
+}
+
+.newPlayerButton:hover {
+  background-color: #fb4f14;
+}
+
 .eraDropdown {
   position: absolute;
+  top: 15%;
   left: 3%;
   height: 250px;
   width: 225px;
