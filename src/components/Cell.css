@@ -12,6 +12,32 @@
   display: inline;
 }
 
+#almostText {
+  margin: 0px;
+  float: left;
+}
+
+#almostArrow2 {
+  margin: 0px;
+  position: absolute;
+  top: 20%;
+  right: 0%;
+}
+
+#almostArrow4 {
+  margin: 0px;
+  position: absolute;
+  top: 20%;
+  right: 12%;
+}
+
+#almostArrow5 {
+  margin: 0px;
+  position: absolute;
+  top: 20%;
+  right: 4%;
+}
+
 #empty {
   border: none;
 }

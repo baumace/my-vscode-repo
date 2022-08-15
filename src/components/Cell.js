@@ -176,13 +176,23 @@ function Cell({ infoIdentifier, attemptVal }) {
     <div className="cell" id={cellID}>
       {tooHigh ? (
         <div>
-          <p className="textInfo">{cellInfo} </p>
-          <KeyboardArrowDownIcon className="textInfo" />
+          <p className="textInfo" id="almostText">
+            {cellInfo}{" "}
+          </p>
+          <KeyboardArrowDownIcon
+            className="cellArrow"
+            id={"almostArrow" + infoIdentifier}
+          />
         </div>
       ) : tooLow ? (
         <div>
-          <p className="textInfo">{cellInfo} </p>
-          <KeyboardArrowUpIcon className="textInfo" />
+          <p className="textInfo" id="almostText">
+            {cellInfo}{" "}
+          </p>
+          <KeyboardArrowUpIcon
+            className="cellArrow"
+            id={"almostArrow" + infoIdentifier}
+          />
         </div>
       ) : (
         <div>
