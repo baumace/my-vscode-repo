@@ -35,6 +35,7 @@ function App() {
     help: false,
     settings: false,
   });
+  const [selectedEra, setSelectedEra] = useState({ era: 0 });
 
   const selectItem = (value) => {
     const player = value.player;
@@ -79,6 +80,56 @@ function App() {
     console.log(correctPlayer);
   };
 
+  const filterData = () => {
+    const era = selectedEra.era;
+    // Filter the data based on the input
+    const newFilter = Picks.filter((value) => {
+      // Store the draft year
+      const year = value.year;
+
+      // Check the draft year depending on the current era
+      switch (era) {
+        // Era is 1968-1979
+        case 5:
+          // Check if draft year is within timeframe
+          if (year <= 1979) {
+            return value;
+          }
+          break;
+        // Era is 1980-1989
+        case 4:
+          // Check if draft year is within timeframe
+          if (year >= 1980 && year <= 1989) {
+            return value;
+          }
+          break;
+        // Era is 1990-1999
+        case 3:
+          // Check if draft year is within timeframe
+          if (year >= 1990 && year <= 1999) {
+            return value;
+          }
+          break;
+        // Era is 2000-2009
+        case 2:
+          // Check if draft year is within timeframe
+          if (year >= 2000 && year <= 2009) {
+            return value;
+          }
+          break;
+        // Era is 2010-Pres.
+        case 1:
+          // Check if draft year is within timeframe
+          if (year >= 2010) {
+            return value;
+          }
+          break;
+      }
+    });
+
+    return newFilter;
+  };
+
   return (
     <div className="App">
       <AppContext.Provider
@@ -90,9 +141,12 @@ function App() {
           gameOver,
           selectItem,
           selectPlayer,
+          filterData,
           popupActive,
           setPopupActive,
           resetBoard,
+          selectedEra,
+          setSelectedEra,
         }}
       >
         <header>
