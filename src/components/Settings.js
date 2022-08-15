@@ -2,6 +2,8 @@ import React, { useContext, useState } from "react";
 import { AppContext } from "../App";
 import Picks from "../Picks.json";
 import "./Settings.css";
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 function Settings() {
   const { popupActive, setPopupActive, selectPlayer, resetBoard } =
@@ -122,6 +124,9 @@ function Settings() {
           setSelectedEra({ era: 5 });
           break;
       }
+
+      // Toggle the dropdown content
+      handleDropdownClick();
     }
   };
 
@@ -129,6 +134,7 @@ function Settings() {
     <div className="settings" id={popupActive.settings ? "show" : "hide"}>
       <button
         className="exitButton"
+        id="settingsExit"
         onClick={() => {
           handleExitClick();
         }}
@@ -153,13 +159,14 @@ function Settings() {
         <p>RESET BOARD</p>
       </div>
       <div className="eraDropdown">
+        <p>Selected Years:</p>
         <div
           className="eraDropdownButton"
           onClick={() => {
             handleDropdownClick();
           }}
         >
-          <p>Selected Era: {eraYears[selectedEra.era]}</p>
+          <p>{eraYears[selectedEra.era]}</p>
         </div>
 
         <div
@@ -215,6 +222,21 @@ function Settings() {
             <p>{eraYears[5]}</p>
           </div>
         </div>
+        {dropdownActive.active ? (
+          <KeyboardArrowDownIcon
+            className="dropdownArrowIcon"
+            onClick={() => {
+              handleDropdownClick();
+            }}
+          />
+        ) : (
+          <KeyboardArrowUpIcon
+            className="dropdownArrowIcon"
+            onClick={() => {
+              handleDropdownClick();
+            }}
+          />
+        )}
       </div>
       <div className="settingsText"></div>
     </div>

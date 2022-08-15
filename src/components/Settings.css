@@ -1,22 +1,29 @@
 .settings {
   position: absolute;
-  height: 400px;
-  width: 350px;
-  top: 28%;
+  height: 125px;
+  width: 335px;
+  top: 12%;
+  left: 22%;
   background-color: #fffaf0;
   border: 2px solid black;
+}
+
+#settingsExit {
+  right: 3%;
+  top: 12%;
 }
 
 .newPlayerButton {
   position: absolute;
   height: 35px;
   width: 123px;
-  top: 2.5%;
+  top: 8%;
   left: 3%;
   border: 2px solid black;
   text-align: left;
   background-color: white;
   color: #fb4f14;
+  cursor: pointer;
 }
 
 .newPlayerButton:hover {
@@ -33,12 +40,13 @@
   position: absolute;
   height: 35px;
   width: 135px;
-  top: 2.5%;
-  left: 42%;
+  top: 8%;
+  left: 44%;
   border: 2px solid black;
   text-align: left;
   background-color: white;
   color: #fb4f14;
+  cursor: pointer;
 }
 
 .resetBoardButton:hover {
@@ -53,18 +61,26 @@
 
 .eraDropdown {
   position: absolute;
-  top: 15%;
+  top: 43%;
   left: 3%;
   height: 250px;
-  width: 225px;
+  width: 274px;
   text-align: left;
   cursor: pointer;
   color: #fb4f14;
+  display: inline-block;
+}
+
+.eraDropdown p {
+  float: left;
 }
 
 .eraDropdownButton {
+  position: absolute;
+  top: 3%;
+  left: 49%;
   height: 14%;
-  width: 100%;
+  width: 40%;
   border: none;
   border: 2px solid black;
   background-color: white;
@@ -77,12 +93,15 @@
 .eraDropdownButton p {
   margin: 0px;
   margin-left: 10px;
-  padding-top: 3%;
+  padding-top: 7%;
 }
 
 .eraDropdownContent {
+  position: absolute;
+  top: 18.6%;
+  left: 49%;
   height: 86%;
-  width: 100%;
+  width: 40%;
   border: 2px solid black;
   border-top: none;
   background-color: white;
@@ -97,9 +116,15 @@
 .eraDropdownItem p {
   margin: 0px;
   margin-left: 10px;
-  padding-top: 4%;
+  padding-top: 8%;
 }
 
 .eraDropdownItem:hover {
   background-color: #fcd299;
+}
+
+.dropdownArrowIcon {
+  position: absolute;
+  top: 6%;
+  left: 92%;
 }
