@@ -65,7 +65,11 @@ function SearchBox({ placeholder, data, disabled }) {
 
         // Which key was pressed and is the data item index in an
         // acceptable range?
-        if (event.key == "ArrowDown" && currDataIndex < 3) {
+        if (
+          event.key == "ArrowDown" &&
+          currDataIndex < 3 &&
+          currDataIndex < filteredData.length - 1
+        ) {
           // Arrrow key up has been pressed
           // Is the index at the starting position?
           if (currDataIndex == -1) {
