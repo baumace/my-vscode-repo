@@ -14,6 +14,7 @@ function Settings() {
     resetBoard,
     selectedEra,
     setSelectedEra,
+    picksData,
   } = useContext(AppContext);
   const [dropdownActive, setDropdownActive] = useState({ active: false });
   const eraYears = [
@@ -39,14 +40,8 @@ function Settings() {
   };
 
   const handleNewPlayerClick = () => {
-    // Is the era set to include all picks?
-    if (selectedEra.era == 0) {
-      // Select a player
-      selectPlayer(Picks);
-    } else {
-      // Select the player based on the new filter
-      selectPlayer(filterData());
-    }
+    // Select a new player from the filtered data
+    selectPlayer(filterData());
 
     // Quit from the settings menu
     handleExitClick();

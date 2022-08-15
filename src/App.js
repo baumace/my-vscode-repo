@@ -24,6 +24,7 @@ let correctPlayer = {
 console.log(correctPlayer);
 
 function App() {
+  const [picksData, setPicksData] = useState({ array: Picks });
   const [board, setBoard] = useState(boardDefault);
   const [currAttempt, setCurrAttempt] = useState({ attempt: 1 });
   const [gameOver, setGameOver] = useState({
@@ -81,52 +82,64 @@ function App() {
   };
 
   const filterData = () => {
+    // Stores the filtered data array
+    let newFilter;
+    // Store the current era
     const era = selectedEra.era;
-    // Filter the data based on the input
-    const newFilter = Picks.filter((value) => {
-      // Store the draft year
-      const year = value.year;
+    // Is the era set to all players?
+    if (era == 0) {
+      newFilter = Picks;
+    } else {
+      // Filter the data based on the input
+      newFilter = Picks.filter((value) => {
+        // Store the draft year
+        const year = value.year;
 
-      // Check the draft year depending on the current era
-      switch (era) {
-        // Era is 1968-1979
-        case 5:
-          // Check if draft year is within timeframe
-          if (year <= 1979) {
-            return value;
-          }
-          break;
-        // Era is 1980-1989
-        case 4:
-          // Check if draft year is within timeframe
-          if (year >= 1980 && year <= 1989) {
-            return value;
-          }
-          break;
-        // Era is 1990-1999
-        case 3:
-          // Check if draft year is within timeframe
-          if (year >= 1990 && year <= 1999) {
-            return value;
-          }
-          break;
-        // Era is 2000-2009
-        case 2:
-          // Check if draft year is within timeframe
-          if (year >= 2000 && year <= 2009) {
-            return value;
-          }
-          break;
-        // Era is 2010-Pres.
-        case 1:
-          // Check if draft year is within timeframe
-          if (year >= 2010) {
-            return value;
-          }
-          break;
-      }
-    });
+        // Check the draft year depending on the current era
+        switch (era) {
+          // Era is 1968-1979
+          case 5:
+            // Check if draft year is within timeframe
+            if (year <= 1979) {
+              return value;
+            }
+            break;
+          // Era is 1980-1989
+          case 4:
+            // Check if draft year is within timeframe
+            if (year >= 1980 && year <= 1989) {
+              return value;
+            }
+            break;
+          // Era is 1990-1999
+          case 3:
+            // Check if draft year is within timeframe
+            if (year >= 1990 && year <= 1999) {
+              return value;
+            }
+            break;
+          // Era is 2000-2009
+          case 2:
+            // Check if draft year is within timeframe
+            if (year >= 2000 && year <= 2009) {
+              return value;
+            }
+            break;
+          // Era is 2010-Pres.
+          case 1:
+            // Check if draft year is within timeframe
+            if (year >= 2010) {
+              return value;
+            }
+            break;
+        }
+      });
+    }
 
+    // Set the picks data to be the new filtered data
+    setPicksData({ array: newFilter });
+
+    // Return the newFilter
     return newFilter;
   };
 
@@ -147,6 +160,7 @@ function App() {
           resetBoard,
           selectedEra,
           setSelectedEra,
+          picksData,
         }}
       >
         <header>
@@ -180,11 +194,15 @@ function App() {
         <div className="game">
           <Board />
           {gameOver.gameOver ? (
-            <SearchBox placeholder={"Game Over"} data={Picks} disabled={true} />
+            <SearchBox
+              placeholder={"Game Over"}
+              data={picksData.array}
+              disabled={true}
+            />
           ) : (
             <SearchBox
               placeholder={"Selection " + currAttempt.attempt + " of 7"}
-              data={Picks}
+              data={picksData.array}
               disabled={false}
             />
           )}

@@ -11,8 +11,6 @@ function SearchBox({ placeholder, data, disabled }) {
   const [dataItemIndex, setDataItemIndex] = useState({ index: -1 });
   const [search, setSearch] = useState("");
 
-  console.log(filteredData.length);
-
   const clearSearchResults = () => {
     // Reset the filtered data in the search results
     setFilteredData(filteredData.slice(0, 0));
