@@ -193,6 +193,15 @@ function App() {
         </footer>
         <div className="game">
           <Board />
+          <div
+            className="giveUpButton"
+            onClick={() => {
+              setGameOver({ gameOver: true });
+              setPopupActive({ gameOver: true });
+            }}
+          >
+            <p className="giveUpText">GIVE UP</p>
+          </div>
           {gameOver.gameOver ? (
             <SearchBox
               placeholder={"Game Over"}

@@ -71,10 +71,10 @@ function Cell({ infoIdentifier, attemptVal }) {
         // Was the guess incorrect?
         if (!isCorrect) {
           // Holds possible offensive positions
-          const offense = ["QB", "RB", "T", "G", "C", "TE", "WR", "FB"];
+          const offense = ["QB", "RB", "T", "G", "C", "OL", "TE", "WR", "FB"];
 
           // Holds possible defensive positions
-          const defense = ["DT", "DE", "LB", "CB", "SAF", "NT"];
+          const defense = ["DT", "DE", "LB", "CB", "DB", "SAF", "NT"];
 
           // Holds possible special teams positions
           const special = ["K", "P", "LS"];

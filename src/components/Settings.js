@@ -176,14 +176,14 @@ function Settings() {
           </div>
         </div>
         {dropdownActive.active ? (
-          <KeyboardArrowDownIcon
+          <KeyboardArrowUpIcon
             className="dropdownArrowIcon"
             onClick={() => {
               handleDropdownClick();
             }}
           />
         ) : (
-          <KeyboardArrowUpIcon
+          <KeyboardArrowDownIcon
             className="dropdownArrowIcon"
             onClick={() => {
               handleDropdownClick();
