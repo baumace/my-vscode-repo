@@ -14,7 +14,6 @@ function Settings() {
     resetBoard,
     selectedEra,
     setSelectedEra,
-    picksData,
   } = useContext(AppContext);
   const [dropdownActive, setDropdownActive] = useState({ active: false });
   const eraYears = [
@@ -112,7 +111,7 @@ function Settings() {
         <p>RESET BOARD</p>
       </div>
       <div className="eraDropdown">
-        <p>Selected Years:</p>
+        <p className="eraDropdownLabel">Selected Years:</p>
         <div
           className="eraDropdownButton"
           onClick={() => {

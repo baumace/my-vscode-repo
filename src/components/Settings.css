@@ -73,7 +73,7 @@
   display: inline-block;
 }
 
-.eraDropdown p {
+.eraDropdownLabel {
   float: left;
   font-weight: bolder;
 }

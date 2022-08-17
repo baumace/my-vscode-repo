@@ -145,6 +145,16 @@ function App() {
 
   return (
     <div className="App">
+      <footer>
+        <p>
+          <a href="https://www.pro-football-reference.com/teams/cin/draft.htm">
+            Pro Football Reference
+          </a>
+        </p>
+        <p>
+          <a href="https://poeltl.dunk.town/">Poeltl</a>
+        </p>
+      </footer>
       <AppContext.Provider
         value={{
           board,
@@ -163,35 +173,25 @@ function App() {
           picksData,
         }}
       >
-        <header>
-          <h1>BENGLE</h1>
-          <h2>Bengals Draft Day Selections</h2>
-          <button
-            className="headerButton"
-            id="help"
-            onClick={() => setPopupActive({ help: true })}
-          >
-            <HelpIcon className="headerButtonIcon" />
-          </button>
-          <button
-            className="headerButton"
-            id="settings"
-            onClick={() => setPopupActive({ settings: true })}
-          >
-            <SettingsIcon className="headerButtonIcon" />
-          </button>
-        </header>
-        <footer>
-          <p>
-            <a href="https://www.pro-football-reference.com/teams/cin/draft.htm">
-              Pro Football Reference
-            </a>
-          </p>
-          <p>
-            <a href="https://poeltl.dunk.town/">Poeltl</a>
-          </p>
-        </footer>
         <div className="game">
+          <header>
+            <h1>BENGLE</h1>
+            <h2>Bengals Draft Day Selections</h2>
+            <button
+              className="headerButton"
+              id="help"
+              onClick={() => setPopupActive({ help: true })}
+            >
+              <HelpIcon className="headerButtonIcon" />
+            </button>
+            <button
+              className="headerButton"
+              id="settings"
+              onClick={() => setPopupActive({ settings: true })}
+            >
+              <SettingsIcon className="headerButtonIcon" />
+            </button>
+          </header>
           <Board />{" "}
           {gameOver.gameOver ? (
             <div
@@ -226,18 +226,18 @@ function App() {
               disabled={false}
             />
           )}
-          <div
-            className="popupWall"
-            id={
-              popupActive.gameOver || popupActive.help || popupActive.settings
-                ? "show"
-                : "hide"
-            }
-          />
-          <GameOver />
-          <Help />
-          <Settings />
         </div>
+        <div
+          className="popupWall"
+          id={
+            popupActive.gameOver || popupActive.help || popupActive.settings
+              ? "show"
+              : "hide"
+          }
+        />
+        <GameOver />
+        <Help />
+        <Settings />
       </AppContext.Provider>
     </div>
   );
