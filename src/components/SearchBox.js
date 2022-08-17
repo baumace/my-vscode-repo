@@ -143,7 +143,8 @@ function SearchBox({ placeholder, data, disabled }) {
       <div className="searchInput">
         <input
           type="text"
-          id="searchText"
+          className="searchInputText"
+          id={filteredData.length != 0 ? "active" : "inactive"}
           value={search}
           placeholder={placeholder}
           onChange={handleFilter}

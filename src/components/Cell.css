@@ -6,6 +6,7 @@
   color: black;
   border: 1px solid black;
   position: relative;
+  border-radius: 10px;
 }
 
 .cell .textInfo {
@@ -61,6 +62,7 @@
   border: none;
   border-bottom: 1px solid black;
   bottom: -35%;
+  border-radius: 0px;
 }
 
 #small {
@@ -87,4 +89,5 @@
   color: #fb4f14;
   border-bottom: 1px solid black;
   bottom: -35%;
+  border-radius: 0px;
 }

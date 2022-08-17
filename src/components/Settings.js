@@ -117,6 +117,7 @@ function Settings() {
           onClick={() => {
             handleDropdownClick();
           }}
+          id={dropdownActive.active ? "active" : "inactive"}
         >
           <p>{eraYears[selectedEra.era]}</p>
         </div>
@@ -170,6 +171,7 @@ function Settings() {
             onClick={() => {
               handleDropdownItemClick(5);
             }}
+            id="lastItem"
           >
             <p>{eraYears[5]}</p>
           </div>
