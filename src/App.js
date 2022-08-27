@@ -213,6 +213,15 @@ function App() {
               <p className="giveUpText">GIVE UP</p>
             </div>
           )}
+          <div
+            className="showResultsButton"
+            onClick={() => {
+              setPopupActive({ gameOver: true });
+            }}
+            id={gameOver.gameOver ? "show" : "hide"}
+          >
+            <p className="showResultsText">SHOW RESULTS</p>
+          </div>
           {gameOver.gameOver ? (
             <SearchBox
               placeholder={"Game Over"}
