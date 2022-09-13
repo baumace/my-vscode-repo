@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bengle/static/css/main.ebd44aa8.css",
+    "main.js": "/bengle/static/js/main.56a9215b.js",
+    "static/js/787.71bef13d.chunk.js": "/bengle/static/js/787.71bef13d.chunk.js",
+    "index.html": "/bengle/index.html",
+    "main.ebd44aa8.css.map": "/bengle/static/css/main.ebd44aa8.css.map",
+    "main.56a9215b.js.map": "/bengle/static/js/main.56a9215b.js.map",
+    "787.71bef13d.chunk.js.map": "/bengle/static/js/787.71bef13d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebd44aa8.css",
+    "static/js/main.56a9215b.js"
+  ]
+}
