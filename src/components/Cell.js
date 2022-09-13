@@ -19,10 +19,10 @@ function Cell({ infoIdentifier, attemptVal }) {
     isHeader = false;
 
   // Is the cell a big cell (containing name or college)
-  isBig = infoIdentifier == 0 || infoIdentifier == 1;
+  isBig = infoIdentifier === 0 || infoIdentifier === 1;
 
   // Is the row the header row?
-  isHeader = attemptVal == 0;
+  isHeader = attemptVal === 0;
 
   // Is the cell empty?
   let isEmpty = attemptVal >= currAttempt.attempt;
@@ -46,7 +46,7 @@ function Cell({ infoIdentifier, attemptVal }) {
       // Draft Year
       case 2:
         // Is the user guessed draft year correct?
-        isCorrect = correctPlayer.year == cellInfo;
+        isCorrect = correctPlayer.year === cellInfo;
 
         // Was the guess incorrect?
         if (!isCorrect) {
@@ -66,7 +66,7 @@ function Cell({ infoIdentifier, attemptVal }) {
       // Position
       case 3:
         // Is the user guessed position correct?
-        isCorrect = correctPlayer.position == cellInfo;
+        isCorrect = correctPlayer.position === cellInfo;
 
         // Was the guess incorrect?
         if (!isCorrect) {
@@ -112,7 +112,7 @@ function Cell({ infoIdentifier, attemptVal }) {
       // Draft Round
       case 4:
         // Is the guessed round correct?
-        isCorrect = correctPlayer.round == cellInfo;
+        isCorrect = correctPlayer.round === cellInfo;
 
         // Was the guess correct?
         if (!isCorrect) {
@@ -132,7 +132,7 @@ function Cell({ infoIdentifier, attemptVal }) {
       // Draft Pick
       case 5:
         // Is the user guessed pick correct?
-        isCorrect = correctPlayer.pick == cellInfo;
+        isCorrect = correctPlayer.pick === cellInfo;
         if (!isCorrect) {
           // What is the difference between the correct pick and the user guessed pick?
           const diff = correctPlayer.pick - cellInfo;

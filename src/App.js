@@ -4,24 +4,15 @@ import SearchBox from "./components/SearchBox";
 import GameOver from "./components/GameOver";
 import Help from "./components/Help";
 import Settings from "./components/Settings";
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import { boardDefault } from "./Entry";
 import Picks from "./Picks.json";
 import SettingsIcon from "@mui/icons-material/Settings";
 import HelpIcon from "@mui/icons-material/Help";
 export const AppContext = createContext();
 
-//let correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
-let correctPlayer = {
-  player: "Joe Burrow",
-  college: "LSU",
-  position: "QB",
-  year: 2020,
-  round: 1,
-  pick: 1,
-};
-
-console.log(correctPlayer);
+// Create the initial correct player
+let correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
 
 function App() {
   const [picksData, setPicksData] = useState({ array: Picks });
@@ -57,7 +48,7 @@ function App() {
     if (player === correctPlayer.player) {
       setGameOver({ gameOver: true, guessedPlayer: true });
       setPopupActive({ gameOver: true });
-    } else if (attemptNum == 7) {
+    } else if (attemptNum === 7) {
       setGameOver({ gameOver: true, guessedPlayer: false });
       setPopupActive({ gameOver: true });
     }
@@ -87,7 +78,7 @@ function App() {
     // Store the current era
     const era = selectedEra.era;
     // Is the era set to all players?
-    if (era == 0) {
+    if (era === 0) {
       newFilter = Picks;
     } else {
       // Filter the data based on the input

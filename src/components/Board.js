@@ -1,5 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
-import { AppContext } from "../App";
+import React from "react";
 import Cell from "./Cell";
 
 function Board() {

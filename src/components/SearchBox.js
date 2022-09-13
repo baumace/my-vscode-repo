@@ -35,7 +35,7 @@ function SearchBox({ placeholder, data, disabled }) {
   // Search bar selection
   const handleKeyboard = useCallback((event) => {
     // Does the filtered data have elements in it?
-    if (filteredData.length != 0) {
+    if (filteredData.length !== 0) {
       // Was a key of interest pressed by the user?
       if (event.key === "Enter") {
         // The enter key was pressed
@@ -43,7 +43,7 @@ function SearchBox({ placeholder, data, disabled }) {
         let dataEntry;
 
         // Is the data item index -1 (the input text index)?
-        if (dataItemIndex.index == -1) {
+        if (dataItemIndex.index === -1) {
           // Select the first element in the search results
           dataEntry = filteredData[0];
         } else {
@@ -53,7 +53,7 @@ function SearchBox({ placeholder, data, disabled }) {
 
         // Handle the selection of the data point
         handleSelection(dataEntry);
-      } else if (event.key == "ArrowDown" || event.key == "ArrowUp") {
+      } else if (event.key === "ArrowDown" || event.key === "ArrowUp") {
         // One of the arrow keys of interest was pressed
         // Prevent the key from moving the input text cursor
         event.preventDefault();
@@ -64,13 +64,13 @@ function SearchBox({ placeholder, data, disabled }) {
         // Which key was pressed and is the data item index in an
         // acceptable range?
         if (
-          event.key == "ArrowDown" &&
+          event.key === "ArrowDown" &&
           currDataIndex < 3 &&
           currDataIndex < filteredData.length - 1
         ) {
           // Arrrow key up has been pressed
           // Is the index at the starting position?
-          if (currDataIndex == -1) {
+          if (currDataIndex === -1) {
             // Store the current input text
             inputUserText = search;
           }
@@ -83,7 +83,7 @@ function SearchBox({ placeholder, data, disabled }) {
 
           // Set the input text to be the newly selected player
           setSearch(filteredData[++currDataIndex].player);
-        } else if (event.key == "ArrowUp" && currDataIndex > -1) {
+        } else if (event.key === "ArrowUp" && currDataIndex > -1) {
           // Decrement the index for the data item
           setDataItemIndex({
             ...dataItemIndex,
@@ -91,7 +91,7 @@ function SearchBox({ placeholder, data, disabled }) {
           });
 
           // Is the index anything other than the top element?
-          if (currDataIndex != 0) {
+          if (currDataIndex !== 0) {
             // Set the input text to be the newly selected player
             setSearch(filteredData[--currDataIndex].player);
           } else {
@@ -127,7 +127,7 @@ function SearchBox({ placeholder, data, disabled }) {
     });
 
     // Is the input word blank?
-    if (inputWord == "") {
+    if (inputWord === "") {
       // Set filtered data to empty
       setFilteredData([]);
     } else {
@@ -144,14 +144,14 @@ function SearchBox({ placeholder, data, disabled }) {
         <input
           type="text"
           className="searchInputText"
-          id={filteredData.length != 0 ? "active" : "inactive"}
+          id={filteredData.length !== 0 ? "active" : "inactive"}
           value={search}
           placeholder={placeholder}
           onChange={handleFilter}
           disabled={disabled}
         />
       </div>
-      {filteredData.length != 0 && (
+      {filteredData.length !== 0 && (
         <div className="searchResult" id={filteredData.length}>
           {filteredData.slice(0, 4).map((value) => {
             return (
@@ -160,7 +160,7 @@ function SearchBox({ placeholder, data, disabled }) {
                 onClick={() => handleSelection(value)}
                 key={keyCount++}
                 id={
-                  dataItemIndex.index == keyCount
+                  dataItemIndex.index === keyCount
                     ? "itemSelected"
                     : "itemNotSelected"
                 }

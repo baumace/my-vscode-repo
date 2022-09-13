@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { AppContext } from "../App";
-import Picks from "../Picks.json";
 import "./Settings.css";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
@@ -48,7 +47,7 @@ function Settings() {
 
   const handleDropdownItemClick = (id) => {
     // Is the id equal to the already selected era?
-    if (id != selectedEra.era) {
+    if (id !== selectedEra.era) {
       // Change selected era depending on id
       switch (id) {
         // Change to all eras
