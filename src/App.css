@@ -19,9 +19,8 @@ body {
 .game {
   display: flex;
   position: relative;
+  margin: auto;
   top: 0.5%;
-  left: 17.5%;
-  right: 17.5%;
   width: 1000px;
   height: 650px;
   align-items: center;

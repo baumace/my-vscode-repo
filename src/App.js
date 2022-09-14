@@ -117,7 +117,7 @@ function App() {
             }
             break;
           // Era is 2010-Pres.
-          case 1:
+          default:
             // Check if draft year is within timeframe
             if (year >= 2010) {
               return value;
@@ -136,16 +136,6 @@ function App() {
 
   return (
     <div className="App">
-      <footer>
-        <p>
-          <a href="https://www.pro-football-reference.com/teams/cin/draft.htm">
-            Pro Football Reference
-          </a>
-        </p>
-        <p>
-          <a href="https://poeltl.dunk.town/">Poeltl</a>
-        </p>
-      </footer>
       <AppContext.Provider
         value={{
           board,
@@ -227,6 +217,16 @@ function App() {
             />
           )}
         </div>
+        <footer>
+          <p>
+            <a href="https://www.pro-football-reference.com/teams/cin/draft.htm">
+              Pro Football Reference
+            </a>
+          </p>
+          <p>
+            <a href="https://poeltl.dunk.town/">Poeltl</a>
+          </p>
+        </footer>
         <div
           className="popupWall"
           id={
