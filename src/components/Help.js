@@ -26,22 +26,25 @@ function Help() {
               You have 7 selections to make the correct pick and find your draft
               gem
             </li>
-            <li>A green box means that the information is correct</li>
             <li>
-              A yellow box for the year means the correct player is within 5
-              years
+              A <mark id="green">green box</mark> means that the information is
+              correct
             </li>
             <li>
-              A yellow box for the position means the correct player is on the
-              same unit
+              A <mark id="yellow">yellow box</mark> for the year means the
+              correct player is within 5 years
             </li>
             <li>
-              A yellow box for the round means the correct player is within 2
-              rounds
+              A <mark id="yellow">yellow box</mark> for the position means the
+              correct player is on the same unit
             </li>
             <li>
-              A yellow box on the picks means the correct player is within 20
-              picks
+              A <mark id="yellow">yellow box</mark> for the round means the
+              correct player is within 2 rounds
+            </li>
+            <li>
+              A <mark id="yellow">yellow box</mark> on the picks means the
+              correct player is within 20 picks
             </li>
           </ul>
         </div>

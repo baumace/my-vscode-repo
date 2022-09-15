@@ -9,7 +9,7 @@
 
 .helpText {
   position: relative;
-  top: 5%;
+  top: 2%;
   left: 3%;
   width: 600px;
   font-size: 18px;
@@ -17,5 +17,13 @@
 }
 
 .helpText li {
-  padding: 3px;
+  padding: 5px;
+}
+
+#green {
+  background-color: lightgreen;
+}
+
+#yellow {
+  background-color: yellow;
 }
