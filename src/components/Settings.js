@@ -82,116 +82,117 @@ function Settings() {
   };
 
   return (
-    <div className="settings" id={popupActive.settings ? "show" : "hide"}>
-      <button
-        className="exitButton"
-        id="settingsExit"
-        onClick={() => {
-          handleExitClick();
-        }}
-      >
-        X
-      </button>
-      <div
-        className="newPlayerButton"
-        onClick={() => {
-          handleNewPlayerClick();
-        }}
-      >
-        <p>NEW PLAYER</p>
-      </div>
-      <div
-        className="resetBoardButton"
-        onClick={() => {
-          resetBoard();
-          handleExitClick();
-        }}
-      >
-        <p>RESET BOARD</p>
-      </div>
-      <div className="eraDropdown">
-        <p className="eraDropdownLabel">Selected Years:</p>
-        <div
-          className="eraDropdownButton"
+    <div id={popupActive.settings ? "show" : "hide"}>
+      <div className="popup" id="settingsPopup">
+        <button
+          className="exitButton"
+          id="settingsExit"
           onClick={() => {
-            handleDropdownClick();
+            handleExitClick();
           }}
-          id={dropdownActive.active ? "active" : "inactive"}
         >
-          <p>{eraYears[selectedEra.era]}</p>
-        </div>
-
+          X
+        </button>
         <div
-          className="eraDropdownContent"
-          id={dropdownActive.active ? "show" : "hide"}
+          className="newPlayerButton"
+          onClick={() => {
+            handleNewPlayerClick();
+          }}
         >
-          <div
-            className="eraDropdownItem"
-            onClick={() => {
-              handleDropdownItemClick(0);
-            }}
-          >
-            <p>{eraYears[0]}</p>
-          </div>
-          <div
-            className="eraDropdownItem"
-            onClick={() => {
-              handleDropdownItemClick(1);
-            }}
-          >
-            <p>{eraYears[1]}</p>
-          </div>
-          <div
-            className="eraDropdownItem"
-            onClick={() => {
-              handleDropdownItemClick(2);
-            }}
-          >
-            <p>{eraYears[2]}</p>
-          </div>
-          <div
-            className="eraDropdownItem"
-            onClick={() => {
-              handleDropdownItemClick(3);
-            }}
-          >
-            <p>{eraYears[3]}</p>
-          </div>
-          <div
-            className="eraDropdownItem"
-            onClick={() => {
-              handleDropdownItemClick(4);
-            }}
-          >
-            <p>{eraYears[4]}</p>
-          </div>
-          <div
-            className="eraDropdownItem"
-            onClick={() => {
-              handleDropdownItemClick(5);
-            }}
-            id="lastItem"
-          >
-            <p>{eraYears[5]}</p>
-          </div>
+          <p>NEW PLAYER</p>
         </div>
-        {dropdownActive.active ? (
-          <KeyboardArrowUpIcon
-            className="dropdownArrowIcon"
+        <div
+          className="resetBoardButton"
+          onClick={() => {
+            resetBoard();
+            handleExitClick();
+          }}
+        >
+          <p>RESET BOARD</p>
+        </div>
+        <div className="eraDropdown">
+          <p className="eraDropdownLabel">Selected Years:</p>
+          <div
+            className="eraDropdownButton"
             onClick={() => {
               handleDropdownClick();
             }}
-          />
-        ) : (
-          <KeyboardArrowDownIcon
-            className="dropdownArrowIcon"
-            onClick={() => {
-              handleDropdownClick();
-            }}
-          />
-        )}
+            id={dropdownActive.active ? "active" : "inactive"}
+          >
+            <p>{eraYears[selectedEra.era]}</p>
+          </div>
+
+          <div
+            className="eraDropdownContent"
+            id={dropdownActive.active ? "show" : "hide"}
+          >
+            <div
+              className="eraDropdownItem"
+              onClick={() => {
+                handleDropdownItemClick(0);
+              }}
+            >
+              <p>{eraYears[0]}</p>
+            </div>
+            <div
+              className="eraDropdownItem"
+              onClick={() => {
+                handleDropdownItemClick(1);
+              }}
+            >
+              <p>{eraYears[1]}</p>
+            </div>
+            <div
+              className="eraDropdownItem"
+              onClick={() => {
+                handleDropdownItemClick(2);
+              }}
+            >
+              <p>{eraYears[2]}</p>
+            </div>
+            <div
+              className="eraDropdownItem"
+              onClick={() => {
+                handleDropdownItemClick(3);
+              }}
+            >
+              <p>{eraYears[3]}</p>
+            </div>
+            <div
+              className="eraDropdownItem"
+              onClick={() => {
+                handleDropdownItemClick(4);
+              }}
+            >
+              <p>{eraYears[4]}</p>
+            </div>
+            <div
+              className="eraDropdownItem"
+              onClick={() => {
+                handleDropdownItemClick(5);
+              }}
+              id="lastItem"
+            >
+              <p>{eraYears[5]}</p>
+            </div>
+          </div>
+          {dropdownActive.active ? (
+            <KeyboardArrowUpIcon
+              className="dropdownArrowIcon"
+              onClick={() => {
+                handleDropdownClick();
+              }}
+            />
+          ) : (
+            <KeyboardArrowDownIcon
+              className="dropdownArrowIcon"
+              onClick={() => {
+                handleDropdownClick();
+              }}
+            />
+          )}
+        </div>
       </div>
-      <div className="settingsText"></div>
     </div>
   );
 }

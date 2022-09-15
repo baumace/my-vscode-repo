@@ -46,17 +46,18 @@ h2 {
 
 .headerButtonIcon {
   transform: scale(1.5);
+  color: black;
 }
 
 .headerButtonIcon:hover {
   color: #fb4f14;
 }
 
-#help {
+#helpButton {
   left: 2%;
 }
 
-#settings {
+#settingsButton {
   left: 6.5%;
 }
 
@@ -167,34 +168,11 @@ h2 {
   opacity: 0.6;
 }
 
-.gameOver {
+.popup {
   position: absolute;
-  height: 300px;
-  width: 700px;
-  top: 28%;
   background-color: #fffaf0;
   border: 2px solid black;
-}
-
-.gameOverText {
-  position: relative;
-  top: 20%;
-  font-size: 18px;
-}
-
-.help {
-  position: absolute;
-  height: 500px;
-  width: 300px;
-  top: 28%;
-  background-color: #fffaf0;
-  border: 2px solid black;
-}
-
-.helpText {
-  position: relative;
-  top: 20%;
-  font-size: 18px;
+  border-radius: 10px;
 }
 
 .exitButton {

@@ -1,0 +1,21 @@
+#helpPopup {
+  position: absolute;
+  height: 400px;
+  width: 700px;
+  top: 28%;
+  left: 20%;
+  text-align: left;
+}
+
+.helpText {
+  position: relative;
+  top: 5%;
+  left: 3%;
+  width: 600px;
+  font-size: 18px;
+  float: left;
+}
+
+.helpText li {
+  padding: 3px;
+}

@@ -160,14 +160,14 @@ function App() {
             <h2>Bengals Draft Day Selections</h2>
             <button
               className="headerButton"
-              id="help"
+              id="helpButton"
               onClick={() => setPopupActive({ help: true })}
             >
               <HelpIcon className="headerButtonIcon" />
             </button>
             <button
               className="headerButton"
-              id="settings"
+              id="settingsButton"
               onClick={() => setPopupActive({ settings: true })}
             >
               <SettingsIcon className="headerButtonIcon" />

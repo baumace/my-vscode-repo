@@ -1,3 +1,4 @@
+import "./GameOver.css";
 import React, { useContext } from "react";
 import { AppContext } from "../App";
 
@@ -26,25 +27,27 @@ function GameOver() {
   };
 
   return (
-    <div className="gameOver" id={popupActive.gameOver ? "show" : "hide"}>
-      <button
-        className="exitButton"
-        onClick={() => {
-          setPopupActive({ gameOver: false });
-        }}
-      >
-        X
-      </button>
-      <div className="gameOverText">
-        {gameOver.guessedPlayer ? winScreen() : loseScreen()}
-        <p>
-          The correct player is {correctPlayer.player}, {correctPlayer.position}{" "}
-          from {correctPlayer.college}.
-        </p>
-        <p>
-          Selected with the #{correctPlayer.pick} overall pick in round{" "}
-          {correctPlayer.round} of the {correctPlayer.year} NFL Draft
-        </p>
+    <div id={popupActive.gameOver ? "show" : "hide"}>
+      <div className="popup" id="gameOverPopup">
+        <button
+          className="exitButton"
+          onClick={() => {
+            setPopupActive({ gameOver: false });
+          }}
+        >
+          X
+        </button>
+        <div className="gameOverText">
+          {gameOver.guessedPlayer ? winScreen() : loseScreen()}
+          <p>
+            The correct player is {correctPlayer.player},{" "}
+            {correctPlayer.position} from {correctPlayer.college}.
+          </p>
+          <p>
+            Selected with the #{correctPlayer.pick} overall pick in round{" "}
+            {correctPlayer.round} of the {correctPlayer.year} NFL Draft
+          </p>
+        </div>
       </div>
     </div>
   );
