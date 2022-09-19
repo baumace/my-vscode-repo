@@ -1,9 +1,6 @@
 #helpPopup {
-  position: absolute;
   height: 400px;
   width: 700px;
-  top: 28%;
-  left: 20%;
   text-align: left;
 }
 

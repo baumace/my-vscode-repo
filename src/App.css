@@ -5,6 +5,7 @@ html {
 
 body {
   margin: 0%;
+  align-items: center;
 }
 
 .App {
@@ -170,6 +171,9 @@ h2 {
 
 .popup {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #fffaf0;
   border: 2px solid black;
   border-radius: 10px;
