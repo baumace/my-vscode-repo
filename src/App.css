@@ -1,6 +1,5 @@
 html {
   background-color: #fffaf0;
-  overflow: hidden;
 }
 
 body {
@@ -12,16 +11,18 @@ body {
   text-align: center;
   background-color: #fffaf0;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: Verdana;
 }
 
 .game {
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin: auto;
-  top: 0.5%;
   width: 1000px;
   height: 650px;
   align-items: center;
@@ -171,7 +172,7 @@ h2 {
 
 .popup {
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fffaf0;
@@ -198,7 +199,7 @@ h2 {
 
 footer {
   background-color: #fb4f14;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   bottom: 0%;
 }

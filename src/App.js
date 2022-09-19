@@ -219,12 +219,13 @@ function App() {
         </div>
         <footer>
           <p>
+            Data Source:{" "}
             <a href="https://www.pro-football-reference.com/teams/cin/draft.htm">
               Pro Football Reference
             </a>
           </p>
           <p>
-            <a href="https://poeltl.dunk.town/">Poeltl</a>
+            Inspired by <a href="https://poeltl.dunk.town/">Poeltl</a>
           </p>
         </footer>
         <div
