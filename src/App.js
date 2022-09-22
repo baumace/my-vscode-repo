@@ -5,17 +5,22 @@ import GameOver from "./components/GameOver";
 import Help from "./components/Help";
 import Settings from "./components/Settings";
 import { createContext, useState } from "react";
-import { boardDefault } from "./Entry";
-import Picks from "./Picks.json";
+import { boardDefault } from "./BoardStatus";
+import allDraftPicks from "./DraftPicks.json";
 import SettingsIcon from "@mui/icons-material/Settings";
 import HelpIcon from "@mui/icons-material/Help";
 export const AppContext = createContext();
 
+// Create constants
+// Maximum allowed number of attempts
+const MAX_ATTEMPTS = 7;
+
 // Create the initial correct player
-let correctPlayer = Picks[Math.floor(Math.random() * Picks.length)];
+let correctPick =
+  allDraftPicks[Math.floor(Math.random() * allDraftPicks.length)];
 
 function App() {
-  const [picksData, setPicksData] = useState({ array: Picks });
+  const [picksArray, setPicksArray] = useState({ array: allDraftPicks });
   const [board, setBoard] = useState(boardDefault);
   const [currAttempt, setCurrAttempt] = useState({ attempt: 1 });
   const [gameOver, setGameOver] = useState({
@@ -30,10 +35,12 @@ function App() {
   const [selectedEra, setSelectedEra] = useState({ era: 0 });
 
   const selectItem = (value) => {
+    // Store the player and attempt number
     const player = value.player;
     const attemptNum = currAttempt.attempt;
 
-    if (currAttempt.attempt <= 7) {
+    //
+    if (currAttempt.attempt <= MAX_ATTEMPTS) {
       const newBoard = [...board];
       newBoard[attemptNum][0] = player;
       newBoard[attemptNum][1] = value.college;
@@ -45,10 +52,10 @@ function App() {
       setCurrAttempt({ ...currAttempt, attempt: currAttempt.attempt + 1 });
     }
 
-    if (player === correctPlayer.player) {
+    if (player === correctPick.player) {
       setGameOver({ gameOver: true, guessedPlayer: true });
       setPopupActive({ gameOver: true });
-    } else if (attemptNum === 7) {
+    } else if (attemptNum === MAX_ATTEMPTS) {
       setGameOver({ gameOver: true, guessedPlayer: false });
       setPopupActive({ gameOver: true });
     }
@@ -67,9 +74,9 @@ function App() {
   };
 
   const selectPlayer = (dataArray) => {
-    correctPlayer = dataArray[Math.floor(Math.random() * dataArray.length)];
+    correctPick = dataArray[Math.floor(Math.random() * dataArray.length)];
     resetBoard();
-    console.log(correctPlayer);
+    console.log(correctPick);
   };
 
   const filterData = () => {
@@ -79,10 +86,10 @@ function App() {
     const era = selectedEra.era;
     // Is the era set to all players?
     if (era === 0) {
-      newFilter = Picks;
+      newFilter = allDraftPicks;
     } else {
       // Filter the data based on the input
-      newFilter = Picks.filter((value) => {
+      newFilter = allDraftPicks.filter((value) => {
         // Store the draft year
         const year = value.year;
 
@@ -128,7 +135,7 @@ function App() {
     }
 
     // Set the picks data to be the new filtered data
-    setPicksData({ array: newFilter });
+    setPicksArray({ array: newFilter });
 
     // Return the newFilter
     return newFilter;
@@ -141,7 +148,7 @@ function App() {
           board,
           setBoard,
           currAttempt,
-          correctPlayer,
+          correctPick,
           gameOver,
           selectItem,
           selectPlayer,
@@ -151,7 +158,7 @@ function App() {
           resetBoard,
           selectedEra,
           setSelectedEra,
-          picksData,
+          picksArray,
         }}
       >
         <div className="game">
@@ -206,13 +213,15 @@ function App() {
           {gameOver.gameOver ? (
             <SearchBox
               placeholder={"Game Over"}
-              data={picksData.array}
+              data={picksArray.array}
               disabled={true}
             />
           ) : (
             <SearchBox
-              placeholder={"Selection " + currAttempt.attempt + " of 7"}
-              data={picksData.array}
+              placeholder={
+                "Selection " + currAttempt.attempt + " of " + MAX_ATTEMPTS
+              }
+              data={picksArray.array}
               disabled={false}
             />
           )}

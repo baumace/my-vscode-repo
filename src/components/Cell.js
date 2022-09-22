@@ -6,7 +6,7 @@ import "./Cell.css";
 
 function Cell({ infoIdentifier, attemptVal }) {
   // Imported variables
-  const { board, correctPlayer, currAttempt } = useContext(AppContext);
+  const { board, correctPick, currAttempt } = useContext(AppContext);
   const cellInfo = board[attemptVal][infoIdentifier];
 
   // Variables to store cellInfo descriptions
@@ -19,7 +19,7 @@ function Cell({ infoIdentifier, attemptVal }) {
     isHeader = false;
 
   // Is the cell a big cell (containing name or college)
-  isBig = infoIdentifier === 0 || infoIdentifier === 1;
+  isBig = infoIdentifier < 2;
 
   // Is the row the header row?
   isHeader = attemptVal === 0;
@@ -34,24 +34,24 @@ function Cell({ infoIdentifier, attemptVal }) {
       // Player Name
       case 0:
         // Is the user guessed player correct?
-        isCorrect = correctPlayer.player === cellInfo;
+        isCorrect = correctPick.name === cellInfo;
         break;
 
       // College
       case 1:
         // Is the user guessed college correct?
-        isCorrect = correctPlayer.college === cellInfo;
+        isCorrect = correctPick.college === cellInfo;
         break;
 
       // Draft Year
       case 2:
         // Is the user guessed draft year correct?
-        isCorrect = correctPlayer.year === cellInfo;
+        isCorrect = correctPick.year === cellInfo;
 
         // Was the guess incorrect?
         if (!isCorrect) {
           // What is the difference between the correct year and the user guessed year
-          const diff = correctPlayer.year - cellInfo;
+          const diff = correctPick.year - cellInfo;
 
           // Is the difference within 5 years?
           isAlmost = diff <= 5 && diff >= -5;
@@ -66,7 +66,7 @@ function Cell({ infoIdentifier, attemptVal }) {
       // Position
       case 3:
         // Is the user guessed position correct?
-        isCorrect = correctPlayer.position === cellInfo;
+        isCorrect = correctPick.position === cellInfo;
 
         // Was the guess incorrect?
         if (!isCorrect) {
@@ -90,7 +90,7 @@ function Cell({ infoIdentifier, attemptVal }) {
           const special = ["K", "P", "LS"];
 
           // The correct position
-          const correctPos = correctPlayer.position;
+          const correctPos = correctPick.position;
 
           // Is the correct position on offense?
           if (offense.includes(correctPos)) {
@@ -112,12 +112,12 @@ function Cell({ infoIdentifier, attemptVal }) {
       // Draft Round
       case 4:
         // Is the guessed round correct?
-        isCorrect = correctPlayer.round === cellInfo;
+        isCorrect = correctPick.round === cellInfo;
 
         // Was the guess correct?
         if (!isCorrect) {
           // What is the difference between the correct round and the user guessed round?
-          const diff = correctPlayer.round - cellInfo;
+          const diff = correctPick.round - cellInfo;
 
           // Is the difference within 2 rounds?
           isAlmost = diff <= 2 && diff >= -2;
@@ -132,10 +132,10 @@ function Cell({ infoIdentifier, attemptVal }) {
       // Draft Pick
       case 5:
         // Is the user guessed pick correct?
-        isCorrect = correctPlayer.pick === cellInfo;
+        isCorrect = correctPick.pick === cellInfo;
         if (!isCorrect) {
           // What is the difference between the correct pick and the user guessed pick?
-          const diff = correctPlayer.pick - cellInfo;
+          const diff = correctPick.pick - cellInfo;
 
           // Is the difference within 20 picks?
           isAlmost = diff <= 20 && diff >= -20;

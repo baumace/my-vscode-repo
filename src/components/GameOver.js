@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { AppContext } from "../App";
 
 function GameOver() {
-  const { gameOver, currAttempt, correctPlayer, popupActive, setPopupActive } =
+  const { gameOver, currAttempt, correctPick, popupActive, setPopupActive } =
     useContext(AppContext);
 
   const winScreen = () => {
@@ -40,12 +40,12 @@ function GameOver() {
         <div className="gameOverText">
           {gameOver.guessedPlayer ? winScreen() : loseScreen()}
           <p>
-            The correct player is {correctPlayer.player},{" "}
-            {correctPlayer.position} from {correctPlayer.college}.
+            The correct player is {correctPick.player}, {correctPick.position}{" "}
+            from {correctPick.college}.
           </p>
           <p>
-            Selected with the #{correctPlayer.pick} overall pick in round{" "}
-            {correctPlayer.round} of the {correctPlayer.year} NFL Draft
+            Selected with the #{correctPick.pick} overall pick in round{" "}
+            {correctPick.round} of the {correctPick.year} NFL Draft
           </p>
         </div>
       </div>

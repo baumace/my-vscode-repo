@@ -1,6 +1,6 @@
 [
   {
-    "player": "Daxton Hill",
+    "name": "Daxton Hill",
     "college": "Michigan",
     "year": 2022,
     "position": "DB",
@@ -8,7 +8,7 @@
     "pick": 31
   },
   {
-    "player": "Cam Taylor-Britt",
+    "name": "Cam Taylor-Britt",
     "college": "Nebraska",
     "year": 2022,
     "position": "CB",
@@ -16,7 +16,7 @@
     "pick": 60
   },
   {
-    "player": "Zachary Carter",
+    "name": "Zachary Carter",
     "college": "Florida",
     "year": 2022,
     "position": "DE",
@@ -24,7 +24,7 @@
     "pick": 95
   },
   {
-    "player": "Cordell Volson",
+    "name": "Cordell Volson",
     "college": "North Dakota St.",
     "year": 2022,
     "position": "T",
@@ -32,7 +32,7 @@
     "pick": 136
   },
   {
-    "player": "Tycen Anderson",
+    "name": "Tycen Anderson",
     "college": "Toledo",
     "year": 2022,
     "position": "SAF",
@@ -40,7 +40,7 @@
     "pick": 166
   },
   {
-    "player": "Jeffrey Gunter",
+    "name": "Jeffrey Gunter",
     "college": "Coastal Carolina",
     "year": 2022,
     "position": "OLB",
@@ -48,7 +48,7 @@
     "pick": 252
   },
   {
-    "player": "Ja'Marr Chase",
+    "name": "Ja'Marr Chase",
     "college": "LSU",
     "year": 2021,
     "position": "WR",
@@ -56,7 +56,7 @@
     "pick": 5
   },
   {
-    "player": "Jackson Carman",
+    "name": "Jackson Carman",
     "college": "Clemson",
     "year": 2021,
     "position": "T",
@@ -64,7 +64,7 @@
     "pick": 46
   },
   {
-    "player": "Joseph Ossai",
+    "name": "Joseph Ossai",
     "college": "Texas",
     "year": 2021,
     "position": "LB",
@@ -72,7 +72,7 @@
     "pick": 69
   },
   {
-    "player": "Cameron Sample",
+    "name": "Cameron Sample",
     "college": "Tulane",
     "year": 2021,
     "position": "DE",
@@ -80,7 +80,7 @@
     "pick": 111
   },
   {
-    "player": "Tyler Shelvin",
+    "name": "Tyler Shelvin",
     "college": "LSU",
     "year": 2021,
     "position": "DT",
@@ -88,7 +88,7 @@
     "pick": 122
   },
   {
-    "player": "D'Ante Smith",
+    "name": "D'Ante Smith",
     "college": "East Carolina",
     "year": 2021,
     "position": "T",
@@ -96,7 +96,7 @@
     "pick": 139
   },
   {
-    "player": "Evan McPherson",
+    "name": "Evan McPherson",
     "college": "Florida",
     "year": 2021,
     "position": "K",
@@ -104,7 +104,7 @@
     "pick": 149
   },
   {
-    "player": "Trey Hill",
+    "name": "Trey Hill",
     "college": "Georgia",
     "year": 2021,
     "position": "OL",
@@ -112,7 +112,7 @@
     "pick": 190
   },
   {
-    "player": "Chris Evans",
+    "name": "Chris Evans",
     "college": "Michigan",
     "year": 2021,
     "position": "RB",
@@ -120,7 +120,7 @@
     "pick": 202
   },
   {
-    "player": "Wyatt Hubert",
+    "name": "Wyatt Hubert",
     "college": "Kansas St.",
     "year": 2021,
     "position": "DE",
@@ -128,7 +128,7 @@
     "pick": 235
   },
   {
-    "player": "Joe Burrow",
+    "name": "Joe Burrow",
     "college": "LSU",
     "year": 2020,
     "position": "QB",
@@ -136,7 +136,7 @@
     "pick": 1
   },
   {
-    "player": "Tee Higgins",
+    "name": "Tee Higgins",
     "college": "Clemson",
     "year": 2020,
     "position": "WR",
@@ -144,7 +144,7 @@
     "pick": 33
   },
   {
-    "player": "Logan Wilson",
+    "name": "Logan Wilson",
     "college": "Wyoming",
     "year": 2020,
     "position": "LB",
@@ -152,7 +152,7 @@
     "pick": 65
   },
   {
-    "player": "Akeem Davis-Gaither",
+    "name": "Akeem Davis-Gaither",
     "college": "Appalachian St.",
     "year": 2020,
     "position": "LB",
@@ -160,7 +160,7 @@
     "pick": 107
   },
   {
-    "player": "Khalid Kareem",
+    "name": "Khalid Kareem",
     "college": "Notre Dame",
     "year": 2020,
     "position": "DE",
@@ -168,7 +168,7 @@
     "pick": 147
   },
   {
-    "player": "Hakeem Adeniji",
+    "name": "Hakeem Adeniji",
     "college": "Kansas",
     "year": 2020,
     "position": "T",
@@ -176,7 +176,7 @@
     "pick": 180
   },
   {
-    "player": "Markus Bailey",
+    "name": "Markus Bailey",
     "college": "Purdue",
     "year": 2020,
     "position": "LB",
@@ -184,7 +184,7 @@
     "pick": 215
   },
   {
-    "player": "Jonah Williams",
+    "name": "Jonah Williams",
     "college": "Alabama",
     "year": 2019,
     "position": "G",
@@ -192,7 +192,7 @@
     "pick": 11
   },
   {
-    "player": "Drew Sample",
+    "name": "Drew Sample",
     "college": "Washington",
     "year": 2019,
     "position": "TE",
@@ -200,7 +200,7 @@
     "pick": 52
   },
   {
-    "player": "Germaine Pratt",
+    "name": "Germaine Pratt",
     "college": "North Carolina St.",
     "year": 2019,
     "position": "LB",
@@ -208,7 +208,7 @@
     "pick": 72
   },
   {
-    "player": "Ryan Finley",
+    "name": "Ryan Finley",
     "college": "North Carolina St.",
     "year": 2019,
     "position": "QB",
@@ -216,7 +216,7 @@
     "pick": 104
   },
   {
-    "player": "Renell Wren",
+    "name": "Renell Wren",
     "college": "Arizona St.",
     "year": 2019,
     "position": "DT",
@@ -224,7 +224,7 @@
     "pick": 125
   },
   {
-    "player": "Michael Jordan",
+    "name": "Michael Jordan",
     "college": "Ohio St.",
     "year": 2019,
     "position": "G",
@@ -232,7 +232,7 @@
     "pick": 136
   },
   {
-    "player": "Trayveon Williams",
+    "name": "Trayveon Williams",
     "college": "Texas A&M",
     "year": 2019,
     "position": "RB",
@@ -240,7 +240,7 @@
     "pick": 182
   },
   {
-    "player": "Deshaun Davis",
+    "name": "Deshaun Davis",
     "college": "Auburn",
     "year": 2019,
     "position": "LB",
@@ -248,7 +248,7 @@
     "pick": 210
   },
   {
-    "player": "Rodney Anderson",
+    "name": "Rodney Anderson",
     "college": "Oklahoma",
     "year": 2019,
     "position": "RB",
@@ -256,7 +256,7 @@
     "pick": 211
   },
   {
-    "player": "Jordan Brown",
+    "name": "Jordan Brown",
     "college": "South Dakota St.",
     "year": 2019,
     "position": "CB",
@@ -264,7 +264,7 @@
     "pick": 223
   },
   {
-    "player": "Billy Price",
+    "name": "Billy Price",
     "college": "Ohio St.",
     "year": 2018,
     "position": "C",
@@ -272,7 +272,7 @@
     "pick": 21
   },
   {
-    "player": "Jessie Bates III",
+    "name": "Jessie Bates III",
     "college": "Wake Forest",
     "year": 2018,
     "position": "S",
@@ -280,7 +280,7 @@
     "pick": 54
   },
   {
-    "player": "Sam Hubbard",
+    "name": "Sam Hubbard",
     "college": "Ohio St.",
     "year": 2018,
     "position": "DE",
@@ -288,7 +288,7 @@
     "pick": 77
   },
   {
-    "player": "Malik Jefferson",
+    "name": "Malik Jefferson",
     "college": "Texas",
     "year": 2018,
     "position": "OLB",
@@ -296,7 +296,7 @@
     "pick": 78
   },
   {
-    "player": "Mark Walton",
+    "name": "Mark Walton",
     "college": "Miami (FL)",
     "year": 2018,
     "position": "RB",
@@ -304,7 +304,7 @@
     "pick": 112
   },
   {
-    "player": "Davontae Harris",
+    "name": "Davontae Harris",
     "college": "Illinois St.",
     "year": 2018,
     "position": "CB",
@@ -312,7 +312,7 @@
     "pick": 151
   },
   {
-    "player": "Andrew Brown",
+    "name": "Andrew Brown",
     "college": "Virginia",
     "year": 2018,
     "position": "DE",
@@ -320,7 +320,7 @@
     "pick": 158
   },
   {
-    "player": "Darius Phillips",
+    "name": "Darius Phillips",
     "college": "Western Michigan",
     "year": 2018,
     "position": "CB",
@@ -328,7 +328,7 @@
     "pick": 170
   },
   {
-    "player": "Logan Woodside",
+    "name": "Logan Woodside",
     "college": "Toledo",
     "year": 2018,
     "position": "QB",
@@ -336,7 +336,7 @@
     "pick": 249
   },
   {
-    "player": "Rod Taylor",
+    "name": "Rod Taylor",
     "college": "Mississippi",
     "year": 2018,
     "position": "G",
@@ -344,7 +344,7 @@
     "pick": 252
   },
   {
-    "player": "Auden Tate",
+    "name": "Auden Tate",
     "college": "Florida St.",
     "year": 2018,
     "position": "WR",
@@ -352,7 +352,7 @@
     "pick": 253
   },
   {
-    "player": "John Ross",
+    "name": "John Ross",
     "college": "Washington",
     "year": 2017,
     "position": "WR",
@@ -360,7 +360,7 @@
     "pick": 9
   },
   {
-    "player": "Joe Mixon",
+    "name": "Joe Mixon",
     "college": "Oklahoma",
     "year": 2017,
     "position": "RB",
@@ -368,7 +368,7 @@
     "pick": 48
   },
   {
-    "player": "Jordan Willis",
+    "name": "Jordan Willis",
     "college": "Kansas St.",
     "year": 2017,
     "position": "OLB",
@@ -376,7 +376,7 @@
     "pick": 73
   },
   {
-    "player": "Carl Lawson",
+    "name": "Carl Lawson",
     "college": "Auburn",
     "year": 2017,
     "position": "OLB",
@@ -384,7 +384,7 @@
     "pick": 116
   },
   {
-    "player": "Josh Malone",
+    "name": "Josh Malone",
     "college": "Tennessee",
     "year": 2017,
     "position": "WR",
@@ -392,7 +392,7 @@
     "pick": 128
   },
   {
-    "player": "Ryan Glasgow",
+    "name": "Ryan Glasgow",
     "college": "Michigan",
     "year": 2017,
     "position": "DT",
@@ -400,7 +400,7 @@
     "pick": 138
   },
   {
-    "player": "Jake Elliott",
+    "name": "Jake Elliott",
     "college": "Memphis",
     "year": 2017,
     "position": "K",
@@ -408,7 +408,7 @@
     "pick": 153
   },
   {
-    "player": "JJ Dielman",
+    "name": "JJ Dielman",
     "college": "Utah",
     "year": 2017,
     "position": "C",
@@ -416,7 +416,7 @@
     "pick": 176
   },
   {
-    "player": "Jordan Evans",
+    "name": "Jordan Evans",
     "college": "Oklahoma",
     "year": 2017,
     "position": "LB",
@@ -424,7 +424,7 @@
     "pick": 193
   },
   {
-    "player": "Brandon Wilson",
+    "name": "Brandon Wilson",
     "college": "Houston",
     "year": 2017,
     "position": "RB",
@@ -432,7 +432,7 @@
     "pick": 207
   },
   {
-    "player": "Mason Schreck",
+    "name": "Mason Schreck",
     "college": "Buffalo",
     "year": 2017,
     "position": "TE",
@@ -440,7 +440,7 @@
     "pick": 251
   },
   {
-    "player": "William Jackson III",
+    "name": "William Jackson III",
     "college": "Houston",
     "year": 2016,
     "position": "CB",
@@ -448,7 +448,7 @@
     "pick": 24
   },
   {
-    "player": "Tyler Boyd",
+    "name": "Tyler Boyd",
     "college": "Pittsburgh",
     "year": 2016,
     "position": "WR",
@@ -456,7 +456,7 @@
     "pick": 55
   },
   {
-    "player": "Nick Vigil",
+    "name": "Nick Vigil",
     "college": "Utah St.",
     "year": 2016,
     "position": "ILB",
@@ -464,7 +464,7 @@
     "pick": 87
   },
   {
-    "player": "Andrew Billings",
+    "name": "Andrew Billings",
     "college": "Baylor",
     "year": 2016,
     "position": "NT",
@@ -472,7 +472,7 @@
     "pick": 122
   },
   {
-    "player": "Christian Westerman",
+    "name": "Christian Westerman",
     "college": "Arizona St.",
     "year": 2016,
     "position": "G",
@@ -480,7 +480,7 @@
     "pick": 161
   },
   {
-    "player": "Cody Core",
+    "name": "Cody Core",
     "college": "Mississippi",
     "year": 2016,
     "position": "WR",
@@ -488,7 +488,7 @@
     "pick": 199
   },
   {
-    "player": "Clayton Fejedelem",
+    "name": "Clayton Fejedelem",
     "college": "Illinois",
     "year": 2016,
     "position": "S",
@@ -496,7 +496,7 @@
     "pick": 245
   },
   {
-    "player": "Cedric Ogbuehi",
+    "name": "Cedric Ogbuehi",
     "college": "Texas A&M",
     "year": 2015,
     "position": "T",
@@ -504,7 +504,7 @@
     "pick": 21
   },
   {
-    "player": "Jake Fisher",
+    "name": "Jake Fisher",
     "college": "Oregon",
     "year": 2015,
     "position": "T",
@@ -512,7 +512,7 @@
     "pick": 53
   },
   {
-    "player": "Tyler Kroft",
+    "name": "Tyler Kroft",
     "college": "Rutgers",
     "year": 2015,
     "position": "TE",
@@ -520,7 +520,7 @@
     "pick": 85
   },
   {
-    "player": "Paul Dawson",
+    "name": "Paul Dawson",
     "college": "TCU",
     "year": 2015,
     "position": "ILB",
@@ -528,7 +528,7 @@
     "pick": 99
   },
   {
-    "player": "Josh Shaw",
+    "name": "Josh Shaw",
     "college": "USC",
     "year": 2015,
     "position": "CB",
@@ -536,7 +536,7 @@
     "pick": 120
   },
   {
-    "player": "Marcus Hardison",
+    "name": "Marcus Hardison",
     "college": "Arizona St.",
     "year": 2015,
     "position": "DE",
@@ -544,7 +544,7 @@
     "pick": 135
   },
   {
-    "player": "C.J. Uzomah",
+    "name": "C.J. Uzomah",
     "college": "Auburn",
     "year": 2015,
     "position": "TE",
@@ -552,7 +552,7 @@
     "pick": 157
   },
   {
-    "player": "Derron Smith",
+    "name": "Derron Smith",
     "college": "Fresno St.",
     "year": 2015,
     "position": "S",
@@ -560,7 +560,7 @@
     "pick": 197
   },
   {
-    "player": "Mario Alford",
+    "name": "Mario Alford",
     "college": "West Virginia",
     "year": 2015,
     "position": "WR",
@@ -568,7 +568,7 @@
     "pick": 238
   },
   {
-    "player": "Darqueze Dennard",
+    "name": "Darqueze Dennard",
     "college": "Michigan St.",
     "year": 2014,
     "position": "DB",
@@ -576,7 +576,7 @@
     "pick": 24
   },
   {
-    "player": "Jeremy Hill",
+    "name": "Jeremy Hill",
     "college": "LSU",
     "year": 2014,
     "position": "RB",
@@ -584,7 +584,7 @@
     "pick": 55
   },
   {
-    "player": "Will Clarke",
+    "name": "Will Clarke",
     "college": "West Virginia",
     "year": 2014,
     "position": "DE",
@@ -592,7 +592,7 @@
     "pick": 88
   },
   {
-    "player": "Russell Bodine",
+    "name": "Russell Bodine",
     "college": "North Carolina",
     "year": 2014,
     "position": "C",
@@ -600,7 +600,7 @@
     "pick": 111
   },
   {
-    "player": "A.J. McCarron",
+    "name": "A.J. McCarron",
     "college": "Alabama",
     "year": 2014,
     "position": "QB",
@@ -608,7 +608,7 @@
     "pick": 164
   },
   {
-    "player": "Marquis Flowers",
+    "name": "Marquis Flowers",
     "college": "Arizona",
     "year": 2014,
     "position": "LB",
@@ -616,7 +616,7 @@
     "pick": 212
   },
   {
-    "player": "James Wright",
+    "name": "James Wright",
     "college": "LSU",
     "year": 2014,
     "position": "WR",
@@ -624,7 +624,7 @@
     "pick": 239
   },
   {
-    "player": "Lavelle Westbrooks",
+    "name": "Lavelle Westbrooks",
     "college": "Georgia Southern",
     "year": 2014,
     "position": "DB",
@@ -632,7 +632,7 @@
     "pick": 252
   },
   {
-    "player": "Tyler Eifert",
+    "name": "Tyler Eifert",
     "college": "Notre Dame",
     "year": 2013,
     "position": "TE",
@@ -640,7 +640,7 @@
     "pick": 21
   },
   {
-    "player": "Giovani Bernard",
+    "name": "Giovani Bernard",
     "college": "North Carolina",
     "year": 2013,
     "position": "RB",
@@ -648,7 +648,7 @@
     "pick": 37
   },
   {
-    "player": "Margus Hunt",
+    "name": "Margus Hunt",
     "college": "SMU",
     "year": 2013,
     "position": "DE",
@@ -656,7 +656,7 @@
     "pick": 53
   },
   {
-    "player": "Shawn Williams",
+    "name": "Shawn Williams",
     "college": "Georgia",
     "year": 2013,
     "position": "DB",
@@ -664,7 +664,7 @@
     "pick": 84
   },
   {
-    "player": "Sean Porter",
+    "name": "Sean Porter",
     "college": "Texas A&M",
     "year": 2013,
     "position": "LB",
@@ -672,7 +672,7 @@
     "pick": 118
   },
   {
-    "player": "Tanner Hawkinson",
+    "name": "Tanner Hawkinson",
     "college": "Kansas",
     "year": 2013,
     "position": "T",
@@ -680,7 +680,7 @@
     "pick": 156
   },
   {
-    "player": "Rex Burkhead",
+    "name": "Rex Burkhead",
     "college": "Nebraska",
     "year": 2013,
     "position": "RB",
@@ -688,7 +688,7 @@
     "pick": 190
   },
   {
-    "player": "Cobi Hamilton",
+    "name": "Cobi Hamilton",
     "college": "Arkansas",
     "year": 2013,
     "position": "WR",
@@ -696,7 +696,7 @@
     "pick": 197
   },
   {
-    "player": "Reid Fragel",
+    "name": "Reid Fragel",
     "college": "Ohio St.",
     "year": 2013,
     "position": "OL",
@@ -704,7 +704,7 @@
     "pick": 240
   },
   {
-    "player": "T.J. Johnson",
+    "name": "T.J. Johnson",
     "college": "South Carolina",
     "year": 2013,
     "position": "C",
@@ -712,7 +712,7 @@
     "pick": 251
   },
   {
-    "player": "Dre Kirkpatrick",
+    "name": "Dre Kirkpatrick",
     "college": "Alabama",
     "year": 2012,
     "position": "DB",
@@ -720,7 +720,7 @@
     "pick": 17
   },
   {
-    "player": "Kevin Zeitler",
+    "name": "Kevin Zeitler",
     "college": "Wisconsin",
     "year": 2012,
     "position": "G",
@@ -728,7 +728,7 @@
     "pick": 27
   },
   {
-    "player": "Devon Still",
+    "name": "Devon Still",
     "college": "Penn St.",
     "year": 2012,
     "position": "DT",
@@ -736,7 +736,7 @@
     "pick": 53
   },
   {
-    "player": "Mohamed Sanu",
+    "name": "Mohamed Sanu",
     "college": "Rutgers",
     "year": 2012,
     "position": "WR",
@@ -744,7 +744,7 @@
     "pick": 83
   },
   {
-    "player": "Brandon Thompson",
+    "name": "Brandon Thompson",
     "college": "Clemson",
     "year": 2012,
     "position": "DT",
@@ -752,7 +752,7 @@
     "pick": 93
   },
   {
-    "player": "Orson Charles",
+    "name": "Orson Charles",
     "college": "Georgia",
     "year": 2012,
     "position": "TE",
@@ -760,7 +760,7 @@
     "pick": 116
   },
   {
-    "player": "Shaun Prater",
+    "name": "Shaun Prater",
     "college": "Iowa",
     "year": 2012,
     "position": "DB",
@@ -768,7 +768,7 @@
     "pick": 156
   },
   {
-    "player": "Marvin Jones",
+    "name": "Marvin Jones",
     "college": "California",
     "year": 2012,
     "position": "WR",
@@ -776,7 +776,7 @@
     "pick": 166
   },
   {
-    "player": "George Iloka",
+    "name": "George Iloka",
     "college": "Boise St.",
     "year": 2012,
     "position": "DB",
@@ -784,7 +784,7 @@
     "pick": 167
   },
   {
-    "player": "Dan Herron",
+    "name": "Dan Herron",
     "college": "Ohio St.",
     "year": 2012,
     "position": "RB",
@@ -792,7 +792,7 @@
     "pick": 191
   },
   {
-    "player": "A.J. Green",
+    "name": "A.J. Green",
     "college": "Georgia",
     "year": 2011,
     "position": "WR",
@@ -800,7 +800,7 @@
     "pick": 4
   },
   {
-    "player": "Andy Dalton",
+    "name": "Andy Dalton",
     "college": "TCU",
     "year": 2011,
     "position": "QB",
@@ -808,7 +808,7 @@
     "pick": 35
   },
   {
-    "player": "Dontay Moch",
+    "name": "Dontay Moch",
     "college": "Nevada",
     "year": 2011,
     "position": "LB",
@@ -816,7 +816,7 @@
     "pick": 66
   },
   {
-    "player": "Clint Boling",
+    "name": "Clint Boling",
     "college": "Georgia",
     "year": 2011,
     "position": "G",
@@ -824,7 +824,7 @@
     "pick": 101
   },
   {
-    "player": "Robert Sands",
+    "name": "Robert Sands",
     "college": "West Virginia",
     "year": 2011,
     "position": "DB",
@@ -832,7 +832,7 @@
     "pick": 134
   },
   {
-    "player": "Ryan Whalen",
+    "name": "Ryan Whalen",
     "college": "Stanford",
     "year": 2011,
     "position": "WR",
@@ -840,7 +840,7 @@
     "pick": 167
   },
   {
-    "player": "Korey Lindsey",
+    "name": "Korey Lindsey",
     "college": "Southern Illinois",
     "year": 2011,
     "position": "DB",
@@ -848,7 +848,7 @@
     "pick": 207
   },
   {
-    "player": "Jay Finley",
+    "name": "Jay Finley",
     "college": "Baylor",
     "year": 2011,
     "position": "RB",
@@ -856,7 +856,7 @@
     "pick": 246
   },
   {
-    "player": "Jermaine Gresham",
+    "name": "Jermaine Gresham",
     "college": "Oklahoma",
     "year": 2010,
     "position": "TE",
@@ -864,7 +864,7 @@
     "pick": 21
   },
   {
-    "player": "Carlos Dunlap",
+    "name": "Carlos Dunlap",
     "college": "Florida",
     "year": 2010,
     "position": "DE",
@@ -872,7 +872,7 @@
     "pick": 54
   },
   {
-    "player": "Jordan Shipley",
+    "name": "Jordan Shipley",
     "college": "Texas",
     "year": 2010,
     "position": "WR",
@@ -880,7 +880,7 @@
     "pick": 84
   },
   {
-    "player": "Brandon Ghee",
+    "name": "Brandon Ghee",
     "college": "Wake Forest",
     "year": 2010,
     "position": "DB",
@@ -888,7 +888,7 @@
     "pick": 96
   },
   {
-    "player": "Geno Atkins",
+    "name": "Geno Atkins",
     "college": "Georgia",
     "year": 2010,
     "position": "DT",
@@ -896,7 +896,7 @@
     "pick": 120
   },
   {
-    "player": "Roddrick Muckelroy",
+    "name": "Roddrick Muckelroy",
     "college": "Texas",
     "year": 2010,
     "position": "LB",
@@ -904,7 +904,7 @@
     "pick": 131
   },
   {
-    "player": "Otis Hudson",
+    "name": "Otis Hudson",
     "college": "Eastern Illinois",
     "year": 2010,
     "position": "T",
@@ -912,7 +912,7 @@
     "pick": 152
   },
   {
-    "player": "Dezmon Briscoe",
+    "name": "Dezmon Briscoe",
     "college": "Kansas",
     "year": 2010,
     "position": "WR",
@@ -920,7 +920,7 @@
     "pick": 191
   },
   {
-    "player": "Reggie Stephens",
+    "name": "Reggie Stephens",
     "college": "Iowa St.",
     "year": 2010,
     "position": "C",
@@ -928,7 +928,7 @@
     "pick": 228
   },
   {
-    "player": "Andre Smith",
+    "name": "Andre Smith",
     "college": "Alabama",
     "year": 2009,
     "position": "T",
@@ -936,7 +936,7 @@
     "pick": 6
   },
   {
-    "player": "Rey Maualuga",
+    "name": "Rey Maualuga",
     "college": "USC",
     "year": 2009,
     "position": "LB",
@@ -944,7 +944,7 @@
     "pick": 38
   },
   {
-    "player": "Michael Johnson",
+    "name": "Michael Johnson",
     "college": "Georgia Tech",
     "year": 2009,
     "position": "DE",
@@ -952,7 +952,7 @@
     "pick": 70
   },
   {
-    "player": "Chase Coffman",
+    "name": "Chase Coffman",
     "college": "Missouri",
     "year": 2009,
     "position": "TE",
@@ -960,7 +960,7 @@
     "pick": 98
   },
   {
-    "player": "Jonathan Luigs",
+    "name": "Jonathan Luigs",
     "college": "Arkansas",
     "year": 2009,
     "position": "C",
@@ -968,7 +968,7 @@
     "pick": 106
   },
   {
-    "player": "Kevin Huber",
+    "name": "Kevin Huber",
     "college": "Cincinnati",
     "year": 2009,
     "position": "P",
@@ -976,7 +976,7 @@
     "pick": 142
   },
   {
-    "player": "Morgan Trent",
+    "name": "Morgan Trent",
     "college": "Michigan",
     "year": 2009,
     "position": "DB",
@@ -984,7 +984,7 @@
     "pick": 179
   },
   {
-    "player": "Bernard Scott",
+    "name": "Bernard Scott",
     "college": "Abilene Christian",
     "year": 2009,
     "position": "RB",
@@ -992,7 +992,7 @@
     "pick": 209
   },
   {
-    "player": "Fui Vakapuna",
+    "name": "Fui Vakapuna",
     "college": "BYU",
     "year": 2009,
     "position": "RB",
@@ -1000,7 +1000,7 @@
     "pick": 215
   },
   {
-    "player": "Clinton McDonald",
+    "name": "Clinton McDonald",
     "college": "Memphis",
     "year": 2009,
     "position": "DT",
@@ -1008,7 +1008,7 @@
     "pick": 249
   },
   {
-    "player": "Freddie Brown",
+    "name": "Freddie Brown",
     "college": "Utah",
     "year": 2009,
     "position": "WR",
@@ -1016,7 +1016,7 @@
     "pick": 252
   },
   {
-    "player": "Keith Rivers",
+    "name": "Keith Rivers",
     "college": "USC",
     "year": 2008,
     "position": "LB",
@@ -1024,7 +1024,7 @@
     "pick": 9
   },
   {
-    "player": "Jerome Simpson",
+    "name": "Jerome Simpson",
     "college": "Coastal Carolina",
     "year": 2008,
     "position": "WR",
@@ -1032,7 +1032,7 @@
     "pick": 46
   },
   {
-    "player": "Pat Sims",
+    "name": "Pat Sims",
     "college": "Auburn",
     "year": 2008,
     "position": "DT",
@@ -1040,7 +1040,7 @@
     "pick": 77
   },
   {
-    "player": "Andre Caldwell",
+    "name": "Andre Caldwell",
     "college": "Florida",
     "year": 2008,
     "position": "WR",
@@ -1048,7 +1048,7 @@
     "pick": 97
   },
   {
-    "player": "Anthony Collins",
+    "name": "Anthony Collins",
     "college": "Kansas",
     "year": 2008,
     "position": "T",
@@ -1056,7 +1056,7 @@
     "pick": 112
   },
   {
-    "player": "Jason Shirley",
+    "name": "Jason Shirley",
     "college": "Fresno St.",
     "year": 2008,
     "position": "DT",
@@ -1064,7 +1064,7 @@
     "pick": 145
   },
   {
-    "player": "Corey Lynch",
+    "name": "Corey Lynch",
     "college": "Appalachian St.",
     "year": 2008,
     "position": "DB",
@@ -1072,7 +1072,7 @@
     "pick": 177
   },
   {
-    "player": "Matt Sherry",
+    "name": "Matt Sherry",
     "college": "Villanova",
     "year": 2008,
     "position": "TE",
@@ -1080,7 +1080,7 @@
     "pick": 207
   },
   {
-    "player": "Angelo Craig",
+    "name": "Angelo Craig",
     "college": "Cincinnati",
     "year": 2008,
     "position": "LB",
@@ -1088,7 +1088,7 @@
     "pick": 244
   },
   {
-    "player": "Mario Urrutia",
+    "name": "Mario Urrutia",
     "college": "Louisville",
     "year": 2008,
     "position": "WR",
@@ -1096,7 +1096,7 @@
     "pick": 246
   },
   {
-    "player": "Leon Hall",
+    "name": "Leon Hall",
     "college": "Michigan",
     "year": 2007,
     "position": "DB",
@@ -1104,7 +1104,7 @@
     "pick": 18
   },
   {
-    "player": "Kenny Irons",
+    "name": "Kenny Irons",
     "college": "Auburn",
     "year": 2007,
     "position": "RB",
@@ -1112,7 +1112,7 @@
     "pick": 49
   },
   {
-    "player": "Marvin White",
+    "name": "Marvin White",
     "college": "TCU",
     "year": 2007,
     "position": "DB",
@@ -1120,7 +1120,7 @@
     "pick": 114
   },
   {
-    "player": "Jeff Rowe",
+    "name": "Jeff Rowe",
     "college": "Nevada",
     "year": 2007,
     "position": "QB",
@@ -1128,7 +1128,7 @@
     "pick": 151
   },
   {
-    "player": "Matt Toeaina",
+    "name": "Matt Toeaina",
     "college": "Oregon",
     "year": 2007,
     "position": "DT",
@@ -1136,7 +1136,7 @@
     "pick": 187
   },
   {
-    "player": "Dan Santucci",
+    "name": "Dan Santucci",
     "college": "Notre Dame",
     "year": 2007,
     "position": "G",
@@ -1144,7 +1144,7 @@
     "pick": 230
   },
   {
-    "player": "Nedu Ndukwe",
+    "name": "Nedu Ndukwe",
     "college": "Notre Dame",
     "year": 2007,
     "position": "DB",
@@ -1152,7 +1152,7 @@
     "pick": 253
   },
   {
-    "player": "Johnathan Joseph",
+    "name": "Johnathan Joseph",
     "college": "South Carolina",
     "year": 2006,
     "position": "DB",
@@ -1160,7 +1160,7 @@
     "pick": 24
   },
   {
-    "player": "Andrew Whitworth",
+    "name": "Andrew Whitworth",
     "college": "LSU",
     "year": 2006,
     "position": "T",
@@ -1168,7 +1168,7 @@
     "pick": 55
   },
   {
-    "player": "Frostee Rucker",
+    "name": "Frostee Rucker",
     "college": "USC",
     "year": 2006,
     "position": "DE",
@@ -1176,7 +1176,7 @@
     "pick": 91
   },
   {
-    "player": "Domata Peko",
+    "name": "Domata Peko",
     "college": "Michigan St.",
     "year": 2006,
     "position": "DT",
@@ -1184,7 +1184,7 @@
     "pick": 123
   },
   {
-    "player": "A.J. Nicholson",
+    "name": "A.J. Nicholson",
     "college": "Florida St.",
     "year": 2006,
     "position": "LB",
@@ -1192,7 +1192,7 @@
     "pick": 157
   },
   {
-    "player": "Reggie McNeal",
+    "name": "Reggie McNeal",
     "college": "Texas A&M",
     "year": 2006,
     "position": "QB",
@@ -1200,7 +1200,7 @@
     "pick": 193
   },
   {
-    "player": "Ethan Kilmer",
+    "name": "Ethan Kilmer",
     "college": "Penn St.",
     "year": 2006,
     "position": "WR",
@@ -1208,7 +1208,7 @@
     "pick": 209
   },
   {
-    "player": "Bennie Brazell",
+    "name": "Bennie Brazell",
     "college": "LSU",
     "year": 2006,
     "position": "WR",
@@ -1216,7 +1216,7 @@
     "pick": 231
   },
   {
-    "player": "David Pollack",
+    "name": "David Pollack",
     "college": "Georgia",
     "year": 2005,
     "position": "LB",
@@ -1224,7 +1224,7 @@
     "pick": 17
   },
   {
-    "player": "Odell Thurman",
+    "name": "Odell Thurman",
     "college": "Georgia",
     "year": 2005,
     "position": "LB",
@@ -1232,7 +1232,7 @@
     "pick": 48
   },
   {
-    "player": "Chris Henry",
+    "name": "Chris Henry",
     "college": "West Virginia",
     "year": 2005,
     "position": "WR",
@@ -1240,7 +1240,7 @@
     "pick": 83
   },
   {
-    "player": "Eric Ghiaciuc",
+    "name": "Eric Ghiaciuc",
     "college": "Central Michigan",
     "year": 2005,
     "position": "C",
@@ -1248,7 +1248,7 @@
     "pick": 119
   },
   {
-    "player": "Adam Kieft",
+    "name": "Adam Kieft",
     "college": "Central Michigan",
     "year": 2005,
     "position": "T",
@@ -1256,7 +1256,7 @@
     "pick": 153
   },
   {
-    "player": "Tab Perry",
+    "name": "Tab Perry",
     "college": "UCLA",
     "year": 2005,
     "position": "WR",
@@ -1264,7 +1264,7 @@
     "pick": 190
   },
   {
-    "player": "Jonathan Fanene",
+    "name": "Jonathan Fanene",
     "college": "Utah",
     "year": 2005,
     "position": "DE",
@@ -1272,7 +1272,7 @@
     "pick": 233
   },
   {
-    "player": "Chris Perry",
+    "name": "Chris Perry",
     "college": "Michigan",
     "year": 2004,
     "position": "RB",
@@ -1280,7 +1280,7 @@
     "pick": 26
   },
   {
-    "player": "Keiwan Ratliff",
+    "name": "Keiwan Ratliff",
     "college": "Florida",
     "year": 2004,
     "position": "DB",
@@ -1288,7 +1288,7 @@
     "pick": 49
   },
   {
-    "player": "Madieu Williams",
+    "name": "Madieu Williams",
     "college": "Maryland",
     "year": 2004,
     "position": "DB",
@@ -1296,7 +1296,7 @@
     "pick": 56
   },
   {
-    "player": "Caleb Miller",
+    "name": "Caleb Miller",
     "college": "Arkansas",
     "year": 2004,
     "position": "LB",
@@ -1304,7 +1304,7 @@
     "pick": 80
   },
   {
-    "player": "Landon Johnson",
+    "name": "Landon Johnson",
     "college": "Purdue",
     "year": 2004,
     "position": "LB",
@@ -1312,7 +1312,7 @@
     "pick": 96
   },
   {
-    "player": "Matthias Askew",
+    "name": "Matthias Askew",
     "college": "Michigan St.",
     "year": 2004,
     "position": "DT",
@@ -1320,7 +1320,7 @@
     "pick": 114
   },
   {
-    "player": "Robert Geathers",
+    "name": "Robert Geathers",
     "college": "Georgia",
     "year": 2004,
     "position": "DE",
@@ -1328,7 +1328,7 @@
     "pick": 117
   },
   {
-    "player": "Stacy Andrews",
+    "name": "Stacy Andrews",
     "college": "Mississippi",
     "year": 2004,
     "position": "T",
@@ -1336,7 +1336,7 @@
     "pick": 123
   },
   {
-    "player": "Maurice Mann",
+    "name": "Maurice Mann",
     "college": "Nevada",
     "year": 2004,
     "position": "WR",
@@ -1344,7 +1344,7 @@
     "pick": 149
   },
   {
-    "player": "Greg Brooks",
+    "name": "Greg Brooks",
     "college": "Southern Miss",
     "year": 2004,
     "position": "DB",
@@ -1352,7 +1352,7 @@
     "pick": 183
   },
   {
-    "player": "Casey Bramlet",
+    "name": "Casey Bramlet",
     "college": "Wyoming",
     "year": 2004,
     "position": "QB",
@@ -1360,7 +1360,7 @@
     "pick": 218
   },
   {
-    "player": "Carson Palmer",
+    "name": "Carson Palmer",
     "college": "USC",
     "year": 2003,
     "position": "QB",
@@ -1368,7 +1368,7 @@
     "pick": 1
   },
   {
-    "player": "Eric Steinbach",
+    "name": "Eric Steinbach",
     "college": "Iowa",
     "year": 2003,
     "position": "G",
@@ -1376,7 +1376,7 @@
     "pick": 33
   },
   {
-    "player": "Kelley Washington",
+    "name": "Kelley Washington",
     "college": "Tennessee",
     "year": 2003,
     "position": "WR",
@@ -1384,7 +1384,7 @@
     "pick": 65
   },
   {
-    "player": "Dennis Weathersby",
+    "name": "Dennis Weathersby",
     "college": "Oregon St.",
     "year": 2003,
     "position": "DB",
@@ -1392,7 +1392,7 @@
     "pick": 98
   },
   {
-    "player": "Jeremi Johnson",
+    "name": "Jeremi Johnson",
     "college": "Western Kentucky",
     "year": 2003,
     "position": "FB",
@@ -1400,7 +1400,7 @@
     "pick": 118
   },
   {
-    "player": "Khalid Abdullah",
+    "name": "Khalid Abdullah",
     "college": "Mars Hill",
     "year": 2003,
     "position": "LB",
@@ -1408,7 +1408,7 @@
     "pick": 136
   },
   {
-    "player": "Langston Moore",
+    "name": "Langston Moore",
     "college": "South Carolina",
     "year": 2003,
     "position": "DT",
@@ -1416,7 +1416,7 @@
     "pick": 174
   },
   {
-    "player": "Scott Kooistra",
+    "name": "Scott Kooistra",
     "college": "North Carolina St.",
     "year": 2003,
     "position": "T",
@@ -1424,7 +1424,7 @@
     "pick": 215
   },
   {
-    "player": "Elton Patterson",
+    "name": "Elton Patterson",
     "college": "Central Florida",
     "year": 2003,
     "position": "DE",
@@ -1432,7 +1432,7 @@
     "pick": 259
   },
   {
-    "player": "Levi Jones",
+    "name": "Levi Jones",
     "college": "Arizona St.",
     "year": 2002,
     "position": "T",
@@ -1440,7 +1440,7 @@
     "pick": 10
   },
   {
-    "player": "Lamont Thompson",
+    "name": "Lamont Thompson",
     "college": "Washington St.",
     "year": 2002,
     "position": "DB",
@@ -1448,7 +1448,7 @@
     "pick": 41
   },
   {
-    "player": "Matt Schobel",
+    "name": "Matt Schobel",
     "college": "TCU",
     "year": 2002,
     "position": "TE",
@@ -1456,7 +1456,7 @@
     "pick": 67
   },
   {
-    "player": "Travis Dorsch",
+    "name": "Travis Dorsch",
     "college": "Purdue",
     "year": 2002,
     "position": "P",
@@ -1464,7 +1464,7 @@
     "pick": 109
   },
   {
-    "player": "Marquand Manuel",
+    "name": "Marquand Manuel",
     "college": "Florida",
     "year": 2002,
     "position": "DB",
@@ -1472,7 +1472,7 @@
     "pick": 181
   },
   {
-    "player": "Joey Evans",
+    "name": "Joey Evans",
     "college": "North Carolina",
     "year": 2002,
     "position": "DE",
@@ -1480,7 +1480,7 @@
     "pick": 219
   },
   {
-    "player": "Justin Smith",
+    "name": "Justin Smith",
     "college": "Missouri",
     "year": 2001,
     "position": "DE",
@@ -1488,7 +1488,7 @@
     "pick": 4
   },
   {
-    "player": "Chad Johnson",
+    "name": "Chad Johnson",
     "college": "Oregon St.",
     "year": 2001,
     "position": "WR",
@@ -1496,7 +1496,7 @@
     "pick": 36
   },
   {
-    "player": "Sean Brewer",
+    "name": "Sean Brewer",
     "college": "San Jose St.",
     "year": 2001,
     "position": "TE",
@@ -1504,7 +1504,7 @@
     "pick": 66
   },
   {
-    "player": "Rudi Johnson",
+    "name": "Rudi Johnson",
     "college": "Auburn",
     "year": 2001,
     "position": "RB",
@@ -1512,7 +1512,7 @@
     "pick": 100
   },
   {
-    "player": "Victor Leyva",
+    "name": "Victor Leyva",
     "college": "Arizona St.",
     "year": 2001,
     "position": "G",
@@ -1520,7 +1520,7 @@
     "pick": 135
   },
   {
-    "player": "Riall Johnson",
+    "name": "Riall Johnson",
     "college": "Stanford",
     "year": 2001,
     "position": "LB",
@@ -1528,7 +1528,7 @@
     "pick": 168
   },
   {
-    "player": "T.J. Houshmandzadeh",
+    "name": "T.J. Houshmandzadeh",
     "college": "Oregon St.",
     "year": 2001,
     "position": "WR",
@@ -1536,7 +1536,7 @@
     "pick": 204
   },
   {
-    "player": "Peter Warrick",
+    "name": "Peter Warrick",
     "college": "Florida St.",
     "year": 2000,
     "position": "WR",
@@ -1544,7 +1544,7 @@
     "pick": 4
   },
   {
-    "player": "Mark Roman",
+    "name": "Mark Roman",
     "college": "LSU",
     "year": 2000,
     "position": "DB",
@@ -1552,7 +1552,7 @@
     "pick": 34
   },
   {
-    "player": "Ron Dugans",
+    "name": "Ron Dugans",
     "college": "Florida St.",
     "year": 2000,
     "position": "WR",
@@ -1560,7 +1560,7 @@
     "pick": 66
   },
   {
-    "player": "Curtis Keaton",
+    "name": "Curtis Keaton",
     "college": "James Madison",
     "year": 2000,
     "position": "RB",
@@ -1568,7 +1568,7 @@
     "pick": 97
   },
   {
-    "player": "Robert Bean",
+    "name": "Robert Bean",
     "college": "Mississippi St.",
     "year": 2000,
     "position": "DB",
@@ -1576,7 +1576,7 @@
     "pick": 133
   },
   {
-    "player": "Neil Rackers",
+    "name": "Neil Rackers",
     "college": "Illinois",
     "year": 2000,
     "position": "K",
@@ -1584,7 +1584,7 @@
     "pick": 169
   },
   {
-    "player": "Brad St. Louis",
+    "name": "Brad St. Louis",
     "college": "Missouri State",
     "year": 2000,
     "position": "TE",
@@ -1592,7 +1592,7 @@
     "pick": 210
   },
   {
-    "player": "Akili Smith",
+    "name": "Akili Smith",
     "college": "Oregon",
     "year": 1999,
     "position": "QB",
@@ -1600,7 +1600,7 @@
     "pick": 3
   },
   {
-    "player": "Charles Fisher",
+    "name": "Charles Fisher",
     "college": "West Virginia",
     "year": 1999,
     "position": "DB",
@@ -1608,7 +1608,7 @@
     "pick": 33
   },
   {
-    "player": "Cory Hall",
+    "name": "Cory Hall",
     "college": "Fresno St.",
     "year": 1999,
     "position": "DB",
@@ -1616,7 +1616,7 @@
     "pick": 65
   },
   {
-    "player": "Craig Yeast",
+    "name": "Craig Yeast",
     "college": "Kentucky",
     "year": 1999,
     "position": "WR",
@@ -1624,7 +1624,7 @@
     "pick": 98
   },
   {
-    "player": "Nick Luchey",
+    "name": "Nick Luchey",
     "college": "Miami (FL)",
     "year": 1999,
     "position": "FB",
@@ -1632,7 +1632,7 @@
     "pick": 135
   },
   {
-    "player": "Kelly Gregg",
+    "name": "Kelly Gregg",
     "college": "Oklahoma",
     "year": 1999,
     "position": "NT",
@@ -1640,7 +1640,7 @@
     "pick": 173
   },
   {
-    "player": "Tony Coats",
+    "name": "Tony Coats",
     "college": "Washington",
     "year": 1999,
     "position": "G",
@@ -1648,7 +1648,7 @@
     "pick": 209
   },
   {
-    "player": "Scott Covington",
+    "name": "Scott Covington",
     "college": "Miami (FL)",
     "year": 1999,
     "position": "QB",
@@ -1656,7 +1656,7 @@
     "pick": 245
   },
   {
-    "player": "Donald Broomfield",
+    "name": "Donald Broomfield",
     "college": "Clemson",
     "year": 1999,
     "position": "DT",
@@ -1664,7 +1664,7 @@
     "pick": 249
   },
   {
-    "player": "Takeo Spikes",
+    "name": "Takeo Spikes",
     "college": "Auburn",
     "year": 1998,
     "position": "LB",
@@ -1672,7 +1672,7 @@
     "pick": 13
   },
   {
-    "player": "Brian Simmons",
+    "name": "Brian Simmons",
     "college": "North Carolina",
     "year": 1998,
     "position": "LB",
@@ -1680,7 +1680,7 @@
     "pick": 17
   },
   {
-    "player": "Artrell Hawkins",
+    "name": "Artrell Hawkins",
     "college": "Cincinnati",
     "year": 1998,
     "position": "DB",
@@ -1688,7 +1688,7 @@
     "pick": 43
   },
   {
-    "player": "Steve Foley",
+    "name": "Steve Foley",
     "college": "La-Monroe",
     "year": 1998,
     "position": "LB",
@@ -1696,7 +1696,7 @@
     "pick": 75
   },
   {
-    "player": "Mike Goff",
+    "name": "Mike Goff",
     "college": "Iowa",
     "year": 1998,
     "position": "G",
@@ -1704,7 +1704,7 @@
     "pick": 78
   },
   {
-    "player": "Glen Steele",
+    "name": "Glen Steele",
     "college": "Michigan",
     "year": 1998,
     "position": "DT",
@@ -1712,7 +1712,7 @@
     "pick": 105
   },
   {
-    "player": "Jason Tucker",
+    "name": "Jason Tucker",
     "college": "TCU",
     "year": 1998,
     "position": "WR",
@@ -1720,7 +1720,7 @@
     "pick": 167
   },
   {
-    "player": "Marcus Parker",
+    "name": "Marcus Parker",
     "college": "Virginia Tech",
     "year": 1998,
     "position": "RB",
@@ -1728,7 +1728,7 @@
     "pick": 202
   },
   {
-    "player": "Damian Vaughn",
+    "name": "Damian Vaughn",
     "college": "Miami (OH)",
     "year": 1998,
     "position": "TE",
@@ -1736,7 +1736,7 @@
     "pick": 222
   },
   {
-    "player": "Reinard Wilson",
+    "name": "Reinard Wilson",
     "college": "Florida St.",
     "year": 1997,
     "position": "LB",
@@ -1744,7 +1744,7 @@
     "pick": 14
   },
   {
-    "player": "Corey Dillon",
+    "name": "Corey Dillon",
     "college": "Washington",
     "year": 1997,
     "position": "RB",
@@ -1752,7 +1752,7 @@
     "pick": 43
   },
   {
-    "player": "Rod Payne",
+    "name": "Rod Payne",
     "college": "Michigan",
     "year": 1997,
     "position": "C",
@@ -1760,7 +1760,7 @@
     "pick": 76
   },
   {
-    "player": "Tremain Mack",
+    "name": "Tremain Mack",
     "college": "Miami (FL)",
     "year": 1997,
     "position": "DB",
@@ -1768,7 +1768,7 @@
     "pick": 111
   },
   {
-    "player": "Andre Purvis",
+    "name": "Andre Purvis",
     "college": "North Carolina",
     "year": 1997,
     "position": "DT",
@@ -1776,7 +1776,7 @@
     "pick": 144
   },
   {
-    "player": "Canute Curtis",
+    "name": "Canute Curtis",
     "college": "West Virginia",
     "year": 1997,
     "position": "LB",
@@ -1784,7 +1784,7 @@
     "pick": 176
   },
   {
-    "player": "William Carr",
+    "name": "William Carr",
     "college": "Michigan",
     "year": 1997,
     "position": "DT",
@@ -1792,7 +1792,7 @@
     "pick": 217
   },
   {
-    "player": "Willie Anderson",
+    "name": "Willie Anderson",
     "college": "Auburn",
     "year": 1996,
     "position": "T",
@@ -1800,7 +1800,7 @@
     "pick": 10
   },
   {
-    "player": "Marco Battaglia",
+    "name": "Marco Battaglia",
     "college": "Rutgers",
     "year": 1996,
     "position": "TE",
@@ -1808,7 +1808,7 @@
     "pick": 39
   },
   {
-    "player": "Ken Blackman",
+    "name": "Ken Blackman",
     "college": "Illinois",
     "year": 1996,
     "position": "G",
@@ -1816,7 +1816,7 @@
     "pick": 69
   },
   {
-    "player": "Jevon Langford",
+    "name": "Jevon Langford",
     "college": "Oklahoma St.",
     "year": 1996,
     "position": "DE",
@@ -1824,7 +1824,7 @@
     "pick": 108
   },
   {
-    "player": "Greg Myers",
+    "name": "Greg Myers",
     "college": "Colorado St.",
     "year": 1996,
     "position": "DB",
@@ -1832,7 +1832,7 @@
     "pick": 144
   },
   {
-    "player": "Tom Tumulty",
+    "name": "Tom Tumulty",
     "college": "Pittsburgh",
     "year": 1996,
     "position": "LB",
@@ -1840,7 +1840,7 @@
     "pick": 178
   },
   {
-    "player": "Rod Jones",
+    "name": "Rod Jones",
     "college": "Kansas",
     "year": 1996,
     "position": "T",
@@ -1848,7 +1848,7 @@
     "pick": 219
   },
   {
-    "player": "Ki-Jana Carter",
+    "name": "Ki-Jana Carter",
     "college": "Penn St.",
     "year": 1995,
     "position": "RB",
@@ -1856,7 +1856,7 @@
     "pick": 1
   },
   {
-    "player": "Melvin Tuten",
+    "name": "Melvin Tuten",
     "college": "Syracuse",
     "year": 1995,
     "position": "T",
@@ -1864,7 +1864,7 @@
     "pick": 69
   },
   {
-    "player": "Sam Shade",
+    "name": "Sam Shade",
     "college": "Alabama",
     "year": 1995,
     "position": "DB",
@@ -1872,7 +1872,7 @@
     "pick": 102
   },
   {
-    "player": "David Dunn",
+    "name": "David Dunn",
     "college": "Fresno St.",
     "year": 1995,
     "position": "WR",
@@ -1880,7 +1880,7 @@
     "pick": 139
   },
   {
-    "player": "Ryan Grigson",
+    "name": "Ryan Grigson",
     "college": "Purdue",
     "year": 1995,
     "position": "T",
@@ -1888,7 +1888,7 @@
     "pick": 175
   },
   {
-    "player": "John Walsh",
+    "name": "John Walsh",
     "college": "BYU",
     "year": 1995,
     "position": "QB",
@@ -1896,7 +1896,7 @@
     "pick": 213
   },
   {
-    "player": "Dan Wilkinson",
+    "name": "Dan Wilkinson",
     "college": "Ohio St.",
     "year": 1994,
     "position": "DT",
@@ -1904,7 +1904,7 @@
     "pick": 1
   },
   {
-    "player": "Darnay Scott",
+    "name": "Darnay Scott",
     "college": "San Diego St.",
     "year": 1994,
     "position": "WR",
@@ -1912,7 +1912,7 @@
     "pick": 30
   },
   {
-    "player": "Jeff Cothran",
+    "name": "Jeff Cothran",
     "college": "Ohio St.",
     "year": 1994,
     "position": "FB",
@@ -1920,7 +1920,7 @@
     "pick": 66
   },
   {
-    "player": "Steve Shine",
+    "name": "Steve Shine",
     "college": "Northwestern",
     "year": 1994,
     "position": "LB",
@@ -1928,7 +1928,7 @@
     "pick": 86
   },
   {
-    "player": "Corey Sawyer",
+    "name": "Corey Sawyer",
     "college": "Florida St.",
     "year": 1994,
     "position": "DB",
@@ -1936,7 +1936,7 @@
     "pick": 104
   },
   {
-    "player": "Trent Pollard",
+    "name": "Trent Pollard",
     "college": "East. Washington",
     "year": 1994,
     "position": "T",
@@ -1944,7 +1944,7 @@
     "pick": 132
   },
   {
-    "player": "Kimo von Oelhoffen",
+    "name": "Kimo von Oelhoffen",
     "college": "Boise St.",
     "year": 1994,
     "position": "DE",
@@ -1952,7 +1952,7 @@
     "pick": 162
   },
   {
-    "player": "Jerry Reynolds",
+    "name": "Jerry Reynolds",
     "college": "UNLV",
     "year": 1994,
     "position": "T",
@@ -1960,7 +1960,7 @@
     "pick": 184
   },
   {
-    "player": "Ramondo Stallings",
+    "name": "Ramondo Stallings",
     "college": "San Diego St.",
     "year": 1994,
     "position": "DE",
@@ -1968,7 +1968,7 @@
     "pick": 195
   },
   {
-    "player": "John Copeland",
+    "name": "John Copeland",
     "college": "Alabama",
     "year": 1993,
     "position": "DE",
@@ -1976,7 +1976,7 @@
     "pick": 5
   },
   {
-    "player": "Tony McGee",
+    "name": "Tony McGee",
     "college": "Michigan",
     "year": 1993,
     "position": "TE",
@@ -1984,7 +1984,7 @@
     "pick": 37
   },
   {
-    "player": "Steve Tovar",
+    "name": "Steve Tovar",
     "college": "Ohio St.",
     "year": 1993,
     "position": "LB",
@@ -1992,7 +1992,7 @@
     "pick": 59
   },
   {
-    "player": "Ty Parten",
+    "name": "Ty Parten",
     "college": "Arizona",
     "year": 1993,
     "position": "DE",
@@ -2000,7 +2000,7 @@
     "pick": 63
   },
   {
-    "player": "Marcello Simmons",
+    "name": "Marcello Simmons",
     "college": "SMU",
     "year": 1993,
     "position": "DB",
@@ -2008,7 +2008,7 @@
     "pick": 90
   },
   {
-    "player": "Forey Duckett",
+    "name": "Forey Duckett",
     "college": "Nevada",
     "year": 1993,
     "position": "DB",
@@ -2016,7 +2016,7 @@
     "pick": 117
   },
   {
-    "player": "Tom Scott",
+    "name": "Tom Scott",
     "college": "East Carolina",
     "year": 1993,
     "position": "T",
@@ -2024,7 +2024,7 @@
     "pick": 148
   },
   {
-    "player": "Lance Gunn",
+    "name": "Lance Gunn",
     "college": "Texas",
     "year": 1993,
     "position": "DB",
@@ -2032,7 +2032,7 @@
     "pick": 175
   },
   {
-    "player": "Doug Pelfrey",
+    "name": "Doug Pelfrey",
     "college": "Kentucky",
     "year": 1993,
     "position": "K",
@@ -2040,7 +2040,7 @@
     "pick": 202
   },
   {
-    "player": "David Klingler",
+    "name": "David Klingler",
     "college": "Houston",
     "year": 1992,
     "position": "QB",
@@ -2048,7 +2048,7 @@
     "pick": 6
   },
   {
-    "player": "Darryl Williams",
+    "name": "Darryl Williams",
     "college": "Miami (FL)",
     "year": 1992,
     "position": "DB",
@@ -2056,7 +2056,7 @@
     "pick": 28
   },
   {
-    "player": "Carl Pickens",
+    "name": "Carl Pickens",
     "college": "Tennessee",
     "year": 1992,
     "position": "WR",
@@ -2064,7 +2064,7 @@
     "pick": 31
   },
   {
-    "player": "Leonard Wheeler",
+    "name": "Leonard Wheeler",
     "college": "Troy",
     "year": 1992,
     "position": "DB",
@@ -2072,7 +2072,7 @@
     "pick": 84
   },
   {
-    "player": "Ricardo McDonald",
+    "name": "Ricardo McDonald",
     "college": "Pittsburgh",
     "year": 1992,
     "position": "LB",
@@ -2080,7 +2080,7 @@
     "pick": 88
   },
   {
-    "player": "Craig Thompson",
+    "name": "Craig Thompson",
     "college": "North Carolina A&T",
     "year": 1992,
     "position": "TE",
@@ -2088,7 +2088,7 @@
     "pick": 115
   },
   {
-    "player": "Chris Burns",
+    "name": "Chris Burns",
     "college": "Middle Tenn. St.",
     "year": 1992,
     "position": "DT",
@@ -2096,7 +2096,7 @@
     "pick": 142
   },
   {
-    "player": "Lance Olberding",
+    "name": "Lance Olberding",
     "college": "Iowa",
     "year": 1992,
     "position": "T",
@@ -2104,7 +2104,7 @@
     "pick": 172
   },
   {
-    "player": "Roosevelt Nix",
+    "name": "Roosevelt Nix",
     "college": "Central State (OH)",
     "year": 1992,
     "position": "DE",
@@ -2112,7 +2112,7 @@
     "pick": 199
   },
   {
-    "player": "Ostell Miles",
+    "name": "Ostell Miles",
     "college": "Houston",
     "year": 1992,
     "position": "RB",
@@ -2120,7 +2120,7 @@
     "pick": 226
   },
   {
-    "player": "Horace Smith",
+    "name": "Horace Smith",
     "college": "Oregon Tech",
     "year": 1992,
     "position": "DB",
@@ -2128,7 +2128,7 @@
     "pick": 256
   },
   {
-    "player": "John Earle",
+    "name": "John Earle",
     "college": "Western Illinois",
     "year": 1992,
     "position": "T",
@@ -2136,7 +2136,7 @@
     "pick": 283
   },
   {
-    "player": "Eric Shaw",
+    "name": "Eric Shaw",
     "college": "Louisiana Tech",
     "year": 1992,
     "position": "LB",
@@ -2144,7 +2144,7 @@
     "pick": 310
   },
   {
-    "player": "Alfred Williams",
+    "name": "Alfred Williams",
     "college": "Colorado",
     "year": 1991,
     "position": "DE",
@@ -2152,7 +2152,7 @@
     "pick": 18
   },
   {
-    "player": "Lamar Rogers",
+    "name": "Lamar Rogers",
     "college": "Auburn",
     "year": 1991,
     "position": "DE",
@@ -2160,7 +2160,7 @@
     "pick": 52
   },
   {
-    "player": "Bob Dahl",
+    "name": "Bob Dahl",
     "college": "Notre Dame",
     "year": 1991,
     "position": "G",
@@ -2168,7 +2168,7 @@
     "pick": 72
   },
   {
-    "player": "Donald Hollas",
+    "name": "Donald Hollas",
     "college": "Rice",
     "year": 1991,
     "position": "QB",
@@ -2176,7 +2176,7 @@
     "pick": 99
   },
   {
-    "player": "Rob Carpenter",
+    "name": "Rob Carpenter",
     "college": "Syracuse",
     "year": 1991,
     "position": "WR",
@@ -2184,7 +2184,7 @@
     "pick": 109
   },
   {
-    "player": "Mike Arthur",
+    "name": "Mike Arthur",
     "college": "Texas A&M",
     "year": 1991,
     "position": "C",
@@ -2192,7 +2192,7 @@
     "pick": 130
   },
   {
-    "player": "Richard Fain",
+    "name": "Richard Fain",
     "college": "Florida",
     "year": 1991,
     "position": "DB",
@@ -2200,7 +2200,7 @@
     "pick": 157
   },
   {
-    "player": "Fernandus Vinson",
+    "name": "Fernandus Vinson",
     "college": "North Carolina St.",
     "year": 1991,
     "position": "DB",
@@ -2208,7 +2208,7 @@
     "pick": 184
   },
   {
-    "player": "Mike Dingle",
+    "name": "Mike Dingle",
     "college": "South Carolina",
     "year": 1991,
     "position": "RB",
@@ -2216,7 +2216,7 @@
     "pick": 211
   },
   {
-    "player": "Shane Garrett",
+    "name": "Shane Garrett",
     "college": "Texas A&M",
     "year": 1991,
     "position": "WR",
@@ -2224,7 +2224,7 @@
     "pick": 241
   },
   {
-    "player": "Jim Lavin",
+    "name": "Jim Lavin",
     "college": "Georgia Tech",
     "year": 1991,
     "position": "G",
@@ -2232,7 +2232,7 @@
     "pick": 268
   },
   {
-    "player": "Chris Smith",
+    "name": "Chris Smith",
     "college": "BYU",
     "year": 1991,
     "position": "TE",
@@ -2240,7 +2240,7 @@
     "pick": 295
   },
   {
-    "player": "Antoine Bennett",
+    "name": "Antoine Bennett",
     "college": "Florida A&M",
     "year": 1991,
     "position": "DB",
@@ -2248,7 +2248,7 @@
     "pick": 322
   },
   {
-    "player": "James Francis",
+    "name": "James Francis",
     "college": "Baylor",
     "year": 1990,
     "position": "LB",
@@ -2256,7 +2256,7 @@
     "pick": 12
   },
   {
-    "player": "Harold Green",
+    "name": "Harold Green",
     "college": "South Carolina",
     "year": 1990,
     "position": "RB",
@@ -2264,7 +2264,7 @@
     "pick": 38
   },
   {
-    "player": "Bernard Clark",
+    "name": "Bernard Clark",
     "college": "Miami (FL)",
     "year": 1990,
     "position": "LB",
@@ -2272,7 +2272,7 @@
     "pick": 65
   },
   {
-    "player": "Mike Brennan",
+    "name": "Mike Brennan",
     "college": "Notre Dame",
     "year": 1990,
     "position": "T",
@@ -2280,7 +2280,7 @@
     "pick": 91
   },
   {
-    "player": "Lynn James",
+    "name": "Lynn James",
     "college": "Arizona St.",
     "year": 1990,
     "position": "WR",
@@ -2288,7 +2288,7 @@
     "pick": 122
   },
   {
-    "player": "Don Odegard",
+    "name": "Don Odegard",
     "college": "UNLV",
     "year": 1990,
     "position": "DB",
@@ -2296,7 +2296,7 @@
     "pick": 150
   },
   {
-    "player": "Craig Ogletree",
+    "name": "Craig Ogletree",
     "college": "Auburn",
     "year": 1990,
     "position": "LB",
@@ -2304,7 +2304,7 @@
     "pick": 177
   },
   {
-    "player": "Doug Wellsandt",
+    "name": "Doug Wellsandt",
     "college": "Washington St.",
     "year": 1990,
     "position": "TE",
@@ -2312,7 +2312,7 @@
     "pick": 204
   },
   {
-    "player": "Mitchell Price",
+    "name": "Mitchell Price",
     "college": "Tulane",
     "year": 1990,
     "position": "DB",
@@ -2320,7 +2320,7 @@
     "pick": 234
   },
   {
-    "player": "Eric Crigler",
+    "name": "Eric Crigler",
     "college": "Murray St.",
     "year": 1990,
     "position": "T",
@@ -2328,7 +2328,7 @@
     "pick": 261
   },
   {
-    "player": "Tim O'Connor",
+    "name": "Tim O'Connor",
     "college": "Virginia",
     "year": 1990,
     "position": "T",
@@ -2336,7 +2336,7 @@
     "pick": 288
   },
   {
-    "player": "Andre Riley",
+    "name": "Andre Riley",
     "college": "Washington",
     "year": 1990,
     "position": "WR",
@@ -2344,7 +2344,7 @@
     "pick": 314
   },
   {
-    "player": "Eric Ball",
+    "name": "Eric Ball",
     "college": "UCLA",
     "year": 1989,
     "position": "RB",
@@ -2352,7 +2352,7 @@
     "pick": 35
   },
   {
-    "player": "Freddie Childress",
+    "name": "Freddie Childress",
     "college": "Arkansas",
     "year": 1989,
     "position": "G",
@@ -2360,7 +2360,7 @@
     "pick": 55
   },
   {
-    "player": "Erik Wilhelm",
+    "name": "Erik Wilhelm",
     "college": "Oregon St.",
     "year": 1989,
     "position": "QB",
@@ -2368,7 +2368,7 @@
     "pick": 83
   },
   {
-    "player": "Kerry Owens",
+    "name": "Kerry Owens",
     "college": "Arkansas",
     "year": 1989,
     "position": "LB",
@@ -2376,7 +2376,7 @@
     "pick": 89
   },
   {
-    "player": "Rob Woods",
+    "name": "Rob Woods",
     "college": "Arizona",
     "year": 1989,
     "position": "T",
@@ -2384,7 +2384,7 @@
     "pick": 111
   },
   {
-    "player": "Natu Tuatagaloa",
+    "name": "Natu Tuatagaloa",
     "college": "California",
     "year": 1989,
     "position": "DE",
@@ -2392,7 +2392,7 @@
     "pick": 138
   },
   {
-    "player": "Craig Taylor",
+    "name": "Craig Taylor",
     "college": "West Virginia",
     "year": 1989,
     "position": "RB",
@@ -2400,7 +2400,7 @@
     "pick": 166
   },
   {
-    "player": "Kendal Smith",
+    "name": "Kendal Smith",
     "college": "Utah St.",
     "year": 1989,
     "position": "WR",
@@ -2408,7 +2408,7 @@
     "pick": 194
   },
   {
-    "player": "Chris Chenault",
+    "name": "Chris Chenault",
     "college": "Kentucky",
     "year": 1989,
     "position": "LB",
@@ -2416,7 +2416,7 @@
     "pick": 222
   },
   {
-    "player": "Richard Stephens",
+    "name": "Richard Stephens",
     "college": "Tulsa",
     "year": 1989,
     "position": "G",
@@ -2424,7 +2424,7 @@
     "pick": 250
   },
   {
-    "player": "Cornell Holloway",
+    "name": "Cornell Holloway",
     "college": "Pittsburgh",
     "year": 1989,
     "position": "DB",
@@ -2432,7 +2432,7 @@
     "pick": 256
   },
   {
-    "player": "Bob Jean",
+    "name": "Bob Jean",
     "college": "New Hampshire",
     "year": 1989,
     "position": "QB",
@@ -2440,7 +2440,7 @@
     "pick": 278
   },
   {
-    "player": "Dana Wells",
+    "name": "Dana Wells",
     "college": "Arizona",
     "year": 1989,
     "position": "NT",
@@ -2448,7 +2448,7 @@
     "pick": 306
   },
   {
-    "player": "Scott Jones",
+    "name": "Scott Jones",
     "college": "Washington",
     "year": 1989,
     "position": "T",
@@ -2456,7 +2456,7 @@
     "pick": 334
   },
   {
-    "player": "Rickey Dixon",
+    "name": "Rickey Dixon",
     "college": "Oklahoma",
     "year": 1988,
     "position": "DB",
@@ -2464,7 +2464,7 @@
     "pick": 5
   },
   {
-    "player": "Ickey Woods",
+    "name": "Ickey Woods",
     "college": "UNLV",
     "year": 1988,
     "position": "RB",
@@ -2472,7 +2472,7 @@
     "pick": 31
   },
   {
-    "player": "Kevin Walker",
+    "name": "Kevin Walker",
     "college": "Maryland",
     "year": 1988,
     "position": "LB",
@@ -2480,7 +2480,7 @@
     "pick": 57
   },
   {
-    "player": "David Grant",
+    "name": "David Grant",
     "college": "West Virginia",
     "year": 1988,
     "position": "DE",
@@ -2488,7 +2488,7 @@
     "pick": 84
   },
   {
-    "player": "Herb Wester",
+    "name": "Herb Wester",
     "college": "Iowa",
     "year": 1988,
     "position": "T",
@@ -2496,7 +2496,7 @@
     "pick": 114
   },
   {
-    "player": "Paul Jetton",
+    "name": "Paul Jetton",
     "college": "Texas",
     "year": 1988,
     "position": "G",
@@ -2504,7 +2504,7 @@
     "pick": 141
   },
   {
-    "player": "Rich Romer",
+    "name": "Rich Romer",
     "college": "Union (NY)",
     "year": 1988,
     "position": "LB",
@@ -2512,7 +2512,7 @@
     "pick": 168
   },
   {
-    "player": "Curtis Maxey",
+    "name": "Curtis Maxey",
     "college": "Grambling St.",
     "year": 1988,
     "position": "DE",
@@ -2520,7 +2520,7 @@
     "pick": 195
   },
   {
-    "player": "Brandy Wells",
+    "name": "Brandy Wells",
     "college": "Notre Dame",
     "year": 1988,
     "position": "DB",
@@ -2528,7 +2528,7 @@
     "pick": 226
   },
   {
-    "player": "Ellis Dillahunt",
+    "name": "Ellis Dillahunt",
     "college": "East Carolina",
     "year": 1988,
     "position": "DB",
@@ -2536,7 +2536,7 @@
     "pick": 253
   },
   {
-    "player": "Paul Hickert",
+    "name": "Paul Hickert",
     "college": "Murray St.",
     "year": 1988,
     "position": "K",
@@ -2544,7 +2544,7 @@
     "pick": 280
   },
   {
-    "player": "Carl Parker",
+    "name": "Carl Parker",
     "college": "Vanderbilt",
     "year": 1988,
     "position": "WR",
@@ -2552,7 +2552,7 @@
     "pick": 307
   },
   {
-    "player": "Jason Buck",
+    "name": "Jason Buck",
     "college": "BYU",
     "year": 1987,
     "position": "DE",
@@ -2560,7 +2560,7 @@
     "pick": 17
   },
   {
-    "player": "Eric Thomas",
+    "name": "Eric Thomas",
     "college": "Tulane",
     "year": 1987,
     "position": "DB",
@@ -2568,7 +2568,7 @@
     "pick": 49
   },
   {
-    "player": "Len Bell",
+    "name": "Len Bell",
     "college": "Indiana",
     "year": 1987,
     "position": "DB",
@@ -2576,7 +2576,7 @@
     "pick": 76
   },
   {
-    "player": "Skip McClendon",
+    "name": "Skip McClendon",
     "college": "Arizona St.",
     "year": 1987,
     "position": "DE",
@@ -2584,7 +2584,7 @@
     "pick": 77
   },
   {
-    "player": "Jim Riggs",
+    "name": "Jim Riggs",
     "college": "Clemson",
     "year": 1987,
     "position": "TE",
@@ -2592,7 +2592,7 @@
     "pick": 103
   },
   {
-    "player": "Marc Logan",
+    "name": "Marc Logan",
     "college": "Kentucky",
     "year": 1987,
     "position": "RB",
@@ -2600,7 +2600,7 @@
     "pick": 130
   },
   {
-    "player": "Greg Horne",
+    "name": "Greg Horne",
     "college": "Arkansas",
     "year": 1987,
     "position": "P",
@@ -2608,7 +2608,7 @@
     "pick": 139
   },
   {
-    "player": "Sonny Gordon",
+    "name": "Sonny Gordon",
     "college": "Ohio St.",
     "year": 1987,
     "position": "DB",
@@ -2616,7 +2616,7 @@
     "pick": 157
   },
   {
-    "player": "Chris Thatcher",
+    "name": "Chris Thatcher",
     "college": "Lafayette",
     "year": 1987,
     "position": "G",
@@ -2624,7 +2624,7 @@
     "pick": 188
   },
   {
-    "player": "Solomon Wilcots",
+    "name": "Solomon Wilcots",
     "college": "Colorado",
     "year": 1987,
     "position": "DB",
@@ -2632,7 +2632,7 @@
     "pick": 215
   },
   {
-    "player": "Craig Raddatz",
+    "name": "Craig Raddatz",
     "college": "Wisconsin",
     "year": 1987,
     "position": "LB",
@@ -2640,7 +2640,7 @@
     "pick": 242
   },
   {
-    "player": "David McCluskey",
+    "name": "David McCluskey",
     "college": "Georgia",
     "year": 1987,
     "position": "RB",
@@ -2648,7 +2648,7 @@
     "pick": 269
   },
   {
-    "player": "Jim Warne",
+    "name": "Jim Warne",
     "college": "Arizona St.",
     "year": 1987,
     "position": "T",
@@ -2656,7 +2656,7 @@
     "pick": 296
   },
   {
-    "player": "John Holifield",
+    "name": "John Holifield",
     "college": "West Virginia",
     "year": 1987,
     "position": "RB",
@@ -2664,7 +2664,7 @@
     "pick": 328
   },
   {
-    "player": "Joe Kelly",
+    "name": "Joe Kelly",
     "college": "Washington",
     "year": 1986,
     "position": "LB",
@@ -2672,7 +2672,7 @@
     "pick": 11
   },
   {
-    "player": "Tim McGee",
+    "name": "Tim McGee",
     "college": "Tennessee",
     "year": 1986,
     "position": "WR",
@@ -2680,7 +2680,7 @@
     "pick": 21
   },
   {
-    "player": "Lewis Billups",
+    "name": "Lewis Billups",
     "college": "North Alabama",
     "year": 1986,
     "position": "DB",
@@ -2688,7 +2688,7 @@
     "pick": 38
   },
   {
-    "player": "Jim Skow",
+    "name": "Jim Skow",
     "college": "Nebraska",
     "year": 1986,
     "position": "DE",
@@ -2696,7 +2696,7 @@
     "pick": 58
   },
   {
-    "player": "Mike Hammerstein",
+    "name": "Mike Hammerstein",
     "college": "Michigan",
     "year": 1986,
     "position": "DE",
@@ -2704,7 +2704,7 @@
     "pick": 65
   },
   {
-    "player": "David Fulcher",
+    "name": "David Fulcher",
     "college": "Arizona St.",
     "year": 1986,
     "position": "DB",
@@ -2712,7 +2712,7 @@
     "pick": 78
   },
   {
-    "player": "Eric Kattus",
+    "name": "Eric Kattus",
     "college": "Michigan",
     "year": 1986,
     "position": "TE",
@@ -2720,7 +2720,7 @@
     "pick": 91
   },
   {
-    "player": "Doug Gaynor",
+    "name": "Doug Gaynor",
     "college": "Long Beach St.",
     "year": 1986,
     "position": "QB",
@@ -2728,7 +2728,7 @@
     "pick": 99
   },
   {
-    "player": "Leon White",
+    "name": "Leon White",
     "college": "BYU",
     "year": 1986,
     "position": "LB",
@@ -2736,7 +2736,7 @@
     "pick": 123
   },
   {
-    "player": "Gary Hunt",
+    "name": "Gary Hunt",
     "college": "Memphis",
     "year": 1986,
     "position": "DB",
@@ -2744,7 +2744,7 @@
     "pick": 152
   },
   {
-    "player": "Pat Franklin",
+    "name": "Pat Franklin",
     "college": "Houston",
     "year": 1986,
     "position": "RB",
@@ -2752,7 +2752,7 @@
     "pick": 177
   },
   {
-    "player": "David Douglas",
+    "name": "David Douglas",
     "college": "Tennessee",
     "year": 1986,
     "position": "C",
@@ -2760,7 +2760,7 @@
     "pick": 204
   },
   {
-    "player": "Cary Whittingham",
+    "name": "Cary Whittingham",
     "college": "BYU",
     "year": 1986,
     "position": "LB",
@@ -2768,7 +2768,7 @@
     "pick": 230
   },
   {
-    "player": "Jeff Shaw",
+    "name": "Jeff Shaw",
     "college": "Salem",
     "year": 1986,
     "position": "DT",
@@ -2776,7 +2776,7 @@
     "pick": 262
   },
   {
-    "player": "Tim Stone",
+    "name": "Tim Stone",
     "college": "Kansas St.",
     "year": 1986,
     "position": "T",
@@ -2784,7 +2784,7 @@
     "pick": 289
   },
   {
-    "player": "Tom Flaherty",
+    "name": "Tom Flaherty",
     "college": "Northwestern",
     "year": 1986,
     "position": "LB",
@@ -2792,7 +2792,7 @@
     "pick": 294
   },
   {
-    "player": "Steve Bradley",
+    "name": "Steve Bradley",
     "college": "Indiana",
     "year": 1986,
     "position": "QB",
@@ -2800,7 +2800,7 @@
     "pick": 316
   },
   {
-    "player": "Eddie Brown",
+    "name": "Eddie Brown",
     "college": "Miami (FL)",
     "year": 1985,
     "position": "WR",
@@ -2808,7 +2808,7 @@
     "pick": 13
   },
   {
-    "player": "Emanuel King",
+    "name": "Emanuel King",
     "college": "Alabama",
     "year": 1985,
     "position": "LB",
@@ -2816,7 +2816,7 @@
     "pick": 25
   },
   {
-    "player": "Carl Zander",
+    "name": "Carl Zander",
     "college": "Tennessee",
     "year": 1985,
     "position": "LB",
@@ -2824,7 +2824,7 @@
     "pick": 43
   },
   {
-    "player": "Sean Thomas",
+    "name": "Sean Thomas",
     "college": "TCU",
     "year": 1985,
     "position": "DB",
@@ -2832,7 +2832,7 @@
     "pick": 70
   },
   {
-    "player": "Anthony Tuggle",
+    "name": "Anthony Tuggle",
     "college": "Nicholls St.",
     "year": 1985,
     "position": "DB",
@@ -2840,7 +2840,7 @@
     "pick": 97
   },
   {
-    "player": "Tony Degrate",
+    "name": "Tony Degrate",
     "college": "Texas",
     "year": 1985,
     "position": "NT",
@@ -2848,7 +2848,7 @@
     "pick": 127
   },
   {
-    "player": "Lee Davis",
+    "name": "Lee Davis",
     "college": "Mississippi",
     "year": 1985,
     "position": "DB",
@@ -2856,7 +2856,7 @@
     "pick": 129
   },
   {
-    "player": "Eric Stokes",
+    "name": "Eric Stokes",
     "college": "Northeastern",
     "year": 1985,
     "position": "C",
@@ -2864,7 +2864,7 @@
     "pick": 148
   },
   {
-    "player": "Keith Lester",
+    "name": "Keith Lester",
     "college": "Murray St.",
     "year": 1985,
     "position": "TE",
@@ -2872,7 +2872,7 @@
     "pick": 154
   },
   {
-    "player": "Kim Locklin",
+    "name": "Kim Locklin",
     "college": "New Mexico St.",
     "year": 1985,
     "position": "RB",
@@ -2880,7 +2880,7 @@
     "pick": 172
   },
   {
-    "player": "Joe Walter",
+    "name": "Joe Walter",
     "college": "Texas Tech",
     "year": 1985,
     "position": "T",
@@ -2888,7 +2888,7 @@
     "pick": 181
   },
   {
-    "player": "Dave Strobel",
+    "name": "Dave Strobel",
     "college": "Iowa",
     "year": 1985,
     "position": "LB",
@@ -2896,7 +2896,7 @@
     "pick": 211
   },
   {
-    "player": "Keith Cruise",
+    "name": "Keith Cruise",
     "college": "Northwestern",
     "year": 1985,
     "position": "DE",
@@ -2904,7 +2904,7 @@
     "pick": 238
   },
   {
-    "player": "Bernard King",
+    "name": "Bernard King",
     "college": "Syracuse",
     "year": 1985,
     "position": "LB",
@@ -2912,7 +2912,7 @@
     "pick": 265
   },
   {
-    "player": "Harold Stanfield",
+    "name": "Harold Stanfield",
     "college": "Mississippi Col.",
     "year": 1985,
     "position": "TE",
@@ -2920,7 +2920,7 @@
     "pick": 296
   },
   {
-    "player": "Louis Garza",
+    "name": "Louis Garza",
     "college": "New Mexico St.",
     "year": 1985,
     "position": "T",
@@ -2928,7 +2928,7 @@
     "pick": 322
   },
   {
-    "player": "Ricky Hunley",
+    "name": "Ricky Hunley",
     "college": "Arizona",
     "year": 1984,
     "position": "LB",
@@ -2936,7 +2936,7 @@
     "pick": 7
   },
   {
-    "player": "Pete Koch",
+    "name": "Pete Koch",
     "college": "Maryland",
     "year": 1984,
     "position": "NT",
@@ -2944,7 +2944,7 @@
     "pick": 16
   },
   {
-    "player": "Brian Blados",
+    "name": "Brian Blados",
     "college": "North Carolina",
     "year": 1984,
     "position": "T",
@@ -2952,7 +2952,7 @@
     "pick": 28
   },
   {
-    "player": "Boomer Esiason",
+    "name": "Boomer Esiason",
     "college": "Maryland",
     "year": 1984,
     "position": "QB",
@@ -2960,7 +2960,7 @@
     "pick": 38
   },
   {
-    "player": "Stanford Jennings",
+    "name": "Stanford Jennings",
     "college": "Furman",
     "year": 1984,
     "position": "RB",
@@ -2968,7 +2968,7 @@
     "pick": 65
   },
   {
-    "player": "John Farley",
+    "name": "John Farley",
     "college": "Sacramento St.",
     "year": 1984,
     "position": "RB",
@@ -2976,7 +2976,7 @@
     "pick": 92
   },
   {
-    "player": "Barney Bussey",
+    "name": "Barney Bussey",
     "college": "South Carolina St.",
     "year": 1984,
     "position": "DB",
@@ -2984,7 +2984,7 @@
     "pick": 119
   },
   {
-    "player": "Don Kern",
+    "name": "Don Kern",
     "college": "Arizona St.",
     "year": 1984,
     "position": "TE",
@@ -2992,7 +2992,7 @@
     "pick": 150
   },
   {
-    "player": "Leo Barker",
+    "name": "Leo Barker",
     "college": "New Mexico St.",
     "year": 1984,
     "position": "LB",
@@ -3000,7 +3000,7 @@
     "pick": 177
   },
   {
-    "player": "Bruce Reimers",
+    "name": "Bruce Reimers",
     "college": "Iowa St.",
     "year": 1984,
     "position": "G",
@@ -3008,7 +3008,7 @@
     "pick": 204
   },
   {
-    "player": "Bruce Kozerski",
+    "name": "Bruce Kozerski",
     "college": "Holy Cross",
     "year": 1984,
     "position": "C",
@@ -3016,7 +3016,7 @@
     "pick": 231
   },
   {
-    "player": "Aaron Jackson",
+    "name": "Aaron Jackson",
     "college": "North Carolina",
     "year": 1984,
     "position": "LB",
@@ -3024,7 +3024,7 @@
     "pick": 262
   },
   {
-    "player": "Brent Ziegler",
+    "name": "Brent Ziegler",
     "college": "Syracuse",
     "year": 1984,
     "position": "RB",
@@ -3032,7 +3032,7 @@
     "pick": 265
   },
   {
-    "player": "Steve McKeaver",
+    "name": "Steve McKeaver",
     "college": "Central Oklahoma",
     "year": 1984,
     "position": "RB",
@@ -3040,7 +3040,7 @@
     "pick": 289
   },
   {
-    "player": "Steve Raquet",
+    "name": "Steve Raquet",
     "college": "Holy Cross",
     "year": 1984,
     "position": "LB",
@@ -3048,7 +3048,7 @@
     "pick": 316
   },
   {
-    "player": "Dave Rimington",
+    "name": "Dave Rimington",
     "college": "Nebraska",
     "year": 1983,
     "position": "C",
@@ -3056,7 +3056,7 @@
     "pick": 25
   },
   {
-    "player": "Ray Horton",
+    "name": "Ray Horton",
     "college": "Washington",
     "year": 1983,
     "position": "DB",
@@ -3064,7 +3064,7 @@
     "pick": 53
   },
   {
-    "player": "Jimmy Turner",
+    "name": "Jimmy Turner",
     "college": "UCLA",
     "year": 1983,
     "position": "DB",
@@ -3072,7 +3072,7 @@
     "pick": 81
   },
   {
-    "player": "Steve Maidlow",
+    "name": "Steve Maidlow",
     "college": "Michigan St.",
     "year": 1983,
     "position": "LB",
@@ -3080,7 +3080,7 @@
     "pick": 109
   },
   {
-    "player": "Jeff Christensen",
+    "name": "Jeff Christensen",
     "college": "Eastern Illinois",
     "year": 1983,
     "position": "QB",
@@ -3088,7 +3088,7 @@
     "pick": 137
   },
   {
-    "player": "Kiki DeAyala",
+    "name": "Kiki DeAyala",
     "college": "Texas",
     "year": 1983,
     "position": "LB",
@@ -3096,7 +3096,7 @@
     "pick": 152
   },
   {
-    "player": "Larry Kinnebrew",
+    "name": "Larry Kinnebrew",
     "college": "Tennessee St.",
     "year": 1983,
     "position": "RB",
@@ -3104,7 +3104,7 @@
     "pick": 165
   },
   {
-    "player": "James Griffin",
+    "name": "James Griffin",
     "college": "Middle Tenn. St.",
     "year": 1983,
     "position": "DB",
@@ -3112,7 +3112,7 @@
     "pick": 193
   },
   {
-    "player": "Mike Martin",
+    "name": "Mike Martin",
     "college": "Illinois",
     "year": 1983,
     "position": "WR",
@@ -3120,7 +3120,7 @@
     "pick": 221
   },
   {
-    "player": "Stanley Wilson",
+    "name": "Stanley Wilson",
     "college": "Oklahoma",
     "year": 1983,
     "position": "RB",
@@ -3128,7 +3128,7 @@
     "pick": 248
   },
   {
-    "player": "Tim Krumrie",
+    "name": "Tim Krumrie",
     "college": "Wisconsin",
     "year": 1983,
     "position": "NT",
@@ -3136,7 +3136,7 @@
     "pick": 276
   },
   {
-    "player": "Gary Williams",
+    "name": "Gary Williams",
     "college": "Ohio St.",
     "year": 1983,
     "position": "WR",
@@ -3144,7 +3144,7 @@
     "pick": 304
   },
   {
-    "player": "Andre Young",
+    "name": "Andre Young",
     "college": "Bowling Green",
     "year": 1983,
     "position": "LB",
@@ -3152,7 +3152,7 @@
     "pick": 332
   },
   {
-    "player": "Glen Collins",
+    "name": "Glen Collins",
     "college": "Mississippi St.",
     "year": 1982,
     "position": "DE",
@@ -3160,7 +3160,7 @@
     "pick": 26
   },
   {
-    "player": "Emanuel Weaver",
+    "name": "Emanuel Weaver",
     "college": "South Carolina St.",
     "year": 1982,
     "position": "NT",
@@ -3168,7 +3168,7 @@
     "pick": 54
   },
   {
-    "player": "Rodney Holman",
+    "name": "Rodney Holman",
     "college": "Tulane",
     "year": 1982,
     "position": "TE",
@@ -3176,7 +3176,7 @@
     "pick": 82
   },
   {
-    "player": "Rodney Tate",
+    "name": "Rodney Tate",
     "college": "Texas",
     "year": 1982,
     "position": "RB",
@@ -3184,7 +3184,7 @@
     "pick": 110
   },
   {
-    "player": "Paul Sorensen",
+    "name": "Paul Sorensen",
     "college": "Washington St.",
     "year": 1982,
     "position": "DB",
@@ -3192,7 +3192,7 @@
     "pick": 138
   },
   {
-    "player": "Arthur King",
+    "name": "Arthur King",
     "college": "Grambling St.",
     "year": 1982,
     "position": "DT",
@@ -3200,7 +3200,7 @@
     "pick": 166
   },
   {
-    "player": "Ben Needham",
+    "name": "Ben Needham",
     "college": "Michigan",
     "year": 1982,
     "position": "LB",
@@ -3208,7 +3208,7 @@
     "pick": 194
   },
   {
-    "player": "Kari Yli-Renko",
+    "name": "Kari Yli-Renko",
     "college": "Cincinnati",
     "year": 1982,
     "position": "T",
@@ -3216,7 +3216,7 @@
     "pick": 222
   },
   {
-    "player": "James Bennett",
+    "name": "James Bennett",
     "college": "",
     "year": 1982,
     "position": "WR",
@@ -3224,7 +3224,7 @@
     "pick": 250
   },
   {
-    "player": "Larry Hogue",
+    "name": "Larry Hogue",
     "college": "Utah St.",
     "year": 1982,
     "position": "DB",
@@ -3232,7 +3232,7 @@
     "pick": 278
   },
   {
-    "player": "Russell Davis",
+    "name": "Russell Davis",
     "college": "Idaho",
     "year": 1982,
     "position": "RB",
@@ -3240,7 +3240,7 @@
     "pick": 305
   },
   {
-    "player": "Dan Feraday",
+    "name": "Dan Feraday",
     "college": "Toronto",
     "year": 1982,
     "position": "QB",
@@ -3248,7 +3248,7 @@
     "pick": 333
   },
   {
-    "player": "David Verser",
+    "name": "David Verser",
     "college": "Kansas",
     "year": 1981,
     "position": "WR",
@@ -3256,7 +3256,7 @@
     "pick": 10
   },
   {
-    "player": "Cris Collinsworth",
+    "name": "Cris Collinsworth",
     "college": "Florida",
     "year": 1981,
     "position": "WR",
@@ -3264,7 +3264,7 @@
     "pick": 37
   },
   {
-    "player": "John Simmons",
+    "name": "John Simmons",
     "college": "SMU",
     "year": 1981,
     "position": "DB",
@@ -3272,7 +3272,7 @@
     "pick": 64
   },
   {
-    "player": "Guy Frazier",
+    "name": "Guy Frazier",
     "college": "Wyoming",
     "year": 1981,
     "position": "LB",
@@ -3280,7 +3280,7 @@
     "pick": 93
   },
   {
-    "player": "Benjie Pryor",
+    "name": "Benjie Pryor",
     "college": "Pittsburgh",
     "year": 1981,
     "position": "TE",
@@ -3288,7 +3288,7 @@
     "pick": 120
   },
   {
-    "player": "Rex Robinson",
+    "name": "Rex Robinson",
     "college": "Georgia",
     "year": 1981,
     "position": "K",
@@ -3296,7 +3296,7 @@
     "pick": 146
   },
   {
-    "player": "Jeff Schuh",
+    "name": "Jeff Schuh",
     "college": "Minnesota",
     "year": 1981,
     "position": "LB",
@@ -3304,7 +3304,7 @@
     "pick": 176
   },
   {
-    "player": "Bobby Kemp",
+    "name": "Bobby Kemp",
     "college": "Cal State-Fullerton",
     "year": 1981,
     "position": "DB",
@@ -3312,7 +3312,7 @@
     "pick": 202
   },
   {
-    "player": "Jim Hannula",
+    "name": "Jim Hannula",
     "college": "Northern Illinois",
     "year": 1981,
     "position": "T",
@@ -3320,7 +3320,7 @@
     "pick": 229
   },
   {
-    "player": "Samoa Samoa",
+    "name": "Samoa Samoa",
     "college": "Washington St.",
     "year": 1981,
     "position": "RB",
@@ -3328,7 +3328,7 @@
     "pick": 230
   },
   {
-    "player": "Hubert Simpson",
+    "name": "Hubert Simpson",
     "college": "Tennessee",
     "year": 1981,
     "position": "RB",
@@ -3336,7 +3336,7 @@
     "pick": 258
   },
   {
-    "player": "Robert Jackson",
+    "name": "Robert Jackson",
     "college": "Central Michigan",
     "year": 1981,
     "position": "DB",
@@ -3344,7 +3344,7 @@
     "pick": 285
   },
   {
-    "player": "Mark O'Connell",
+    "name": "Mark O'Connell",
     "college": "Ball St.",
     "year": 1981,
     "position": "QB",
@@ -3352,7 +3352,7 @@
     "pick": 312
   },
   {
-    "player": "Anthony Munoz HOF",
+    "name": "Anthony Munoz HOF",
     "college": "USC",
     "year": 1980,
     "position": "T",
@@ -3360,7 +3360,7 @@
     "pick": 3
   },
   {
-    "player": "Kirby Criswell",
+    "name": "Kirby Criswell",
     "college": "Kansas",
     "year": 1980,
     "position": "LB",
@@ -3368,7 +3368,7 @@
     "pick": 31
   },
   {
-    "player": "Rod Horn",
+    "name": "Rod Horn",
     "college": "Nebraska",
     "year": 1980,
     "position": "NT",
@@ -3376,7 +3376,7 @@
     "pick": 59
   },
   {
-    "player": "William Glass",
+    "name": "William Glass",
     "college": "Baylor",
     "year": 1980,
     "position": "G",
@@ -3384,7 +3384,7 @@
     "pick": 86
   },
   {
-    "player": "Bryan Hicks",
+    "name": "Bryan Hicks",
     "college": "McNeese St.",
     "year": 1980,
     "position": "DB",
@@ -3392,7 +3392,7 @@
     "pick": 113
   },
   {
-    "player": "Jo Heath",
+    "name": "Jo Heath",
     "college": "Pittsburgh",
     "year": 1980,
     "position": "DB",
@@ -3400,7 +3400,7 @@
     "pick": 141
   },
   {
-    "player": "Andrew Melontree",
+    "name": "Andrew Melontree",
     "college": "Baylor",
     "year": 1980,
     "position": "LB",
@@ -3408,7 +3408,7 @@
     "pick": 159
   },
   {
-    "player": "Ron Simpkins",
+    "name": "Ron Simpkins",
     "college": "Michigan",
     "year": 1980,
     "position": "LB",
@@ -3416,7 +3416,7 @@
     "pick": 167
   },
   {
-    "player": "Gary Don Johnson",
+    "name": "Gary Don Johnson",
     "college": "Baylor",
     "year": 1980,
     "position": "DT",
@@ -3424,7 +3424,7 @@
     "pick": 168
   },
   {
-    "player": "Mark Lyles",
+    "name": "Mark Lyles",
     "college": "Florida St.",
     "year": 1980,
     "position": "RB",
@@ -3432,7 +3432,7 @@
     "pick": 196
   },
   {
-    "player": "Greg Bright",
+    "name": "Greg Bright",
     "college": "Morehead St.",
     "year": 1980,
     "position": "DB",
@@ -3440,7 +3440,7 @@
     "pick": 224
   },
   {
-    "player": "Sandro Vitiello",
+    "name": "Sandro Vitiello",
     "college": "Massachusetts",
     "year": 1980,
     "position": "K",
@@ -3448,7 +3448,7 @@
     "pick": 252
   },
   {
-    "player": "Alton Alexis",
+    "name": "Alton Alexis",
     "college": "Tulane",
     "year": 1980,
     "position": "WR",
@@ -3456,7 +3456,7 @@
     "pick": 281
   },
   {
-    "player": "Mike Wright",
+    "name": "Mike Wright",
     "college": "Vanderbilt",
     "year": 1980,
     "position": "QB",
@@ -3464,7 +3464,7 @@
     "pick": 308
   },
   {
-    "player": "Jack Thompson",
+    "name": "Jack Thompson",
     "college": "Washington St.",
     "year": 1979,
     "position": "QB",
@@ -3472,7 +3472,7 @@
     "pick": 3
   },
   {
-    "player": "Charles Alexander",
+    "name": "Charles Alexander",
     "college": "LSU",
     "year": 1979,
     "position": "RB",
@@ -3480,7 +3480,7 @@
     "pick": 12
   },
   {
-    "player": "Dan Ross",
+    "name": "Dan Ross",
     "college": "Northeastern",
     "year": 1979,
     "position": "TE",
@@ -3488,7 +3488,7 @@
     "pick": 30
   },
   {
-    "player": "Barney Cotton",
+    "name": "Barney Cotton",
     "college": "Nebraska",
     "year": 1979,
     "position": "G",
@@ -3496,7 +3496,7 @@
     "pick": 59
   },
   {
-    "player": "Mike White",
+    "name": "Mike White",
     "college": "Albany State (GA)",
     "year": 1979,
     "position": "DT",
@@ -3504,7 +3504,7 @@
     "pick": 84
   },
   {
-    "player": "Vaughn Lusby",
+    "name": "Vaughn Lusby",
     "college": "Arkansas",
     "year": 1979,
     "position": "DB",
@@ -3512,7 +3512,7 @@
     "pick": 91
   },
   {
-    "player": "Casey Merrill",
+    "name": "Casey Merrill",
     "college": "UC Davis",
     "year": 1979,
     "position": "DE",
@@ -3520,7 +3520,7 @@
     "pick": 113
   },
   {
-    "player": "Steve Kreider",
+    "name": "Steve Kreider",
     "college": "Lehigh",
     "year": 1979,
     "position": "WR",
@@ -3528,7 +3528,7 @@
     "pick": 139
   },
   {
-    "player": "Max Montoya",
+    "name": "Max Montoya",
     "college": "UCLA",
     "year": 1979,
     "position": "G",
@@ -3536,7 +3536,7 @@
     "pick": 168
   },
   {
-    "player": "Howard Kurnick",
+    "name": "Howard Kurnick",
     "college": "Cincinnati",
     "year": 1979,
     "position": "LB",
@@ -3544,7 +3544,7 @@
     "pick": 194
   },
   {
-    "player": "Scott Burk",
+    "name": "Scott Burk",
     "college": "Oklahoma St.",
     "year": 1979,
     "position": "DB",
@@ -3552,7 +3552,7 @@
     "pick": 223
   },
   {
-    "player": "Nathan Poole",
+    "name": "Nathan Poole",
     "college": "Louisville",
     "year": 1979,
     "position": "RB",
@@ -3560,7 +3560,7 @@
     "pick": 250
   },
   {
-    "player": "Ken Bungarda",
+    "name": "Ken Bungarda",
     "college": "Missouri",
     "year": 1979,
     "position": "T",
@@ -3568,7 +3568,7 @@
     "pick": 278
   },
   {
-    "player": "Jim Browner",
+    "name": "Jim Browner",
     "college": "Notre Dame",
     "year": 1979,
     "position": "DB",
@@ -3576,7 +3576,7 @@
     "pick": 304
   },
   {
-    "player": "Ross Browner",
+    "name": "Ross Browner",
     "college": "Notre Dame",
     "year": 1978,
     "position": "DE",
@@ -3584,7 +3584,7 @@
     "pick": 8
   },
   {
-    "player": "Blair Bush",
+    "name": "Blair Bush",
     "college": "Washington",
     "year": 1978,
     "position": "C",
@@ -3592,7 +3592,7 @@
     "pick": 16
   },
   {
-    "player": "Ray Griffin",
+    "name": "Ray Griffin",
     "college": "Ohio St.",
     "year": 1978,
     "position": "DB",
@@ -3600,7 +3600,7 @@
     "pick": 35
   },
   {
-    "player": "Deacon Turner",
+    "name": "Deacon Turner",
     "college": "San Diego St.",
     "year": 1978,
     "position": "RB",
@@ -3608,7 +3608,7 @@
     "pick": 45
   },
   {
-    "player": "Ted Vincent",
+    "name": "Ted Vincent",
     "college": "Wichita St.",
     "year": 1978,
     "position": "DT",
@@ -3616,7 +3616,7 @@
     "pick": 72
   },
   {
-    "player": "Don Bass",
+    "name": "Don Bass",
     "college": "Houston",
     "year": 1978,
     "position": "WR",
@@ -3624,7 +3624,7 @@
     "pick": 83
   },
   {
-    "player": "Dennis Law",
+    "name": "Dennis Law",
     "college": "East Tennessee St.",
     "year": 1978,
     "position": "WR",
@@ -3632,7 +3632,7 @@
     "pick": 99
   },
   {
-    "player": "Tom Dinkel",
+    "name": "Tom Dinkel",
     "college": "Kansas",
     "year": 1978,
     "position": "LB",
@@ -3640,7 +3640,7 @@
     "pick": 126
   },
   {
-    "player": "Rob Hertel",
+    "name": "Rob Hertel",
     "college": "USC",
     "year": 1978,
     "position": "QB",
@@ -3648,7 +3648,7 @@
     "pick": 131
   },
   {
-    "player": "Steve Geise",
+    "name": "Steve Geise",
     "college": "Penn St.",
     "year": 1978,
     "position": "RB",
@@ -3656,7 +3656,7 @@
     "pick": 155
   },
   {
-    "player": "Joe Branson",
+    "name": "Joe Branson",
     "college": "Livingstone",
     "year": 1978,
     "position": "DB",
@@ -3664,7 +3664,7 @@
     "pick": 182
   },
   {
-    "player": "Dan Bass",
+    "name": "Dan Bass",
     "college": "Elon",
     "year": 1978,
     "position": "G",
@@ -3672,7 +3672,7 @@
     "pick": 193
   },
   {
-    "player": "Bill Miller",
+    "name": "Bill Miller",
     "college": "Western Illinois",
     "year": 1978,
     "position": "T",
@@ -3680,7 +3680,7 @@
     "pick": 211
   },
   {
-    "player": "Ron Shumon",
+    "name": "Ron Shumon",
     "college": "Wichita St.",
     "year": 1978,
     "position": "LB",
@@ -3688,7 +3688,7 @@
     "pick": 238
   },
   {
-    "player": "Tom DePaso",
+    "name": "Tom DePaso",
     "college": "Penn St.",
     "year": 1978,
     "position": "LB",
@@ -3696,7 +3696,7 @@
     "pick": 267
   },
   {
-    "player": "Calvin Prince",
+    "name": "Calvin Prince",
     "college": "Louisville",
     "year": 1978,
     "position": "RB",
@@ -3704,7 +3704,7 @@
     "pick": 292
   },
   {
-    "player": "Mark Donahue",
+    "name": "Mark Donahue",
     "college": "Michigan",
     "year": 1978,
     "position": "G",
@@ -3712,7 +3712,7 @@
     "pick": 294
   },
   {
-    "player": "Kim Featsent",
+    "name": "Kim Featsent",
     "college": "Kent St.",
     "year": 1978,
     "position": "WR",
@@ -3720,7 +3720,7 @@
     "pick": 323
   },
   {
-    "player": "Eddie Edwards",
+    "name": "Eddie Edwards",
     "college": "Miami (FL)",
     "year": 1977,
     "position": "DE",
@@ -3728,7 +3728,7 @@
     "pick": 3
   },
   {
-    "player": "Wilson Whitley",
+    "name": "Wilson Whitley",
     "college": "Houston",
     "year": 1977,
     "position": "DT",
@@ -3736,7 +3736,7 @@
     "pick": 8
   },
   {
-    "player": "Mike Cobb",
+    "name": "Mike Cobb",
     "college": "Michigan St.",
     "year": 1977,
     "position": "TE",
@@ -3744,7 +3744,7 @@
     "pick": 22
   },
   {
-    "player": "Pete Johnson",
+    "name": "Pete Johnson",
     "college": "Ohio St.",
     "year": 1977,
     "position": "RB",
@@ -3752,7 +3752,7 @@
     "pick": 49
   },
   {
-    "player": "Mike Voight",
+    "name": "Mike Voight",
     "college": "North Carolina",
     "year": 1977,
     "position": "RB",
@@ -3760,7 +3760,7 @@
     "pick": 76
   },
   {
-    "player": "Rick Walker",
+    "name": "Rick Walker",
     "college": "UCLA",
     "year": 1977,
     "position": "TE",
@@ -3768,7 +3768,7 @@
     "pick": 85
   },
   {
-    "player": "Mike Wilson",
+    "name": "Mike Wilson",
     "college": "Georgia",
     "year": 1977,
     "position": "T",
@@ -3776,7 +3776,7 @@
     "pick": 103
   },
   {
-    "player": "Jerry Anderson",
+    "name": "Jerry Anderson",
     "college": "Oklahoma",
     "year": 1977,
     "position": "DB",
@@ -3784,7 +3784,7 @@
     "pick": 105
   },
   {
-    "player": "Ray Phillips",
+    "name": "Ray Phillips",
     "college": "Nebraska",
     "year": 1977,
     "position": "LB",
@@ -3792,7 +3792,7 @@
     "pick": 133
   },
   {
-    "player": "Tom Duniven",
+    "name": "Tom Duniven",
     "college": "Texas Tech",
     "year": 1977,
     "position": "QB",
@@ -3800,7 +3800,7 @@
     "pick": 160
   },
   {
-    "player": "Louis Breeden",
+    "name": "Louis Breeden",
     "college": "North Carolina Central",
     "year": 1977,
     "position": "DB",
@@ -3808,7 +3808,7 @@
     "pick": 187
   },
   {
-    "player": "Jim Corbett",
+    "name": "Jim Corbett",
     "college": "Pittsburgh",
     "year": 1977,
     "position": "TE",
@@ -3816,7 +3816,7 @@
     "pick": 194
   },
   {
-    "player": "Jose Saint Victor",
+    "name": "Jose Saint Victor",
     "college": "Syracuse",
     "year": 1977,
     "position": "G",
@@ -3824,7 +3824,7 @@
     "pick": 214
   },
   {
-    "player": "Willie Zachery",
+    "name": "Willie Zachery",
     "college": "",
     "year": 1977,
     "position": "WR",
@@ -3832,7 +3832,7 @@
     "pick": 245
   },
   {
-    "player": "Bob Bialik",
+    "name": "Bob Bialik",
     "college": "Hillsdale",
     "year": 1977,
     "position": "P",
@@ -3840,7 +3840,7 @@
     "pick": 272
   },
   {
-    "player": "Joel Parrish",
+    "name": "Joel Parrish",
     "college": "Georgia",
     "year": 1977,
     "position": "G",
@@ -3848,7 +3848,7 @@
     "pick": 292
   },
   {
-    "player": "Carl Allen",
+    "name": "Carl Allen",
     "college": "Southern Miss",
     "year": 1977,
     "position": "DB",
@@ -3856,7 +3856,7 @@
     "pick": 299
   },
   {
-    "player": "Alex Percival",
+    "name": "Alex Percival",
     "college": "Morehouse",
     "year": 1977,
     "position": "WR",
@@ -3864,7 +3864,7 @@
     "pick": 326
   },
   {
-    "player": "Billy Brooks",
+    "name": "Billy Brooks",
     "college": "Oklahoma",
     "year": 1976,
     "position": "WR",
@@ -3872,7 +3872,7 @@
     "pick": 11
   },
   {
-    "player": "Archie Griffin",
+    "name": "Archie Griffin",
     "college": "Ohio St.",
     "year": 1976,
     "position": "RB",
@@ -3880,7 +3880,7 @@
     "pick": 24
   },
   {
-    "player": "Glenn Bujnoch",
+    "name": "Glenn Bujnoch",
     "college": "Texas A&M",
     "year": 1976,
     "position": "G",
@@ -3888,7 +3888,7 @@
     "pick": 38
   },
   {
-    "player": "Chris Bahr",
+    "name": "Chris Bahr",
     "college": "Penn St.",
     "year": 1976,
     "position": "K",
@@ -3896,7 +3896,7 @@
     "pick": 51
   },
   {
-    "player": "Danny Reece",
+    "name": "Danny Reece",
     "college": "USC",
     "year": 1976,
     "position": "DB",
@@ -3904,7 +3904,7 @@
     "pick": 69
   },
   {
-    "player": "Reggie Williams",
+    "name": "Reggie Williams",
     "college": "Dartmouth",
     "year": 1976,
     "position": "LB",
@@ -3912,7 +3912,7 @@
     "pick": 82
   },
   {
-    "player": "Tony Davis",
+    "name": "Tony Davis",
     "college": "Nebraska",
     "year": 1976,
     "position": "RB",
@@ -3920,7 +3920,7 @@
     "pick": 106
   },
   {
-    "player": "Greg Fairchild",
+    "name": "Greg Fairchild",
     "college": "Tulsa",
     "year": 1976,
     "position": "G",
@@ -3928,7 +3928,7 @@
     "pick": 116
   },
   {
-    "player": "Willie Shelby",
+    "name": "Willie Shelby",
     "college": "Alabama",
     "year": 1976,
     "position": "RB",
@@ -3936,7 +3936,7 @@
     "pick": 138
   },
   {
-    "player": "Scott Perry",
+    "name": "Scott Perry",
     "college": "Williams",
     "year": 1976,
     "position": "DB",
@@ -3944,7 +3944,7 @@
     "pick": 147
   },
   {
-    "player": "Orlando Nelson",
+    "name": "Orlando Nelson",
     "college": "Utah St.",
     "year": 1976,
     "position": "TE",
@@ -3952,7 +3952,7 @@
     "pick": 176
   },
   {
-    "player": "Bob Bateman",
+    "name": "Bob Bateman",
     "college": "Brown",
     "year": 1976,
     "position": "QB",
@@ -3960,7 +3960,7 @@
     "pick": 187
   },
   {
-    "player": "Pete Rome",
+    "name": "Pete Rome",
     "college": "Miami (OH)",
     "year": 1976,
     "position": "DB",
@@ -3968,7 +3968,7 @@
     "pick": 192
   },
   {
-    "player": "Ken Kuhn",
+    "name": "Ken Kuhn",
     "college": "Ohio St.",
     "year": 1976,
     "position": "LB",
@@ -3976,7 +3976,7 @@
     "pick": 205
   },
   {
-    "player": "Ron Hunt",
+    "name": "Ron Hunt",
     "college": "Oregon",
     "year": 1976,
     "position": "T",
@@ -3984,7 +3984,7 @@
     "pick": 232
   },
   {
-    "player": "Lonnie Allgood",
+    "name": "Lonnie Allgood",
     "college": "Syracuse",
     "year": 1976,
     "position": "WR",
@@ -3992,7 +3992,7 @@
     "pick": 259
   },
   {
-    "player": "Tom Klaban",
+    "name": "Tom Klaban",
     "college": "Ohio St.",
     "year": 1976,
     "position": "K",
@@ -4000,7 +4000,7 @@
     "pick": 287
   },
   {
-    "player": "Melvin Morgan",
+    "name": "Melvin Morgan",
     "college": "Miss. Valley St.",
     "year": 1976,
     "position": "DB",
@@ -4008,7 +4008,7 @@
     "pick": 314
   },
   {
-    "player": "Joe Dale Harris",
+    "name": "Joe Dale Harris",
     "college": "Alabama",
     "year": 1976,
     "position": "WR",
@@ -4016,7 +4016,7 @@
     "pick": 340
   },
   {
-    "player": "Randy Walker",
+    "name": "Randy Walker",
     "college": "Miami (OH)",
     "year": 1976,
     "position": "RB",
@@ -4024,7 +4024,7 @@
     "pick": 371
   },
   {
-    "player": "Greg Coleman",
+    "name": "Greg Coleman",
     "college": "Florida A&M",
     "year": 1976,
     "position": "P",
@@ -4032,7 +4032,7 @@
     "pick": 398
   },
   {
-    "player": "Lynn Hieber",
+    "name": "Lynn Hieber",
     "college": "",
     "year": 1976,
     "position": "QB",
@@ -4040,7 +4040,7 @@
     "pick": 425
   },
   {
-    "player": "George Demopoulos",
+    "name": "George Demopoulos",
     "college": "Miami (FL)",
     "year": 1976,
     "position": "C",
@@ -4048,7 +4048,7 @@
     "pick": 455
   },
   {
-    "player": "Scott Dannelley",
+    "name": "Scott Dannelley",
     "college": "Ohio St.",
     "year": 1976,
     "position": "G",
@@ -4056,7 +4056,7 @@
     "pick": 482
   },
   {
-    "player": "Glenn Cameron",
+    "name": "Glenn Cameron",
     "college": "Florida",
     "year": 1975,
     "position": "LB",
@@ -4064,7 +4064,7 @@
     "pick": 14
   },
   {
-    "player": "Al Krevis",
+    "name": "Al Krevis",
     "college": "Boston Col.",
     "year": 1975,
     "position": "T",
@@ -4072,7 +4072,7 @@
     "pick": 39
   },
   {
-    "player": "Gary Burley",
+    "name": "Gary Burley",
     "college": "Pittsburgh",
     "year": 1975,
     "position": "DE",
@@ -4080,7 +4080,7 @@
     "pick": 55
   },
   {
-    "player": "Gary Sheide",
+    "name": "Gary Sheide",
     "college": "BYU",
     "year": 1975,
     "position": "QB",
@@ -4088,7 +4088,7 @@
     "pick": 64
   },
   {
-    "player": "Bo Harris",
+    "name": "Bo Harris",
     "college": "LSU",
     "year": 1975,
     "position": "LB",
@@ -4096,7 +4096,7 @@
     "pick": 77
   },
   {
-    "player": "Stan Fritts",
+    "name": "Stan Fritts",
     "college": "North Carolina St.",
     "year": 1975,
     "position": "RB",
@@ -4104,7 +4104,7 @@
     "pick": 97
   },
   {
-    "player": "Pat McInally",
+    "name": "Pat McInally",
     "college": "Harvard",
     "year": 1975,
     "position": "WR",
@@ -4112,7 +4112,7 @@
     "pick": 120
   },
   {
-    "player": "Jeff West",
+    "name": "Jeff West",
     "college": "Cincinnati",
     "year": 1975,
     "position": "P",
@@ -4120,7 +4120,7 @@
     "pick": 122
   },
   {
-    "player": "Tom Shuman",
+    "name": "Tom Shuman",
     "college": "Penn St.",
     "year": 1975,
     "position": "QB",
@@ -4128,7 +4128,7 @@
     "pick": 142
   },
   {
-    "player": "Rollen Smith",
+    "name": "Rollen Smith",
     "college": "Arkansas",
     "year": 1975,
     "position": "DB",
@@ -4136,7 +4136,7 @@
     "pick": 145
   },
   {
-    "player": "Chris Devlin",
+    "name": "Chris Devlin",
     "college": "Penn St.",
     "year": 1975,
     "position": "LB",
@@ -4144,7 +4144,7 @@
     "pick": 170
   },
   {
-    "player": "Ricky Davis",
+    "name": "Ricky Davis",
     "college": "Alabama",
     "year": 1975,
     "position": "DB",
@@ -4152,7 +4152,7 @@
     "pick": 195
   },
   {
-    "player": "Greg Dubinetz",
+    "name": "Greg Dubinetz",
     "college": "Yale",
     "year": 1975,
     "position": "G",
@@ -4160,7 +4160,7 @@
     "pick": 220
   },
   {
-    "player": "Lofell Williams",
+    "name": "Lofell Williams",
     "college": "Virginia Union",
     "year": 1975,
     "position": "WR",
@@ -4168,7 +4168,7 @@
     "pick": 227
   },
   {
-    "player": "Rocky Felker",
+    "name": "Rocky Felker",
     "college": "Mississippi St.",
     "year": 1975,
     "position": "DB",
@@ -4176,7 +4176,7 @@
     "pick": 245
   },
   {
-    "player": "Marvin Cobb",
+    "name": "Marvin Cobb",
     "college": "USC",
     "year": 1975,
     "position": "DB",
@@ -4184,7 +4184,7 @@
     "pick": 276
   },
   {
-    "player": "Jack Novak",
+    "name": "Jack Novak",
     "college": "Wisconsin",
     "year": 1975,
     "position": "TE",
@@ -4192,7 +4192,7 @@
     "pick": 301
   },
   {
-    "player": "Ron Rosenberg",
+    "name": "Ron Rosenberg",
     "college": "Montana",
     "year": 1975,
     "position": "LB",
@@ -4200,7 +4200,7 @@
     "pick": 326
   },
   {
-    "player": "Frank Haywood",
+    "name": "Frank Haywood",
     "college": "North Carolina St.",
     "year": 1975,
     "position": "DT",
@@ -4208,7 +4208,7 @@
     "pick": 351
   },
   {
-    "player": "Greg Enright",
+    "name": "Greg Enright",
     "college": "Southern Oregon",
     "year": 1975,
     "position": "K",
@@ -4216,7 +4216,7 @@
     "pick": 376
   },
   {
-    "player": "John Tuttle",
+    "name": "John Tuttle",
     "college": "Kansas St.",
     "year": 1975,
     "position": "WR",
@@ -4224,7 +4224,7 @@
     "pick": 401
   },
   {
-    "player": "Elvin Charity",
+    "name": "Elvin Charity",
     "college": "Yale",
     "year": 1975,
     "position": "DB",
@@ -4232,7 +4232,7 @@
     "pick": 432
   },
   {
-    "player": "Bill Kollar",
+    "name": "Bill Kollar",
     "college": "Montana St.",
     "year": 1974,
     "position": "DE",
@@ -4240,7 +4240,7 @@
     "pick": 23
   },
   {
-    "player": "Charlie Davis",
+    "name": "Charlie Davis",
     "college": "Colorado",
     "year": 1974,
     "position": "RB",
@@ -4248,7 +4248,7 @@
     "pick": 48
   },
   {
-    "player": "Dave Lapham",
+    "name": "Dave Lapham",
     "college": "Syracuse",
     "year": 1974,
     "position": "G",
@@ -4256,7 +4256,7 @@
     "pick": 61
   },
   {
-    "player": "Evan Jolitz",
+    "name": "Evan Jolitz",
     "college": "Cincinnati",
     "year": 1974,
     "position": "LB",
@@ -4264,7 +4264,7 @@
     "pick": 73
   },
   {
-    "player": "Mike Boryla",
+    "name": "Mike Boryla",
     "college": "Stanford",
     "year": 1974,
     "position": "QB",
@@ -4272,7 +4272,7 @@
     "pick": 87
   },
   {
-    "player": "Daryl White",
+    "name": "Daryl White",
     "college": "Nebraska",
     "year": 1974,
     "position": "G",
@@ -4280,7 +4280,7 @@
     "pick": 98
   },
   {
-    "player": "Richard Williams",
+    "name": "Richard Williams",
     "college": "Abilene Christian",
     "year": 1974,
     "position": "WR",
@@ -4288,7 +4288,7 @@
     "pick": 103
   },
   {
-    "player": "Haskel Stanback",
+    "name": "Haskel Stanback",
     "college": "Tennessee",
     "year": 1974,
     "position": "RB",
@@ -4296,7 +4296,7 @@
     "pick": 114
   },
   {
-    "player": "Richard Bishop",
+    "name": "Richard Bishop",
     "college": "Louisville",
     "year": 1974,
     "position": "DE",
@@ -4304,7 +4304,7 @@
     "pick": 127
   },
   {
-    "player": "Robin Sinclair",
+    "name": "Robin Sinclair",
     "college": "Washington St.",
     "year": 1974,
     "position": "DB",
@@ -4312,7 +4312,7 @@
     "pick": 152
   },
   {
-    "player": "Bill Bryant",
+    "name": "Bill Bryant",
     "college": "Grambling St.",
     "year": 1974,
     "position": "DB",
@@ -4320,7 +4320,7 @@
     "pick": 153
   },
   {
-    "player": "Ken Sawyer",
+    "name": "Ken Sawyer",
     "college": "Syracuse",
     "year": 1974,
     "position": "DB",
@@ -4328,7 +4328,7 @@
     "pick": 177
   },
   {
-    "player": "John McDaniel",
+    "name": "John McDaniel",
     "college": "Lincoln (MO)",
     "year": 1974,
     "position": "WR",
@@ -4336,7 +4336,7 @@
     "pick": 202
   },
   {
-    "player": "Ed Johnson",
+    "name": "Ed Johnson",
     "college": "SMU",
     "year": 1974,
     "position": "DE",
@@ -4344,7 +4344,7 @@
     "pick": 231
   },
   {
-    "player": "Charles Herd",
+    "name": "Charles Herd",
     "college": "Penn St.",
     "year": 1974,
     "position": "WR",
@@ -4352,7 +4352,7 @@
     "pick": 256
   },
   {
-    "player": "Ed Kezirian",
+    "name": "Ed Kezirian",
     "college": "UCLA",
     "year": 1974,
     "position": "T",
@@ -4360,7 +4360,7 @@
     "pick": 281
   },
   {
-    "player": "Rudy McClinon",
+    "name": "Rudy McClinon",
     "college": "",
     "year": 1974,
     "position": "DB",
@@ -4368,7 +4368,7 @@
     "pick": 306
   },
   {
-    "player": "Ted Jornov",
+    "name": "Ted Jornov",
     "college": "Iowa St.",
     "year": 1974,
     "position": "LB",
@@ -4376,7 +4376,7 @@
     "pick": 335
   },
   {
-    "player": "Mike Phillips",
+    "name": "Mike Phillips",
     "college": "Cornell",
     "year": 1974,
     "position": "T",
@@ -4384,7 +4384,7 @@
     "pick": 360
   },
   {
-    "player": "Isaac Jackson",
+    "name": "Isaac Jackson",
     "college": "Kansas St.",
     "year": 1974,
     "position": "RB",
@@ -4392,7 +4392,7 @@
     "pick": 385
   },
   {
-    "player": "Darryl Bishop",
+    "name": "Darryl Bishop",
     "college": "Kentucky",
     "year": 1974,
     "position": "DB",
@@ -4400,7 +4400,7 @@
     "pick": 410
   },
   {
-    "player": "Jim Smith",
+    "name": "Jim Smith",
     "college": "North Carolina Central",
     "year": 1974,
     "position": "RB",
@@ -4408,7 +4408,7 @@
     "pick": 439
   },
   {
-    "player": "Isaac Curtis",
+    "name": "Isaac Curtis",
     "college": "San Diego St.",
     "year": 1973,
     "position": "WR",
@@ -4416,7 +4416,7 @@
     "pick": 15
   },
   {
-    "player": "Al Chandler",
+    "name": "Al Chandler",
     "college": "Oklahoma",
     "year": 1973,
     "position": "TE",
@@ -4424,7 +4424,7 @@
     "pick": 43
   },
   {
-    "player": "Tim George",
+    "name": "Tim George",
     "college": "Carson-Newman",
     "year": 1973,
     "position": "WR",
@@ -4432,7 +4432,7 @@
     "pick": 68
   },
   {
-    "player": "Bob McCall",
+    "name": "Bob McCall",
     "college": "Arizona",
     "year": 1973,
     "position": "RB",
@@ -4440,7 +4440,7 @@
     "pick": 121
   },
   {
-    "player": "Bob Jones",
+    "name": "Bob Jones",
     "college": "Virginia Union",
     "year": 1973,
     "position": "DB",
@@ -4448,7 +4448,7 @@
     "pick": 146
   },
   {
-    "player": "Bob Maddox",
+    "name": "Bob Maddox",
     "college": "Frostburg St.",
     "year": 1973,
     "position": "DT",
@@ -4456,7 +4456,7 @@
     "pick": 171
   },
   {
-    "player": "Joe Wilson",
+    "name": "Joe Wilson",
     "college": "Holy Cross",
     "year": 1973,
     "position": "RB",
@@ -4464,7 +4464,7 @@
     "pick": 199
   },
   {
-    "player": "John Dampeer",
+    "name": "John Dampeer",
     "college": "Notre Dame",
     "year": 1973,
     "position": "G",
@@ -4472,7 +4472,7 @@
     "pick": 224
   },
   {
-    "player": "Lenvil Elliott",
+    "name": "Lenvil Elliott",
     "college": "Truman St.",
     "year": 1973,
     "position": "RB",
@@ -4480,7 +4480,7 @@
     "pick": 249
   },
   {
-    "player": "William Montgomery",
+    "name": "William Montgomery",
     "college": "Morehouse",
     "year": 1973,
     "position": "DB",
@@ -4488,7 +4488,7 @@
     "pick": 277
   },
   {
-    "player": "Boobie Clark",
+    "name": "Boobie Clark",
     "college": "Bethune-Cookman",
     "year": 1973,
     "position": "RB",
@@ -4496,7 +4496,7 @@
     "pick": 302
   },
   {
-    "player": "Brooks West",
+    "name": "Brooks West",
     "college": "Texas-El Paso",
     "year": 1973,
     "position": "DT",
@@ -4504,7 +4504,7 @@
     "pick": 327
   },
   {
-    "player": "Hurles Scales",
+    "name": "Hurles Scales",
     "college": "North Texas",
     "year": 1973,
     "position": "DB",
@@ -4512,7 +4512,7 @@
     "pick": 355
   },
   {
-    "player": "Ted McNulty",
+    "name": "Ted McNulty",
     "college": "Indiana",
     "year": 1973,
     "position": "QB",
@@ -4520,7 +4520,7 @@
     "pick": 380
   },
   {
-    "player": "Harry Unger",
+    "name": "Harry Unger",
     "college": "Auburn",
     "year": 1973,
     "position": "RB",
@@ -4528,7 +4528,7 @@
     "pick": 405
   },
   {
-    "player": "Wayne Estabrook",
+    "name": "Wayne Estabrook",
     "college": "Whittier",
     "year": 1973,
     "position": "QB",
@@ -4536,7 +4536,7 @@
     "pick": 433
   },
   {
-    "player": "Sherman White",
+    "name": "Sherman White",
     "college": "California",
     "year": 1972,
     "position": "DE",
@@ -4544,7 +4544,7 @@
     "pick": 2
   },
   {
-    "player": "Tommy Casanova",
+    "name": "Tommy Casanova",
     "college": "LSU",
     "year": 1972,
     "position": "DB",
@@ -4552,7 +4552,7 @@
     "pick": 29
   },
   {
-    "player": "Jim LeClair",
+    "name": "Jim LeClair",
     "college": "North Dakota",
     "year": 1972,
     "position": "LB",
@@ -4560,7 +4560,7 @@
     "pick": 54
   },
   {
-    "player": "Bernard Jackson",
+    "name": "Bernard Jackson",
     "college": "Washington St.",
     "year": 1972,
     "position": "DB",
@@ -4568,7 +4568,7 @@
     "pick": 81
   },
   {
-    "player": "Tom DeLeone",
+    "name": "Tom DeLeone",
     "college": "Ohio St.",
     "year": 1972,
     "position": "C",
@@ -4576,7 +4576,7 @@
     "pick": 106
   },
   {
-    "player": "Steve Conley",
+    "name": "Steve Conley",
     "college": "Kansas",
     "year": 1972,
     "position": "LB",
@@ -4584,7 +4584,7 @@
     "pick": 158
   },
   {
-    "player": "Dan Kratzer",
+    "name": "Dan Kratzer",
     "college": "Missouri Valley",
     "year": 1972,
     "position": "WR",
@@ -4592,7 +4592,7 @@
     "pick": 185
   },
   {
-    "player": "Stan Walters",
+    "name": "Stan Walters",
     "college": "Syracuse",
     "year": 1972,
     "position": "T",
@@ -4600,7 +4600,7 @@
     "pick": 210
   },
   {
-    "player": "Brian Foster",
+    "name": "Brian Foster",
     "college": "Colorado",
     "year": 1972,
     "position": "DB",
@@ -4608,7 +4608,7 @@
     "pick": 237
   },
   {
-    "player": "Kent Pederson",
+    "name": "Kent Pederson",
     "college": "UC Santa Barbara",
     "year": 1972,
     "position": "TE",
@@ -4616,7 +4616,7 @@
     "pick": 261
   },
   {
-    "player": "Fredrick Wegis",
+    "name": "Fredrick Wegis",
     "college": "Cal Poly-San Luis Obispo",
     "year": 1972,
     "position": "DB",
@@ -4624,7 +4624,7 @@
     "pick": 289
   },
   {
-    "player": "James Hamilton",
+    "name": "James Hamilton",
     "college": "Arkansas St.",
     "year": 1972,
     "position": "QB",
@@ -4632,7 +4632,7 @@
     "pick": 314
   },
   {
-    "player": "Steve Porter",
+    "name": "Steve Porter",
     "college": "Indiana",
     "year": 1972,
     "position": "WR",
@@ -4640,7 +4640,7 @@
     "pick": 341
   },
   {
-    "player": "Hosea Minnieweather",
+    "name": "Hosea Minnieweather",
     "college": "Jackson St.",
     "year": 1972,
     "position": "DT",
@@ -4648,7 +4648,7 @@
     "pick": 366
   },
   {
-    "player": "John Wiegmann",
+    "name": "John Wiegmann",
     "college": "Cal Poly-Pomona",
     "year": 1972,
     "position": "WR",
@@ -4656,7 +4656,7 @@
     "pick": 393
   },
   {
-    "player": "Dave Green",
+    "name": "Dave Green",
     "college": "Ohio",
     "year": 1972,
     "position": "P",
@@ -4664,7 +4664,7 @@
     "pick": 418
   },
   {
-    "player": "Vern Holland",
+    "name": "Vern Holland",
     "college": "Tennessee St.",
     "year": 1971,
     "position": "T",
@@ -4672,7 +4672,7 @@
     "pick": 15
   },
   {
-    "player": "Steve Lawson",
+    "name": "Steve Lawson",
     "college": "Kansas",
     "year": 1971,
     "position": "G",
@@ -4680,7 +4680,7 @@
     "pick": 41
   },
   {
-    "player": "Ken Anderson",
+    "name": "Ken Anderson",
     "college": "Augustana (IL)",
     "year": 1971,
     "position": "QB",
@@ -4688,7 +4688,7 @@
     "pick": 67
   },
   {
-    "player": "Fred Willis",
+    "name": "Fred Willis",
     "college": "Boston Col.",
     "year": 1971,
     "position": "RB",
@@ -4696,7 +4696,7 @@
     "pick": 93
   },
   {
-    "player": "Art May",
+    "name": "Art May",
     "college": "Tuskegee",
     "year": 1971,
     "position": "DE",
@@ -4704,7 +4704,7 @@
     "pick": 110
   },
   {
-    "player": "Neal Craig",
+    "name": "Neal Craig",
     "college": "Fisk",
     "year": 1971,
     "position": "DB",
@@ -4712,7 +4712,7 @@
     "pick": 171
   },
   {
-    "player": "Fred Herring",
+    "name": "Fred Herring",
     "college": "Tennessee St.",
     "year": 1971,
     "position": "DB",
@@ -4720,7 +4720,7 @@
     "pick": 197
   },
   {
-    "player": "Gary Gustafson",
+    "name": "Gary Gustafson",
     "college": "Montana St.",
     "year": 1971,
     "position": "LB",
@@ -4728,7 +4728,7 @@
     "pick": 223
   },
   {
-    "player": "Jack Stambaugh",
+    "name": "Jack Stambaugh",
     "college": "Oregon",
     "year": 1971,
     "position": "G",
@@ -4736,7 +4736,7 @@
     "pick": 249
   },
   {
-    "player": "Ed Marshall",
+    "name": "Ed Marshall",
     "college": "Cameron",
     "year": 1971,
     "position": "WR",
@@ -4744,7 +4744,7 @@
     "pick": 275
   },
   {
-    "player": "James Hayden",
+    "name": "James Hayden",
     "college": "Memphis",
     "year": 1971,
     "position": "DE",
@@ -4752,7 +4752,7 @@
     "pick": 301
   },
   {
-    "player": "David Knapman",
+    "name": "David Knapman",
     "college": "Central Washington",
     "year": 1971,
     "position": "TE",
@@ -4760,7 +4760,7 @@
     "pick": 327
   },
   {
-    "player": "Irvin Mallory",
+    "name": "Irvin Mallory",
     "college": "Virginia Union",
     "year": 1971,
     "position": "DB",
@@ -4768,7 +4768,7 @@
     "pick": 353
   },
   {
-    "player": "Bob Thomas",
+    "name": "Bob Thomas",
     "college": "Arizona St.",
     "year": 1971,
     "position": "RB",
@@ -4776,7 +4776,7 @@
     "pick": 379
   },
   {
-    "player": "Mark Debevc",
+    "name": "Mark Debevc",
     "college": "Ohio St.",
     "year": 1971,
     "position": "LB",
@@ -4784,7 +4784,7 @@
     "pick": 405
   },
   {
-    "player": "Sam Pearson",
+    "name": "Sam Pearson",
     "college": "Western Kentucky",
     "year": 1971,
     "position": "DB",
@@ -4792,7 +4792,7 @@
     "pick": 432
   },
   {
-    "player": "Mike Reid",
+    "name": "Mike Reid",
     "college": "Penn St.",
     "year": 1970,
     "position": "DT",
@@ -4800,7 +4800,7 @@
     "pick": 7
   },
   {
-    "player": "Ron Carpenter",
+    "name": "Ron Carpenter",
     "college": "North Carolina St.",
     "year": 1970,
     "position": "DT",
@@ -4808,7 +4808,7 @@
     "pick": 32
   },
   {
-    "player": "Chip Bennett",
+    "name": "Chip Bennett",
     "college": "Abilene Christian",
     "year": 1970,
     "position": "LB",
@@ -4816,7 +4816,7 @@
     "pick": 60
   },
   {
-    "player": "Joe Stephen",
+    "name": "Joe Stephen",
     "college": "Jackson St.",
     "year": 1970,
     "position": "G",
@@ -4824,7 +4824,7 @@
     "pick": 85
   },
   {
-    "player": "Billie Hayes",
+    "name": "Billie Hayes",
     "college": "San Diego St.",
     "year": 1970,
     "position": "DB",
@@ -4832,7 +4832,7 @@
     "pick": 104
   },
   {
-    "player": "Sandy Durko",
+    "name": "Sandy Durko",
     "college": "USC",
     "year": 1970,
     "position": "DB",
@@ -4840,7 +4840,7 @@
     "pick": 137
   },
   {
-    "player": "Lemar Parrish",
+    "name": "Lemar Parrish",
     "college": "Lincoln (MO)",
     "year": 1970,
     "position": "DB",
@@ -4848,7 +4848,7 @@
     "pick": 163
   },
   {
-    "player": "Bill Trout",
+    "name": "Bill Trout",
     "college": "Miami (FL)",
     "year": 1970,
     "position": "DT",
@@ -4856,7 +4856,7 @@
     "pick": 188
   },
   {
-    "player": "Bill Bolden",
+    "name": "Bill Bolden",
     "college": "UCLA",
     "year": 1970,
     "position": "RB",
@@ -4864,7 +4864,7 @@
     "pick": 216
   },
   {
-    "player": "Nick Roman",
+    "name": "Nick Roman",
     "college": "Ohio St.",
     "year": 1970,
     "position": "DE",
@@ -4872,7 +4872,7 @@
     "pick": 241
   },
   {
-    "player": "Sam Wallace",
+    "name": "Sam Wallace",
     "college": "Grambling St.",
     "year": 1970,
     "position": "LB",
@@ -4880,7 +4880,7 @@
     "pick": 266
   },
   {
-    "player": "Tom Truesdell",
+    "name": "Tom Truesdell",
     "college": "Ohio Wesleyan",
     "year": 1970,
     "position": "DT",
@@ -4888,7 +4888,7 @@
     "pick": 294
   },
   {
-    "player": "Paul Dunn",
+    "name": "Paul Dunn",
     "college": "U.S. International",
     "year": 1970,
     "position": "RB",
@@ -4896,7 +4896,7 @@
     "pick": 319
   },
   {
-    "player": "Joe Johnson",
+    "name": "Joe Johnson",
     "college": "Johnson C. Smith",
     "year": 1970,
     "position": "WR",
@@ -4904,7 +4904,7 @@
     "pick": 344
   },
   {
-    "player": "Marvin Weeks",
+    "name": "Marvin Weeks",
     "college": "Alcorn St.",
     "year": 1970,
     "position": "DB",
@@ -4912,7 +4912,7 @@
     "pick": 372
   },
   {
-    "player": "Larry Ely",
+    "name": "Larry Ely",
     "college": "Iowa",
     "year": 1970,
     "position": "LB",
@@ -4920,7 +4920,7 @@
     "pick": 397
   },
   {
-    "player": "Dick Smith",
+    "name": "Dick Smith",
     "college": "Washington St.",
     "year": 1970,
     "position": "RB",
@@ -4928,7 +4928,7 @@
     "pick": 422
   },
   {
-    "player": "Greg Cook",
+    "name": "Greg Cook",
     "college": "Cincinnati",
     "year": 1969,
     "position": "QB",
@@ -4936,7 +4936,7 @@
     "pick": 5
   },
   {
-    "player": "Bill Bergey",
+    "name": "Bill Bergey",
     "college": "Arkansas St.",
     "year": 1969,
     "position": "LB",
@@ -4944,7 +4944,7 @@
     "pick": 31
   },
   {
-    "player": "Speedy Thomas",
+    "name": "Speedy Thomas",
     "college": "Utah",
     "year": 1969,
     "position": "WR",
@@ -4952,7 +4952,7 @@
     "pick": 57
   },
   {
-    "player": "Clem Turner",
+    "name": "Clem Turner",
     "college": "Cincinnati",
     "year": 1969,
     "position": "RB",
@@ -4960,7 +4960,7 @@
     "pick": 83
   },
   {
-    "player": "Guy Dennis",
+    "name": "Guy Dennis",
     "college": "Florida",
     "year": 1969,
     "position": "G",
@@ -4968,7 +4968,7 @@
     "pick": 109
   },
   {
-    "player": "Ken Riley",
+    "name": "Ken Riley",
     "college": "Florida A&M",
     "year": 1969,
     "position": "DB",
@@ -4976,7 +4976,7 @@
     "pick": 135
   },
   {
-    "player": "Royce Berry",
+    "name": "Royce Berry",
     "college": "Houston",
     "year": 1969,
     "position": "DE",
@@ -4984,7 +4984,7 @@
     "pick": 161
   },
   {
-    "player": "Tim Buchanan",
+    "name": "Tim Buchanan",
     "college": "Hawaii",
     "year": 1969,
     "position": "LB",
@@ -4992,7 +4992,7 @@
     "pick": 187
   },
   {
-    "player": "Mike Stripling",
+    "name": "Mike Stripling",
     "college": "Tulsa",
     "year": 1969,
     "position": "RB",
@@ -5000,7 +5000,7 @@
     "pick": 213
   },
   {
-    "player": "Steve Howell",
+    "name": "Steve Howell",
     "college": "Ohio St.",
     "year": 1969,
     "position": "TE",
@@ -5008,7 +5008,7 @@
     "pick": 239
   },
   {
-    "player": "Mark Stewart",
+    "name": "Mark Stewart",
     "college": "Georgia",
     "year": 1969,
     "position": "DB",
@@ -5016,7 +5016,7 @@
     "pick": 265
   },
   {
-    "player": "Lonnie Paige",
+    "name": "Lonnie Paige",
     "college": "North Carolina Central",
     "year": 1969,
     "position": "DT",
@@ -5024,7 +5024,7 @@
     "pick": 291
   },
   {
-    "player": "Chuck Benson",
+    "name": "Chuck Benson",
     "college": "Southern Illinois",
     "year": 1969,
     "position": "WR",
@@ -5032,7 +5032,7 @@
     "pick": 316
   },
   {
-    "player": "Mike Wilson",
+    "name": "Mike Wilson",
     "college": "Dayton",
     "year": 1969,
     "position": "T",
@@ -5040,7 +5040,7 @@
     "pick": 343
   },
   {
-    "player": "Bill Shoemaker",
+    "name": "Bill Shoemaker",
     "college": "Stanford",
     "year": 1969,
     "position": "K",
@@ -5048,7 +5048,7 @@
     "pick": 369
   },
   {
-    "player": "Bill Schmidt",
+    "name": "Bill Schmidt",
     "college": "Missouri",
     "year": 1969,
     "position": "LB",
@@ -5056,7 +5056,7 @@
     "pick": 395
   },
   {
-    "player": "Terry Story",
+    "name": "Terry Story",
     "college": "Georgia Tech",
     "year": 1969,
     "position": "T",
@@ -5064,7 +5064,7 @@
     "pick": 421
   },
   {
-    "player": "Bob Johnson",
+    "name": "Bob Johnson",
     "college": "Tennessee",
     "year": 1968,
     "position": "C",
@@ -5072,7 +5072,7 @@
     "pick": 2
   },
   {
-    "player": "Bill Staley",
+    "name": "Bill Staley",
     "college": "Utah St.",
     "year": 1968,
     "position": "DT",
@@ -5080,7 +5080,7 @@
     "pick": 28
   },
   {
-    "player": "Tommie Smiley",
+    "name": "Tommie Smiley",
     "college": "Lamar",
     "year": 1968,
     "position": "RB",
@@ -5088,7 +5088,7 @@
     "pick": 55
   },
   {
-    "player": "Gary Davis",
+    "name": "Gary Davis",
     "college": "Vanderbilt",
     "year": 1968,
     "position": "QB",
@@ -5096,7 +5096,7 @@
     "pick": 56
   },
   {
-    "player": "Paul Robinson",
+    "name": "Paul Robinson",
     "college": "Arizona",
     "year": 1968,
     "position": "RB",
@@ -5104,7 +5104,7 @@
     "pick": 82
   },
   {
-    "player": "Dale Livingston",
+    "name": "Dale Livingston",
     "college": "Western Michigan",
     "year": 1968,
     "position": "K",
@@ -5112,7 +5112,7 @@
     "pick": 83
   },
   {
-    "player": "Jess Phillips",
+    "name": "Jess Phillips",
     "college": "Michigan St.",
     "year": 1968,
     "position": "RB",
@@ -5120,7 +5120,7 @@
     "pick": 84
   },
   {
-    "player": "Warren McVea",
+    "name": "Warren McVea",
     "college": "Houston",
     "year": 1968,
     "position": "RB",
@@ -5128,7 +5128,7 @@
     "pick": 109
   },
   {
-    "player": "Dave Middendorf",
+    "name": "Dave Middendorf",
     "college": "Washington St.",
     "year": 1968,
     "position": "G",
@@ -5136,7 +5136,7 @@
     "pick": 112
   },
   {
-    "player": "Al Beauchamp",
+    "name": "Al Beauchamp",
     "college": "Southern",
     "year": 1968,
     "position": "LB",
@@ -5144,7 +5144,7 @@
     "pick": 138
   },
   {
-    "player": "Howard Fest",
+    "name": "Howard Fest",
     "college": "Texas",
     "year": 1968,
     "position": "G",
@@ -5152,7 +5152,7 @@
     "pick": 139
   },
   {
-    "player": "Bill Kindricks",
+    "name": "Bill Kindricks",
     "college": "Alabama A&M",
     "year": 1968,
     "position": "DT",
@@ -5160,7 +5160,7 @@
     "pick": 143
   },
   {
-    "player": "John Neidert",
+    "name": "John Neidert",
     "college": "Louisville",
     "year": 1968,
     "position": "LB",
@@ -5168,7 +5168,7 @@
     "pick": 145
   },
   {
-    "player": "Dewey Warren",
+    "name": "Dewey Warren",
     "college": "Tennessee",
     "year": 1968,
     "position": "QB",
@@ -5176,7 +5176,7 @@
     "pick": 155
   },
   {
-    "player": "Essex Johnson",
+    "name": "Essex Johnson",
     "college": "Grambling St.",
     "year": 1968,
     "position": "RB",
@@ -5184,7 +5184,7 @@
     "pick": 156
   },
   {
-    "player": "Elmo Maple",
+    "name": "Elmo Maple",
     "college": "Southern",
     "year": 1968,
     "position": "FL",
@@ -5192,7 +5192,7 @@
     "pick": 158
   },
   {
-    "player": "Sidney Ellis",
+    "name": "Sidney Ellis",
     "college": "Jackson St.",
     "year": 1968,
     "position": "DB",
@@ -5200,7 +5200,7 @@
     "pick": 160
   },
   {
-    "player": "Monk Williams",
+    "name": "Monk Williams",
     "college": "Ark-Pine Bluff",
     "year": 1968,
     "position": "FL",
@@ -5208,7 +5208,7 @@
     "pick": 163
   },
   {
-    "player": "Jim Johnson",
+    "name": "Jim Johnson",
     "college": "South Carolina St.",
     "year": 1968,
     "position": "DB",
@@ -5216,7 +5216,7 @@
     "pick": 165
   },
   {
-    "player": "Steve Smith",
+    "name": "Steve Smith",
     "college": "Miami (FL)",
     "year": 1968,
     "position": "TE",
@@ -5224,7 +5224,7 @@
     "pick": 166
   },
   {
-    "player": "Wes Bean",
+    "name": "Wes Bean",
     "college": "Grambling St.",
     "year": 1968,
     "position": "LB",
@@ -5232,7 +5232,7 @@
     "pick": 192
   },
   {
-    "player": "Harry Gunner",
+    "name": "Harry Gunner",
     "college": "Oregon St.",
     "year": 1968,
     "position": "DE",
@@ -5240,7 +5240,7 @@
     "pick": 193
   },
   {
-    "player": "Ed Brantley",
+    "name": "Ed Brantley",
     "college": "North Texas",
     "year": 1968,
     "position": "T",
@@ -5248,7 +5248,7 @@
     "pick": 219
   },
   {
-    "player": "Phil Johnson",
+    "name": "Phil Johnson",
     "college": "Long Beach St.",
     "year": 1968,
     "position": "DB",
@@ -5256,7 +5256,7 @@
     "pick": 220
   },
   {
-    "player": "Steve Hanrahan",
+    "name": "Steve Hanrahan",
     "college": "Weber St.",
     "year": 1968,
     "position": "DT",
@@ -5264,7 +5264,7 @@
     "pick": 246
   },
   {
-    "player": "Wayne Patrick",
+    "name": "Wayne Patrick",
     "college": "Louisville",
     "year": 1968,
     "position": "RB",
@@ -5272,7 +5272,7 @@
     "pick": 247
   },
   {
-    "player": "James Russell",
+    "name": "James Russell",
     "college": "North Texas",
     "year": 1968,
     "position": "E",
@@ -5280,7 +5280,7 @@
     "pick": 273
   },
   {
-    "player": "Wally Scott",
+    "name": "Wally Scott",
     "college": "Arizona",
     "year": 1968,
     "position": "DB",
@@ -5288,7 +5288,7 @@
     "pick": 274
   },
   {
-    "player": "Jeff Banks",
+    "name": "Jeff Banks",
     "college": "Pacific",
     "year": 1968,
     "position": "LB",
@@ -5296,7 +5296,7 @@
     "pick": 300
   },
   {
-    "player": "Bob Trumpy",
+    "name": "Bob Trumpy",
     "college": "Utah",
     "year": 1968,
     "position": "TE",
@@ -5304,7 +5304,7 @@
     "pick": 301
   },
   {
-    "player": "Harold Jones",
+    "name": "Harold Jones",
     "college": "Grambling St.",
     "year": 1968,
     "position": "T",
@@ -5312,7 +5312,7 @@
     "pick": 327
   },
   {
-    "player": "James Bivins",
+    "name": "James Bivins",
     "college": "Texas Southern",
     "year": 1968,
     "position": "LB",
@@ -5320,7 +5320,7 @@
     "pick": 328
   },
   {
-    "player": "Teddy Washington",
+    "name": "Teddy Washington",
     "college": "San Diego St.",
     "year": 1968,
     "position": "RB",
@@ -5328,7 +5328,7 @@
     "pick": 354
   },
   {
-    "player": "Les Webster",
+    "name": "Les Webster",
     "college": "Iowa St.",
     "year": 1968,
     "position": "RB",
@@ -5336,7 +5336,7 @@
     "pick": 355
   },
   {
-    "player": "Steve Lewicke",
+    "name": "Steve Lewicke",
     "college": "Texas-El Paso",
     "year": 1968,
     "position": "E",
@@ -5344,7 +5344,7 @@
     "pick": 381
   },
   {
-    "player": "Harvey Palmore",
+    "name": "Harvey Palmore",
     "college": "Morgan St.",
     "year": 1968,
     "position": "G",
@@ -5352,7 +5352,7 @@
     "pick": 382
   },
   {
-    "player": "Joe Mira",
+    "name": "Joe Mira",
     "college": "Miami (FL)",
     "year": 1968,
     "position": "FL",
@@ -5360,7 +5360,7 @@
     "pick": 408
   },
   {
-    "player": "Monk Williams",
+    "name": "Monk Williams",
     "college": "Alcorn St.",
     "year": 1968,
     "position": "DB",
@@ -5368,7 +5368,7 @@
     "pick": 409
   },
   {
-    "player": "Brown Marks",
+    "name": "Brown Marks",
     "college": "Indiana",
     "year": 1968,
     "position": "LB",
@@ -5376,7 +5376,7 @@
     "pick": 435
   },
   {
-    "player": "Don Manning",
+    "name": "Don Manning",
     "college": "UCLA",
     "year": 1968,
     "position": "LB",
@@ -5384,7 +5384,7 @@
     "pick": 436
   },
   {
-    "player": "Jimmy Smith",
+    "name": "Jimmy Smith",
     "college": "Jackson St.",
     "year": 1968,
     "position": "TE",
