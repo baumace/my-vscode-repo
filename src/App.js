@@ -35,14 +35,14 @@ function App() {
   const [selectedEra, setSelectedEra] = useState({ era: 0 });
 
   const selectItem = (value) => {
-    // Store the player and attempt number
-    const player = value.player;
+    // Store the name and attempt number
+    const name = value.name;
     const attemptNum = currAttempt.attempt;
 
     //
     if (currAttempt.attempt <= MAX_ATTEMPTS) {
       const newBoard = [...board];
-      newBoard[attemptNum][0] = player;
+      newBoard[attemptNum][0] = name;
       newBoard[attemptNum][1] = value.college;
       newBoard[attemptNum][2] = value.year;
       newBoard[attemptNum][3] = value.position;
@@ -52,7 +52,7 @@ function App() {
       setCurrAttempt({ ...currAttempt, attempt: currAttempt.attempt + 1 });
     }
 
-    if (player === correctPick.player) {
+    if (name === correctPick.name) {
       setGameOver({ gameOver: true, guessedPlayer: true });
       setPopupActive({ gameOver: true });
     } else if (attemptNum === MAX_ATTEMPTS) {

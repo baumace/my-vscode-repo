@@ -40,7 +40,7 @@ function GameOver() {
         <div className="gameOverText">
           {gameOver.guessedPlayer ? winScreen() : loseScreen()}
           <p>
-            The correct player is {correctPick.player}, {correctPick.position}{" "}
+            The correct player is {correctPick.name}, {correctPick.position}{" "}
             from {correctPick.college}.
           </p>
           <p>

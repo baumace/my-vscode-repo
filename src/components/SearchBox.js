@@ -82,7 +82,7 @@ function SearchBox({ placeholder, data, disabled }) {
           });
 
           // Set the input text to be the newly selected player
-          setSearch(filteredData[++currDataIndex].player);
+          setSearch(filteredData[++currDataIndex].name);
         } else if (event.key === "ArrowUp" && currDataIndex > -1) {
           // Decrement the index for the data item
           setDataItemIndex({
@@ -93,7 +93,7 @@ function SearchBox({ placeholder, data, disabled }) {
           // Is the index anything other than the top element?
           if (currDataIndex !== 0) {
             // Set the input text to be the newly selected player
-            setSearch(filteredData[--currDataIndex].player);
+            setSearch(filteredData[--currDataIndex].name);
           } else {
             // The data item will return to the input box, so reset the input text
             // to the most recent text put in the input text
@@ -123,7 +123,7 @@ function SearchBox({ placeholder, data, disabled }) {
 
     // Filter the data based on the input
     const newFilter = data.filter((value) => {
-      return value.player.toLowerCase().includes(inputWord.toLowerCase());
+      return value.name.toLowerCase().includes(inputWord.toLowerCase());
     });
 
     // Is the input word blank?
@@ -165,7 +165,7 @@ function SearchBox({ placeholder, data, disabled }) {
                     : "itemNotSelected"
                 }
               >
-                <p> {value.player} </p>
+                <p> {value.name} </p>
               </div>
             );
           })}

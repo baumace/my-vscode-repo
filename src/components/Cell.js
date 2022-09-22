@@ -82,6 +82,7 @@ function Cell({ infoIdentifier, attemptVal }) {
             "ILB",
             "CB",
             "DB",
+            "S",
             "SAF",
             "NT",
           ];
