@@ -75,21 +75,35 @@ function App() {
     }
   }
 
-  const resetBoard = () => {
+  /*
+   * Resets the game to its initial state, does not change the correct pick.
+   */
+  function resetGame() {
+    // Store the current board
     const newBoard = [...board];
+
+    // Loop through the rows that were modified in the attempt
     for (let i = 1; i < currAttempt.attempt; i++) {
+      // Loop through the cells within the row
       for (let j = 0; j < 6; j++) {
+        // Set the element's contents to be empty
         newBoard[i][j] = "";
       }
     }
+
+    // Reset the attempt number
     setCurrAttempt({ attempt: 1 });
+
+    // Set the board to the cleared board
     setBoard(newBoard);
+
+    // Reset gameOver in case it has been modified
     setGameOver({ gameOver: false, guessedPlayer: false });
-  };
+  }
 
   const selectNewPlayer = (dataArray) => {
     correctPick = dataArray[Math.floor(Math.random() * dataArray.length)];
-    resetBoard();
+    resetGame();
     console.log(correctPick);
   };
 
@@ -169,7 +183,7 @@ function App() {
           filterData,
           popupActive,
           setPopupActive,
-          resetBoard,
+          resetGame,
           selectedEra,
           setSelectedEra,
           picksArray,

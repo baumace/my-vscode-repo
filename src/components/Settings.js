@@ -10,7 +10,7 @@ function Settings() {
     setPopupActive,
     selectNewPlayer,
     filterData,
-    resetBoard,
+    resetGame,
     selectedEra,
     setSelectedEra,
   } = useContext(AppContext);
@@ -40,6 +40,14 @@ function Settings() {
   const handleNewPlayerClick = () => {
     // Select a new player from the filtered data
     selectNewPlayer(filterData());
+
+    // Quit from the settings menu
+    handleExitClick();
+  };
+
+  const handleResetClick = () => {
+    // Reset the game
+    resetGame();
 
     // Quit from the settings menu
     handleExitClick();
@@ -104,8 +112,7 @@ function Settings() {
         <div
           className="resetBoardButton"
           onClick={() => {
-            resetBoard();
-            handleExitClick();
+            handleResetClick();
           }}
         >
           <p>RESET BOARD</p>
