@@ -8,7 +8,7 @@ function Settings() {
   const {
     popupActive,
     setPopupActive,
-    selectPlayer,
+    selectNewPlayer,
     filterData,
     resetBoard,
     selectedEra,
@@ -39,7 +39,7 @@ function Settings() {
 
   const handleNewPlayerClick = () => {
     // Select a new player from the filtered data
-    selectPlayer(filterData());
+    selectNewPlayer(filterData());
 
     // Quit from the settings menu
     handleExitClick();

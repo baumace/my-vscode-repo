@@ -6,24 +6,18 @@ let inputUserText = "";
 
 function SearchBox({ placeholder, data, disabled }) {
   let keyCount = 0;
-  const { selectItem } = useContext(AppContext);
+  const { selectPlayer } = useContext(AppContext);
   const [filteredData, setFilteredData] = useState([]);
   const [dataItemIndex, setDataItemIndex] = useState({ index: -1 });
   const [search, setSearch] = useState("");
 
-  const clearSearchResults = () => {
-    // Reset the filtered data in the search results
-    setFilteredData(filteredData.slice(0, 0));
-    return;
-  };
-
   // Handle the selection of a data entry
   const handleSelection = (value) => {
     // Select the passed value
-    selectItem(value);
+    selectPlayer(value);
 
-    // Clear the search results list
-    clearSearchResults();
+    // Reset the filtered data in the search results
+    setFilteredData(filteredData.slice(0, 0));
 
     // Clear the search bar input text
     setSearch("");

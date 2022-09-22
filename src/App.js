@@ -34,32 +34,46 @@ function App() {
   });
   const [selectedEra, setSelectedEra] = useState({ era: 0 });
 
-  const selectItem = (value) => {
-    // Store the name and attempt number
-    const name = value.name;
+  /*
+   * Selects the passed player, updating the game accordingly.
+   */
+  function selectPlayer(player) {
+    // Store the attempt number
     const attemptNum = currAttempt.attempt;
 
-    //
-    if (currAttempt.attempt <= MAX_ATTEMPTS) {
-      const newBoard = [...board];
-      newBoard[attemptNum][0] = name;
-      newBoard[attemptNum][1] = value.college;
-      newBoard[attemptNum][2] = value.year;
-      newBoard[attemptNum][3] = value.position;
-      newBoard[attemptNum][4] = value.round;
-      newBoard[attemptNum][5] = value.pick;
-      setBoard(newBoard);
-      setCurrAttempt({ ...currAttempt, attempt: currAttempt.attempt + 1 });
-    }
+    // Store the board
+    const newBoard = [...board];
 
-    if (name === correctPick.name) {
+    // Fill in the board's row with the player's information
+    newBoard[attemptNum][0] = player.name;
+    newBoard[attemptNum][1] = player.college;
+    newBoard[attemptNum][2] = player.year;
+    newBoard[attemptNum][3] = player.position;
+    newBoard[attemptNum][4] = player.round;
+    newBoard[attemptNum][5] = player.pick;
+
+    // Update the board to include this new player
+    setBoard(newBoard);
+
+    // Increment the currAttempt
+    setCurrAttempt({ ...currAttempt, attempt: currAttempt.attempt + 1 });
+
+    // Has the user selected the correctPick?
+    if (player === correctPick) {
+      // Yes, so indicate the game is over and the user selected the correct player
       setGameOver({ gameOver: true, guessedPlayer: true });
+
+      // Activate the gameOver popup
       setPopupActive({ gameOver: true });
     } else if (attemptNum === MAX_ATTEMPTS) {
+      // Selection is incorrect, so check if the user used their last attempt
+      // Yes, so indicate the game is over and the user did not select the correct player
       setGameOver({ gameOver: true, guessedPlayer: false });
+
+      // Activate the gameOver popup
       setPopupActive({ gameOver: true });
     }
-  };
+  }
 
   const resetBoard = () => {
     const newBoard = [...board];
@@ -73,7 +87,7 @@ function App() {
     setGameOver({ gameOver: false, guessedPlayer: false });
   };
 
-  const selectPlayer = (dataArray) => {
+  const selectNewPlayer = (dataArray) => {
     correctPick = dataArray[Math.floor(Math.random() * dataArray.length)];
     resetBoard();
     console.log(correctPick);
@@ -150,8 +164,8 @@ function App() {
           currAttempt,
           correctPick,
           gameOver,
-          selectItem,
           selectPlayer,
+          selectNewPlayer,
           filterData,
           popupActive,
           setPopupActive,
@@ -185,7 +199,7 @@ function App() {
             <div
               className="appNewPlayerButton"
               onClick={() => {
-                selectPlayer(filterData());
+                selectNewPlayer(filterData());
               }}
             >
               <p className="appNewPlayerText">NEW PLAYER</p>
