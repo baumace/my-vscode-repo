@@ -91,6 +91,7 @@ function Settings() {
 
   return (
     <div id={popupActive.settings ? "show" : "hide"}>
+      <div className="popupWall" />
       <div className="popup" id="settingsPopup">
         <button
           className="exitButton"

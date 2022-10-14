@@ -265,14 +265,6 @@ function App() {
             Inspired by <a href="https://poeltl.dunk.town/">Poeltl</a>
           </p>
         </footer>
-        <div
-          className="popupWall"
-          id={
-            popupActive.gameOver || popupActive.help || popupActive.settings
-              ? "show"
-              : "hide"
-          }
-        />
         <GameOver />
         <Help />
         <Settings />

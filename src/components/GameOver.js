@@ -28,6 +28,7 @@ function GameOver() {
 
   return (
     <div id={popupActive.gameOver ? "show" : "hide"}>
+      <div className="popupWall" />
       <div className="popup" id="gameOverPopup">
         <button
           className="exitButton"

@@ -7,6 +7,7 @@ function Help() {
 
   return (
     <div id={popupActive.help ? "show" : "hide"}>
+      <div className="popupWall" />
       <div className="popup" id="helpPopup">
         <button
           className="exitButton"
