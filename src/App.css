@@ -199,7 +199,7 @@ h2 {
 
 footer {
   background-color: #fb4f14;
-  width: 100vw;
-  position: absolute;
+  position: fixed;
   bottom: 0%;
+  width: 100%;
 }
